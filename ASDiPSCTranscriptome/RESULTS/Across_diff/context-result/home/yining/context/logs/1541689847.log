@@ -1,0 +1,713 @@
+
+
+Preprocessing for Transition Mapping, CoNTExT, and WGCNA module preservation
+ by Jason Stein, Luis de la Torre Ubietta, Daniel Geschwind
+
+
+Expression file: ../upload/1541689847/logData_allcells_onlyEntrez_context_jason.csv 
+MetaData file: ../upload/1541689847/metadata_context_jason.csv 
+Annot file: ../upload/1541689847/annotation_file_context_entrez_jason.csv 
+
+Loading libraries...
+Warning message:
+package ‘RColorBrewer’ was built under R version 3.1.3 
+KernSmooth 2.23 loaded
+Copyright M. P. Wand 1997-2009
+
+Attaching package: ‘gplots’
+
+The following object is masked from ‘package:stats’:
+
+    lowess
+
+Reading array sample info...
+  48 samples read
+Reading expression data...
+Reading annotation data...
+ Probes: 13570 
+ Samples: 48 
+Reading in the in vivo data (Kang et al., 2011)...
+There are 10859 genes found in both your sample and the reference (Kang et al., 2011) sample
+ Taking the maximum intensity probe for each gene in the reference set
+ Taking the maximum intensity probe for each gene in your data
+Writing out the pre-processed data pre quantile normalization
+Jointly normalizing the in vivo and your data
+Reading in the in vivo LCM data (Miller et al., 2014)...
+There are 11723 genes found in both your sample and the reference (Miller et al., 2014) sample
+ Taking the maximum intensity probe for each gene in the reference set
+ Taking the maximum intensity probe for each gene in your data
+Writing out the pre-processed data pre quantile normalization
+Jointly normalizing the in vivo LCM and your data
+Finished pre-processing
+
+
+
+Transition Mapping
+ by Jason Stein, Luis de la Torre Ubietta, Daniel Geschwind
+
+
+Expression file: ../output/1541689847/Preprocessed_RRHO/allmatriz.Q.csv 
+MetaData file: ../output/1541689847/Preprocessed_RRHO/s_sampletable.g_Traits_matched.csv 
+Loading libraries...
+Loading required package: dynamicTreeCut
+Loading required package: flashClust
+
+Attaching package: ‘flashClust’
+
+The following object is masked from ‘package:stats’:
+
+    hclust
+
+==========================================================================
+*
+*  Package WGCNA 1.41 loaded.
+*
+*    Important note: It appears that your system supports multi-threading,
+*    but it is not enabled within WGCNA in R. 
+*    To allow multi-threading within WGCNA with all available cores, use 
+*
+*          allowWGCNAThreads()
+*
+*    within R. Use disableWGCNAThreads() to disable threading if necessary.
+*    Alternatively, set the following environment variable on your system:
+*
+*          ALLOW_WGCNA_THREADS=<number_of_processors>
+*
+*    for example 
+*
+*          ALLOW_WGCNA_THREADS=24
+*
+*    To set the environment variable in linux bash shell, type 
+*
+*           export ALLOW_WGCNA_THREADS=24
+*
+*     before running R. Other operating systems or shells will
+*     have a similar command to achieve the same aim.
+*
+==========================================================================
+
+
+
+Attaching package: ‘WGCNA’
+
+The following object is masked from ‘package:stats’:
+
+    cor
+
+Warning message:
+In fun(libname, pkgname) : bytecode version mismatch; using eval
+Warning message:
+package ‘RColorBrewer’ was built under R version 3.1.3 
+Reading expression data...
+Reading annotation file...
+Reading metadata...
+Run DE comparisons...
+Running linear mixed effects model on each probe...
+   Probe 1000 
+   Probe 2000 
+   Probe 3000 
+   Probe 4000 
+   Probe 5000 
+   Probe 6000 
+   Probe 7000 
+   Probe 8000 
+Error in lme.formula(probeval ~ var, rand = ~1 | RepMeasure, data = qqq) : 
+  nlminb problem, convergence error code = 1
+  message = singular convergence (7)
+    There was an error in the mixed effects model regression in Gene TRIM8 
+     Setting P-value=1,Beta value=0, and SE=Inf
+   Probe 9000 
+Error in lme.formula(probeval ~ var, rand = ~1 | RepMeasure, data = qqq) : 
+  nlminb problem, convergence error code = 1
+  message = false convergence (8)
+    There was an error in the mixed effects model regression in Gene SETD2 
+     Setting P-value=1,Beta value=0, and SE=Inf
+   Probe 10000 
+Total number of significant probes FDR<0.05: 9802 
+Total number of significant FDR<0.05 probes increasing over time: 4431 
+Total number of significant FDR<0.05 probes decreasing over time: 5371 
+Calculating Rank Rank Hypergeometric Overlap Maps...
+ Working on: YourDatavsInVivo vs Sestan_DE_1vs2
+Matching total of 10859 genes
+Loading required package: graph
+Loading required package: BiocGenerics
+Loading required package: parallel
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:parallel’:
+
+    clusterApply, clusterApplyLB, clusterCall, clusterEvalQ,
+    clusterExport, clusterMap, parApply, parCapply, parLapply,
+    parLapplyLB, parRapply, parSapply, parSapplyLB
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, append, as.data.frame, basename, cbind, colMeans,
+    colnames, colSums, dirname, do.call, duplicated, eval, evalq,
+    Filter, Find, get, grep, grepl, intersect, is.unsorted, lapply,
+    Map, mapply, match, mget, order, paste, pmax, pmax.int, pmin,
+    pmin.int, Position, rank, rbind, Reduce, rowMeans, rownames,
+    rowSums, sapply, setdiff, sort, table, tapply, union, unique,
+    unsplit, which, which.max, which.min
+
+Loading required package: RBGL
+Loading required package: grid
+Loading required package: lattice
+Loading required package: reshape
+Loading required package: gtools
+Loading required package: xtable
+Error: package ‘xtable’ could not be loaded
+In addition: Warning messages:
+1: package ‘Vennerable’ was built under R version 3.1.1 
+2: package ‘graph’ was built under R version 3.5.1 
+3: package ‘BiocGenerics’ was built under R version 3.5.1 
+4: package ‘RBGL’ was built under R version 3.5.1 
+5: package ‘gtools’ was built under R version 3.1.3 
+6: In library(pkg, character.only = TRUE, logical.return = TRUE, lib.loc = lib.loc) :
+  there is no package called ‘xtable’
+Execution halted
+
+
+Transition Mapping LCM Data
+ by Jason Stein, Luis de la Torre Ubietta, Daniel Geschwind
+
+
+Expression file: ../output/1541689847/Preprocessed_RRHO/allmatriz.Q_LCM.csv 
+MetaData file: ../output/1541689847/Preprocessed_RRHO/s_sampletable.g_Traits_matched.csv 
+Loading libraries...
+Loading required package: dynamicTreeCut
+Loading required package: flashClust
+
+Attaching package: ‘flashClust’
+
+The following object is masked from ‘package:stats’:
+
+    hclust
+
+==========================================================================
+*
+*  Package WGCNA 1.41 loaded.
+*
+*    Important note: It appears that your system supports multi-threading,
+*    but it is not enabled within WGCNA in R. 
+*    To allow multi-threading within WGCNA with all available cores, use 
+*
+*          allowWGCNAThreads()
+*
+*    within R. Use disableWGCNAThreads() to disable threading if necessary.
+*    Alternatively, set the following environment variable on your system:
+*
+*          ALLOW_WGCNA_THREADS=<number_of_processors>
+*
+*    for example 
+*
+*          ALLOW_WGCNA_THREADS=24
+*
+*    To set the environment variable in linux bash shell, type 
+*
+*           export ALLOW_WGCNA_THREADS=24
+*
+*     before running R. Other operating systems or shells will
+*     have a similar command to achieve the same aim.
+*
+==========================================================================
+
+
+
+Attaching package: ‘WGCNA’
+
+The following object is masked from ‘package:stats’:
+
+    cor
+
+Warning message:
+In fun(libname, pkgname) : bytecode version mismatch; using eval
+Loading required package: grid
+Loading required package: futile.logger
+Warning messages:
+1: package ‘VennDiagram’ was built under R version 3.5.1 
+2: package ‘futile.logger’ was built under R version 3.5.1 
+Warning message:
+package ‘RColorBrewer’ was built under R version 3.1.3 
+Reading expression data...
+Reading metadata file...
+Reading metadata...
+ Total probes: 11723 
+ Total samples your data: 48 
+Run DE comparisons...
+Running linear mixed effects model on each probe...
+   Probe 1000 
+   Probe 2000 
+   Probe 3000 
+Error in lme.formula(probeval ~ var, rand = ~1 | RepMeasure, data = qqq) : 
+  nlminb problem, convergence error code = 1
+  message = singular convergence (7)
+    There was an error in the mixed effects model regression in Gene CREB1 
+     Setting P-value=1,Beta value=0, and SE=Inf
+   Probe 4000 
+   Probe 5000 
+   Probe 6000 
+   Probe 7000 
+   Probe 8000 
+Error in lme.formula(probeval ~ var, rand = ~1 | RepMeasure, data = qqq) : 
+  nlminb problem, convergence error code = 1
+  message = singular convergence (7)
+    There was an error in the mixed effects model regression in Gene STOML2 
+     Setting P-value=1,Beta value=0, and SE=Inf
+   Probe 9000 
+   Probe 10000 
+   Probe 11000 
+Total number of significant probes FDR<0.05: 10581 
+Total number of significant FDR<0.05 probes increasing over time: 4770 
+Total number of significant FDR<0.05 probes decreasing over time: 5811 
+Calculating Rank Rank Hypergeometric Overlap Maps...
+ Working on: YourDatavsInVivo vs LCM_DE_VZvsSZ
+Total number of intersecting genes: 11723 
+Loading required package: graph
+Loading required package: BiocGenerics
+Loading required package: parallel
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:parallel’:
+
+    clusterApply, clusterApplyLB, clusterCall, clusterEvalQ,
+    clusterExport, clusterMap, parApply, parCapply, parLapply,
+    parLapplyLB, parRapply, parSapply, parSapplyLB
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, append, as.data.frame, basename, cbind, colMeans,
+    colnames, colSums, dirname, do.call, duplicated, eval, evalq,
+    Filter, Find, get, grep, grepl, intersect, is.unsorted, lapply,
+    Map, mapply, match, mget, order, paste, pmax, pmax.int, pmin,
+    pmin.int, Position, rank, rbind, Reduce, rowMeans, rownames,
+    rowSums, sapply, setdiff, sort, table, tapply, union, unique,
+    unsplit, which, which.max, which.min
+
+Loading required package: RBGL
+Loading required package: lattice
+Loading required package: reshape
+Loading required package: gtools
+
+Attaching package: ‘gtools’
+
+The following object is masked from ‘package:futile.logger’:
+
+    scat
+
+Loading required package: xtable
+Error: package ‘xtable’ could not be loaded
+In addition: Warning messages:
+1: package ‘Vennerable’ was built under R version 3.1.1 
+2: package ‘graph’ was built under R version 3.5.1 
+3: package ‘BiocGenerics’ was built under R version 3.5.1 
+4: package ‘RBGL’ was built under R version 3.5.1 
+5: package ‘gtools’ was built under R version 3.1.3 
+6: In library(pkg, character.only = TRUE, logical.return = TRUE, lib.loc = lib.loc) :
+  there is no package called ‘xtable’
+Execution halted
+
+
+CoNTExT data preparation
+ by Jason Stein, Luis de la Torre Ubietta, Daniel Geschwind
+
+
+Expression file: ../output/1541689847/Preprocessed_RRHO/Adjusted_matriz.gQ_Expr_matched.csv 
+Writing ARFF file to ../output/1541689847/CoNTExT/YourData.arff 
+
+
+Plotting CoNTExT output
+ by Jason Stein, Luis de la Torre Ubietta, Daniel Geschwind
+
+
+MetaData file: ../output/1541689847/Preprocessed_RRHO/s_sampletable.g_Traits_matched.csv 
+MEKA output file: ../output/1541689847/CoNTExT/YourData.output 
+Loading required package: dynamicTreeCut
+Loading required package: flashClust
+
+Attaching package: ‘flashClust’
+
+The following object is masked from ‘package:stats’:
+
+    hclust
+
+==========================================================================
+*
+*  Package WGCNA 1.41 loaded.
+*
+*    Important note: It appears that your system supports multi-threading,
+*    but it is not enabled within WGCNA in R. 
+*    To allow multi-threading within WGCNA with all available cores, use 
+*
+*          allowWGCNAThreads()
+*
+*    within R. Use disableWGCNAThreads() to disable threading if necessary.
+*    Alternatively, set the following environment variable on your system:
+*
+*          ALLOW_WGCNA_THREADS=<number_of_processors>
+*
+*    for example 
+*
+*          ALLOW_WGCNA_THREADS=24
+*
+*    To set the environment variable in linux bash shell, type 
+*
+*           export ALLOW_WGCNA_THREADS=24
+*
+*     before running R. Other operating systems or shells will
+*     have a similar command to achieve the same aim.
+*
+==========================================================================
+
+
+
+Attaching package: ‘WGCNA’
+
+The following object is masked from ‘package:stats’:
+
+    cor
+
+Warning message:
+In fun(libname, pkgname) : bytecode version mismatch; using eval
+Plotting Stage...
+null device 
+          1 
+Plotting Region...
+null device 
+          1 
+
+
+WGCNA Module preservation
+ by Jason Stein, Luis de la Torre Ubietta, Daniel Geschwind
+
+
+Expression file: ../output/1541689847/Preprocessed_RRHO/allmatriz.Q.csv 
+MetaData file: ../output/1541689847/Preprocessed_RRHO/s_sampletable.g_Traits_matched.csv 
+Loading required package: dynamicTreeCut
+Loading required package: flashClust
+
+Attaching package: ‘flashClust’
+
+The following object is masked from ‘package:stats’:
+
+    hclust
+
+==========================================================================
+*
+*  Package WGCNA 1.41 loaded.
+*
+*    Important note: It appears that your system supports multi-threading,
+*    but it is not enabled within WGCNA in R. 
+*    To allow multi-threading within WGCNA with all available cores, use 
+*
+*          allowWGCNAThreads()
+*
+*    within R. Use disableWGCNAThreads() to disable threading if necessary.
+*    Alternatively, set the following environment variable on your system:
+*
+*          ALLOW_WGCNA_THREADS=<number_of_processors>
+*
+*    for example 
+*
+*          ALLOW_WGCNA_THREADS=24
+*
+*    To set the environment variable in linux bash shell, type 
+*
+*           export ALLOW_WGCNA_THREADS=24
+*
+*     before running R. Other operating systems or shells will
+*     have a similar command to achieve the same aim.
+*
+==========================================================================
+
+
+
+Attaching package: ‘WGCNA’
+
+The following object is masked from ‘package:stats’:
+
+    cor
+
+Warning message:
+In fun(libname, pkgname) : bytecode version mismatch; using eval
+KernSmooth 2.23 loaded
+Copyright M. P. Wand 1997-2009
+
+Attaching package: ‘gplots’
+
+The following object is masked from ‘package:stats’:
+
+    lowess
+
+reading array sample info...
+Checking that all genes in your data are good (not zero variance) Flagging genes and samples with too many missing values...
+  ..step 1
+  ..checking data for excessive amounts of missing data..
+     Flagging genes and samples with too many missing values...
+      ..step 1
+     Flagging genes and samples with too many missing values...
+      ..step 1
+  ..unassigned 'module' name: grey 
+  ..all network sample 'module' name: gold
+  ..calculating observed preservation values
+  ..calculating permutation Z scores
+ ..Working with set 1 as reference set
+ ....working with set 2 as test set
+  ......working on permutation 1
+  ......working on permutation 2
+  ......working on permutation 3
+  ......working on permutation 4
+  ......working on permutation 5
+  ......working on permutation 6
+  ......working on permutation 7
+  ......working on permutation 8
+  ......working on permutation 9
+  ......working on permutation 10
+  ......working on permutation 11
+  ......working on permutation 12
+  ......working on permutation 13
+  ......working on permutation 14
+  ......working on permutation 15
+  ......working on permutation 16
+  ......working on permutation 17
+  ......working on permutation 18
+  ......working on permutation 19
+  ......working on permutation 20
+  ......working on permutation 21
+  ......working on permutation 22
+  ......working on permutation 23
+  ......working on permutation 24
+  ......working on permutation 25
+  ......working on permutation 26
+  ......working on permutation 27
+  ......working on permutation 28
+  ......working on permutation 29
+  ......working on permutation 30
+  ......working on permutation 31
+  ......working on permutation 32
+  ......working on permutation 33
+  ......working on permutation 34
+  ......working on permutation 35
+  ......working on permutation 36
+  ......working on permutation 37
+  ......working on permutation 38
+  ......working on permutation 39
+  ......working on permutation 40
+  ......working on permutation 41
+  ......working on permutation 42
+  ......working on permutation 43
+  ......working on permutation 44
+  ......working on permutation 45
+  ......working on permutation 46
+  ......working on permutation 47
+  ......working on permutation 48
+  ......working on permutation 49
+  ......working on permutation 50
+  ......working on permutation 51
+  ......working on permutation 52
+  ......working on permutation 53
+  ......working on permutation 54
+  ......working on permutation 55
+  ......working on permutation 56
+  ......working on permutation 57
+  ......working on permutation 58
+  ......working on permutation 59
+  ......working on permutation 60
+  ......working on permutation 61
+  ......working on permutation 62
+  ......working on permutation 63
+  ......working on permutation 64
+  ......working on permutation 65
+  ......working on permutation 66
+  ......working on permutation 67
+  ......working on permutation 68
+  ......working on permutation 69
+  ......working on permutation 70
+  ......working on permutation 71
+  ......working on permutation 72
+  ......working on permutation 73
+  ......working on permutation 74
+  ......working on permutation 75
+  ......working on permutation 76
+  ......working on permutation 77
+  ......working on permutation 78
+  ......working on permutation 79
+  ......working on permutation 80
+  ......working on permutation 81
+  ......working on permutation 82
+  ......working on permutation 83
+  ......working on permutation 84
+  ......working on permutation 85
+  ......working on permutation 86
+  ......working on permutation 87
+  ......working on permutation 88
+  ......working on permutation 89
+  ......working on permutation 90
+  ......working on permutation 91
+  ......working on permutation 92
+  ......working on permutation 93
+  ......working on permutation 94
+  ......working on permutation 95
+  ......working on permutation 96
+  ......working on permutation 97
+  ......working on permutation 98
+  ......working on permutation 99
+  ......working on permutation 100
+  ......working on permutation 101
+  ......working on permutation 102
+  ......working on permutation 103
+  ......working on permutation 104
+  ......working on permutation 105
+  ......working on permutation 106
+  ......working on permutation 107
+  ......working on permutation 108
+  ......working on permutation 109
+  ......working on permutation 110
+  ......working on permutation 111
+  ......working on permutation 112
+  ......working on permutation 113
+  ......working on permutation 114
+  ......working on permutation 115
+  ......working on permutation 116
+  ......working on permutation 117
+  ......working on permutation 118
+  ......working on permutation 119
+  ......working on permutation 120
+  ......working on permutation 121
+  ......working on permutation 122
+  ......working on permutation 123
+  ......working on permutation 124
+  ......working on permutation 125
+  ......working on permutation 126
+  ......working on permutation 127
+  ......working on permutation 128
+  ......working on permutation 129
+  ......working on permutation 130
+  ......working on permutation 131
+  ......working on permutation 132
+  ......working on permutation 133
+  ......working on permutation 134
+  ......working on permutation 135
+  ......working on permutation 136
+  ......working on permutation 137
+  ......working on permutation 138
+  ......working on permutation 139
+  ......working on permutation 140
+  ......working on permutation 141
+  ......working on permutation 142
+  ......working on permutation 143
+  ......working on permutation 144
+  ......working on permutation 145
+  ......working on permutation 146
+  ......working on permutation 147
+  ......working on permutation 148
+  ......working on permutation 149
+  ......working on permutation 150
+  ......working on permutation 151
+  ......working on permutation 152
+  ......working on permutation 153
+  ......working on permutation 154
+  ......working on permutation 155
+  ......working on permutation 156
+  ......working on permutation 157
+  ......working on permutation 158
+  ......working on permutation 159
+  ......working on permutation 160
+  ......working on permutation 161
+  ......working on permutation 162
+  ......working on permutation 163
+  ......working on permutation 164
+  ......working on permutation 165
+  ......working on permutation 166
+  ......working on permutation 167
+  ......working on permutation 168
+  ......working on permutation 169
+  ......working on permutation 170
+  ......working on permutation 171
+  ......working on permutation 172
+  ......working on permutation 173
+  ......working on permutation 174
+  ......working on permutation 175
+  ......working on permutation 176
+  ......working on permutation 177
+  ......working on permutation 178
+  ......working on permutation 179
+  ......working on permutation 180
+  ......working on permutation 181
+  ......working on permutation 182
+  ......working on permutation 183
+  ......working on permutation 184
+  ......working on permutation 185
+  ......working on permutation 186
+  ......working on permutation 187
+  ......working on permutation 188
+  ......working on permutation 189
+  ......working on permutation 190
+  ......working on permutation 191
+  ......working on permutation 192
+  ......working on permutation 193
+  ......working on permutation 194
+  ......working on permutation 195
+  ......working on permutation 196
+  ......working on permutation 197
+  ......working on permutation 198
+  ......working on permutation 199
+  ......working on permutation 200
+               medianRank.pres medianRank.qual Zsummary.pres Zsummary.qual
+black                       34            34.0         0.071         20.00
+blue                        23            37.0         3.400          9.10
+brown                       32            36.0         0.640         11.00
+cyan                         2            13.0        14.000         43.00
+darkgreen                   12            25.5         4.800         17.00
+darkgrey                     5            26.0         7.000         13.00
+darkmagenta                 23            22.5         0.640          9.10
+darkolivegreen              22             2.0         2.300         40.00
+darkorange                  17             3.0         3.400         30.00
+darkred                     27            19.5         1.700         18.00
+darkturquoise               29            26.0         0.052         14.00
+gold                        21            38.0        11.000          0.32
+green                       10            20.0        16.000         71.00
+greenyellow                 28            32.5         3.400         25.00
+grey                        23            39.0        13.000        -17.00
+grey60                      14            32.5         5.700         17.00
+lightcyan                   26             6.0         0.210         34.00
+lightgreen                   6            15.0         9.200         27.00
+lightyellow                 15            11.0         5.300         31.00
+magenta                      2             1.0        20.000        150.00
+midnightblue                30             9.0         0.260         42.00
+orange                      38            35.0        -0.690          2.20
+paleturquoise               11            25.5         4.600         11.00
+pink                        32            21.0        -0.420         54.00
+purple                      16            17.0         8.100         47.00
+red                          9            22.5        15.000         60.00
+royalblue                   15            11.5         3.400         26.00
+saddlebrown                 25            18.0         0.510         11.00
+salmon                       4             7.0        13.000         49.00
+sienna3                      6             5.0         4.500         19.00
+skyblue                     25             4.0         2.600         39.00
+skyblue3                     7            10.5         3.300         12.00
+steelblue                   31            16.5         1.000         16.00
+tan                         35            14.0        -1.200         34.00
+turquoise                   28            31.0         2.300         61.00
+violet                      33            28.5         0.270         12.00
+white                       17            28.5         3.200         12.00
+yellow                      22            26.0         5.000         55.00
+yellowgreen                 18             8.5         1.900         14.00
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
