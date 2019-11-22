@@ -1,0 +1,1009 @@
+Ensembl	species	Gene	cell type	nicknames	ubiquitousness index	product description	gene type	canonical marker	germ layer	organ	sensitivity_human	sensitivity_mouse	specificity_human	specificity_mouse
+ENSG00000180176	Mm Hs	TH	Adrenergic neurons	DYT5b	0.002	tyrosine hydroxylase	protein-coding gene	1	Ectoderm	Brain	0	1	0.0018797	0.00237636
+ENSG00000132437	Mm Hs	DDC	Adrenergic neurons	AADC	0.014	dopa decarboxylase	protein-coding gene	1	Ectoderm	Brain	0	1	0.00469925	0.0163134
+ENSG00000123454	Mm Hs	DBH	Adrenergic neurons	DBM	0.001	dopamine beta-hydroxylase	protein-coding gene	1	Ectoderm	Brain	0	1	0	0.000770713
+ENSG00000165646	Mm Hs	SLC18A2	Adrenergic neurons	SVMT|SVAT|VMAT2	0.006	solute carrier family 18 member A2	protein-coding gene	1	Ectoderm	Brain	0	1	0.00125313	0.0076429
+ENSG00000113504	Mm Hs	SLC12A7	Adrenergic neurons	KCC4|DKFZP434F076	0.006	solute carrier family 12 member 7	protein-coding gene	1	Ectoderm	Brain	0	0	0.00281955	0.00648683
+ENSG00000160307	Mm Hs	S100B	Astrocytes	S100beta	0.066	S100 calcium binding protein B	protein-coding gene	1	Ectoderm	Brain	1	0.642623	0.0313873	0.0631469
+ENSG00000110436	Mm Hs	SLC1A2	Astrocytes	GLT-1|EAAT2	0.071	solute carrier family 1 member 2	protein-coding gene	1	Ectoderm	Brain	1	1	0.00878845	0.0689113
+ENSG00000131095	Mm Hs	GFAP	Astrocytes	FLJ45472	0.013	glial fibrillary acidic protein	protein-coding gene	1	Ectoderm	Brain	1	0.344262	0.00376648	0.00838465
+ENSG00000112578	Mm Hs	BYSL	Astrocytes	Enp1	0.013	bystin like	protein-coding gene	1	Ectoderm	Brain	0	0	0.0109856	0.0137561
+ENSG00000144908	Mm Hs	ALDH1L1	Astrocytes	10-fTHF|FTHFD	0.008	aldehyde dehydrogenase 1 family member L1	protein-coding gene	1	Ectoderm	Brain	0	0.140984	0.00156937	0.00766409
+ENSG00000101017	Mm Hs	CD40	Astrocytes	Bp50|TNFRSF5	0.012	CD40 molecule	protein-coding gene	1	Ectoderm	Brain	0	0	0.0131827	0.0110704
+ENSG00000079215	Mm Hs	SLC1A3	Astrocytes	EAAT1|GLAST|EA6	0.074	solute carrier family 1 member 3	protein-coding gene	1	Ectoderm	Brain	1	0.967213	0.00910232	0.0727106
+ENSG00000068078	Mm Hs	FGFR3	Astrocytes	CEK2|JTK4|CD333|ACH	0.021	fibroblast growth factor receptor 3	protein-coding gene	1	Ectoderm	Brain	1	0.681967	0.00910232	0.0106773
+ENSG00000121742	Mm Hs	GJB6	Astrocytes	EDH|CX30|ED2	0.013	gap junction protein beta 6	protein-coding gene	1	Ectoderm	Brain	0	0.534426	0.000313873	0.00563343
+ENSG00000171885	Mm Hs	AQP4	Astrocytes	MIWC	0.024	aquaporin 4	protein-coding gene	1	Ectoderm	Brain	1	0.878689	0.00408035	0.012446
+ENSG00000166033	Mm Hs	HTRA1	Astrocytes	HtrA|IGFBP5-protease|ARMD7|PRSS11	0.065	HtrA serine peptidase 1	protein-coding gene	1	Ectoderm	Brain	0	0.84918	0.0338983	0.0573169
+ENSG00000143546	Mm Hs	S100A8	Astrocytes	P8|CGLA|CAGA	0.064	S100 calcium binding protein A8	protein-coding gene	1	Ectoderm	Brain	0	0	0.0800377	0.0599371
+ENSG00000134873	Mm Hs	CLDN10	Astrocytes	OSP-L|CPETRL3	0.028	claudin 10	protein-coding gene	1	Ectoderm	Brain	0	0.718033	0.0238544	0.0165073
+ENSG00000162267	Mm Hs	ITIH3	Astrocytes	H3P	0.009	inter-alpha-trypsin inhibitor heavy chain 3	protein-coding gene	1	Ectoderm	Brain	0	0.360656	0.00345261	0.0039303
+ENSG00000101198	Mm Hs	NKAIN4	Astrocytes	bA261N11.2|FAM77A|C20orf58	0.036	sodium/potassium transporting ATPase interacting 4	protein-coding gene	1	Ectoderm	Brain	0.166667	0.668852	0.00878845	0.0296083
+ENSG00000164398	Mm Hs	ACSL6	Astrocytes	KIAA0837|LACS5|FACL6	0.022	acyl-CoA synthetase long chain family member 6	protein-coding gene	NA	Ectoderm	Brain	0	0.832787	0.0144382	0.00786061
+ENSG00000103740	Mm Hs	ACSBG1	Astrocytes	BGM|FLJ30320|MGC14352|BG1|KIAA0631|hBG1|hsBG	0.023	acyl-CoA synthetase bubblegum family member 1	protein-coding gene	1	Ectoderm	Brain	0	0.796721	0	0.0132975
+ENSG00000176734	Mm Hs	TRIL	Astrocytes	KIAA0644	0.023	TLR4 interactor with leucine rich repeats	protein-coding gene	1	Ectoderm	Brain	0	0.606557	0.00345261	0.0167038
+ENSG00000135744	Mm Hs	AGT	Astrocytes	SERPINA8	0.02	angiotensinogen	protein-coding gene	1	Ectoderm	Brain	0.833333	0.622951	0.0144382	0.00943273
+ENSG00000170075	Mm Hs	GPR37L1	Astrocytes	ETBR-LP-2	0.041	G protein-coupled receptor 37 like 1	protein-coding gene	1	Ectoderm	Brain	1	0.977049	0.00251099	0.0322285
+ENSG00000080493	Mm Hs	SLC4A4	Astrocytes	NBC1|HNBC1|NBC2|pNBC|hhNMC|SLC4A5	0.033	solute carrier family 4 member 4	protein-coding gene	1	Ectoderm	Brain	0.166667	0.957377	0.0119272	0.0206996
+ENSG00000169006	Mm Hs	NTSR2	Astrocytes	NTR2	0.019	neurotensin receptor 2	protein-coding gene	1	Ectoderm	Brain	0	0.977049	0	0.00504389
+ENSG00000132164	Mm Hs	SLC6A11	Astrocytes	GAT3	0.02	solute carrier family 6 member 11	protein-coding gene	1	Ectoderm	Brain	0.833333	0.803279	0.000313873	0.0090397
+ENSG00000126803	Mm Hs	HSPA2	Astrocytes	NA	0.03	heat shock protein family A (Hsp70) member 2	protein-coding gene	1	Ectoderm	Brain	0	0.121311	0.0430006	0.0271191
+ENSG00000147100	Mm Hs	SLC16A2	Astrocytes	XPCT|MCT8|DXS128|AHDS|MRX22	0.023	solute carrier family 16 member 2	protein-coding gene	1	Ectoderm	Brain	0	0.0131148	0.00345261	0.0278396
+ENSG00000131018	Mm Hs	SYNE1	Astrocytes	SYNE-1B|KIAA0796|8B|Nesprin-1|enaptin|MYNE1|CPG2|dJ45H2.2|SCAR8|ARCA1|Nesp1|C6orf98	0.05	spectrin repeat containing nuclear envelope protein 1	protein-coding gene	1	Ectoderm	Brain	0.666667	0.154098	0.0141243	0.0552863
+ENSG00000211448	Mm Hs	DIO2	Astrocytes	TXDI2|SelY	0.003	iodothyronine deiodinase 2	protein-coding gene	1	Ectoderm	Brain	0	0.0491803	0.00564972	0.00137561
+ENSG00000130876	Mm Hs	SLC7A10	Astrocytes	asc-1	0.005	solute carrier family 7 member 10	protein-coding gene	1	Ectoderm	Brain	0	0.252459	0.000627746	0.000589545
+ENSG00000054179	Mm Hs	ENTPD2	Astrocytes	NTPDase-2|CD39L1	0.012	ectonucleoside triphosphate diphosphohydrolase 2	protein-coding gene	1	Ectoderm	Brain	0	0.108197	0.00094162	0.012708
+ENSG00000004776	Mm Hs	HSPB6	Astrocytes	FLJ32389|Hsp20|PPP1R91	0.005	heat shock protein family B (small) member 6	protein-coding gene	1	Ectoderm	Brain	0	0.00327869	0.00188324	0.00622298
+ENSG00000164050	Mm Hs	PLXNB1	Astrocytes	KIAA0407|PLXN5	0.006	plexin B1	protein-coding gene	1	Ectoderm	Brain	0.833333	0.0688525	0.000627746	0.00556793
+ENSG00000213398	Mm Hs	LCAT	Astrocytes	NA	0.005	lecithin-cholesterol acyltransferase	protein-coding gene	1	Ectoderm	Brain	0	0.213115	0.000313873	0.00170313
+ENSG00000146070	Mm Hs	PLA2G7	Astrocytes	LDL-PLA2	0.048	phospholipase A2 group VII	protein-coding gene	1	Ectoderm	Brain	0	0.908197	0.0116133	0.039434
+ENSG00000166091	Mm Hs	CMTM5	Astrocytes	FLJ37521|CKLFSF5	0.044	CKLF like MARVEL transmembrane domain containing 5	protein-coding gene	1	Ectoderm	Brain	0	0.537705	0.00784683	0.0431678
+ENSG00000170989	Mm Hs	S1PR1	Astrocytes	edg-1|D1S3362|CD363	0.044	sphingosine-1-phosphate receptor 1	protein-coding gene	1	Ectoderm	Brain	0	0.64918	0.0112994	0.0402856
+ENSG00000148482	Mm Hs	SLC39A12	Astrocytes	FLJ30499	0.007	solute carrier family 39 member 12	protein-coding gene	1	Ectoderm	Brain	0	0.373771	0	0.00144111
+ENSG00000187398	Mm Hs	LUZP2	Astrocytes	NA	0.037	leucine zipper protein 2	protein-coding gene	1	Ectoderm	Brain	0	0.508197	0.0047081	0.0364208
+ENSG00000170899	Mm Hs	GSTA4	Astrocytes	NA	0.063	glutathione S-transferase alpha 4	protein-coding gene	1	Ectoderm	Brain	0	0.0786885	0.0596359	0.0626228
+ENSG00000155287	Mm Hs	SLC25A28	Astrocytes	MRS3/4|MRS4L	0.007	solute carrier family 25 member 28	protein-coding gene	1	Ectoderm	Brain	0	0	0.0229127	0.00360278
+ENSG00000164209	Mm Hs	SLC25A46	Astrocytes	NA	0.045	solute carrier family 25 member 46	protein-coding gene	1	Ectoderm	Brain	0	0.00983607	0.0263653	0.0498493
+ENSG00000108379	Mm Hs	WNT3	Astrocytes	MGC131950|MGC138321|MGC138323	0.003	Wnt family member 3	protein-coding gene	1	Ectoderm	Brain	0	0	0.000627746	0.00340626
+ENSG00000180340	Mm Hs	FZD2	Astrocytes	NA	0.012	frizzled class receptor 2	protein-coding gene	1	Ectoderm	Brain	0	0.101639	0.00784683	0.0103498
+ENSG00000187079	Mm Hs	TEAD1	Astrocytes	TEF-1|TCF13|AA	0.027	TEA domain transcription factor 1	protein-coding gene	1	Ectoderm	Brain	0	0.0131148	0.0238544	0.0272501
+ENSG00000140522	Mm Hs	RLBP1	Astrocytes	CRALBP	0.028	retinaldehyde binding protein 1	protein-coding gene	1	Ectoderm	Brain	0	0.00983607	0	0.0352417
+ENSG00000109107	Mm Hs	ALDOC	Astrocytes	NA	0.078	"aldolase, fructose-bisphosphate C"	protein-coding gene	1	Ectoderm	Brain	0	1	0.00094162	0.0788026
+ENSG00000152661	Mm Hs	GJA1	Astrocytes	CX43|ODOD|SDTY3|ODDD|GJAL	0.1	gap junction protein alpha 1	protein-coding gene	1	Ectoderm	Brain	1	0.993443	0.0615191	0.0887593
+ENSG00000148346	Mm Hs	LCN2	Astrocytes	NGAL|24p3	0.043	lipocalin 2	protein-coding gene	1	Ectoderm	Brain	0	0	0.056811	0.0426438
+ENSG00000125398	Mm Hs	SOX9	Astrocytes	SRA1|CMD1|CMPD1	0.086	SRY-box 9	protein-coding gene	1	Ectoderm	Brain	0	0.662295	0.0323289	0.0895454
+ENSG00000126353	Mm Hs	CCR7	Astrocytes	BLR2|CDw197|CD197|CMKBR7|EBI1	0.016	C-C motif chemokine receptor 7	protein-coding gene	1	Ectoderm	Brain	0	0	0.042059	0.0116599
+ENSG00000184557	Mm Hs	SOCS3	Astrocytes	SSI-3|CIS3|SOCS-3|Cish3	0.081	suppressor of cytokine signaling 3	protein-coding gene	1	Ectoderm	Brain	0	0.0491803	0.0944758	0.0806367
+ENSG00000182253	Mm Hs	SYNM	Astrocytes	KIAA0353|DMN	0.017	synemin	protein-coding gene	1	Ectoderm	Brain	0	0	0.00094162	0.0210271
+ENSG00000140382	Mm Hs	HMG20A	Astrocytes	HMGX1|FLJ10739|HMGXB1	0.008	high mobility group 20A	protein-coding gene	1	Ectoderm	Brain	0	0	0.00784683	0.00890869
+ENSG00000072736	Mm Hs	NFATC3	Astrocytes	NFAT4|NFATX	0.002	nuclear factor of activated T cells 3	protein-coding gene	1	Ectoderm	Brain	0	0	0.00627746	0.00144111
+ENSG00000167720	Mm Hs	SRR	Astrocytes	ILV1	0.001	serine racemase	protein-coding gene	1	Ectoderm	Brain	0	0	0	0.0012446
+ENSG00000105143	Mm Hs	SLC1A6	Astrocytes	EAAT4	0.003	solute carrier family 1 member 6	protein-coding gene	1	Ectoderm	Brain	0	0	0.00313873	0.00301323
+ENSG00000134954	Mm Hs	ETS1	Astrocytes	FLJ10768|ETS-1	0.095	"ETS proto-oncogene 1, transcription factor"	protein-coding gene	1	Ectoderm	Brain	0	0	0.0389203	0.111424
+ENSG00000187122	Mm Hs	SLIT1	Astrocytes	slit1|MEGF4|Slit-1|SLIT3|SLIL1	0.001	slit guidance ligand 1	protein-coding gene	1	Ectoderm	Brain	0	0	0.000313873	0.00111359
+ENSG00000101298	Mm Hs	SNPH	Astrocytes	bA314N13.5	0.004	syntaphilin	protein-coding gene	1	Ectoderm	Brain	0	0	0	0.0051749
+ENSG00000189056	Mm Hs	RELN	Cajal-Retzius cells	RL|PRO1598	0.018	reelin	protein-coding gene	1	Ectoderm	Brain	0	0.909605	0.00344612	0.0115629
+ENSG00000184047	Mm Hs	DIABLO	Cajal-Retzius cells	SMAC|DIABLO-S|FLJ25049|FLJ10537|DFNA64	0.026	diablo IAP-binding mitochondrial protein	protein-coding gene	NA	Ectoderm	Brain	0	0.887006	0	0.0231909
+ENSG00000115525	Mm Hs	ST3GAL5	Cajal-Retzius cells	ST3GalV|SIATGM3S|SIAT9	0.04	"ST3 beta-galactoside alpha-2,3-sialyltransferase 5"	protein-coding gene	NA	Ectoderm	Brain	0	0.757062	0.0128446	0.039301
+ENSG00000066583	Mm Hs	ISOC1	Cajal-Retzius cells	CGI-111	0.022	isochorismatase domain containing 1	protein-coding gene	NA	Ectoderm	Brain	0	0.0508475	0.0200501	0.0216968
+ENSG00000112562	Mm Hs	SMOC2	Cajal-Retzius cells	SMAP2	0.026	SPARC related modular calcium binding 2	protein-coding gene	NA	Ectoderm	Brain	0	0.00564972	0.0178571	0.0290373
+ENSG00000158560	Mm Hs	DYNC1I1	Cajal-Retzius cells	DNCIC1|DNCI1	0.022	dynein cytoplasmic 1 intermediate chain 1	protein-coding gene	NA	Ectoderm	Brain	0	0.779661	0.00250627	0.0183188
+ENSG00000177551	Mm Hs	NHLH2	Cajal-Retzius cells	bHLHa34|HEN2	0.021	nescient helix-loop-helix 2	protein-coding gene	NA	Ectoderm	Brain	0	0.909605	0.00156642	0.0159153
+ENSG00000158258	Mm Hs	CLSTN2	Cajal-Retzius cells	CSTN2|CS2|FLJ39113|CDHR13	0.014	calsyntenin 2	protein-coding gene	NA	Ectoderm	Brain	0	0.853107	0.00219298	0.00799013
+ENSG00000152128	Mm Hs	TMEM163	Cajal-Retzius cells	DKFZP566N034|SV31	0.027	transmembrane protein 163	protein-coding gene	NA	Ectoderm	Brain	0	0.841808	0.000626566	0.0241003
+ENSG00000007402	Mm Hs	CACNA2D2	Cajal-Retzius cells	KIAA0558	0.027	calcium voltage-gated channel auxiliary subunit alpha2delta 2	protein-coding gene	NA	Ectoderm	Brain	0	0.943503	0.00125313	0.0239054
+ENSG00000136425	Mm Hs	CIB2	Cajal-Retzius cells	DFNB48|USH1J	0.021	calcium and integrin binding family member 2	protein-coding gene	NA	Ectoderm	Brain	0	0.316384	0.0018797	0.0227361
+ENSG00000173376	Mm Hs	NDNF	Cajal-Retzius cells	FLJ23191|C4orf31	0.017	neuron derived neurotrophic factor	protein-coding gene	NA	Ectoderm	Brain	0	0.915254	0.00626566	0.0102637
+ENSG00000169783	Mm Hs	LINGO1	Cajal-Retzius cells	FLJ14594|LERN1|LRRN6A	0.019	leucine rich repeat and Ig domain containing 1	protein-coding gene	NA	Ectoderm	Brain	0	0.0508475	0.0018797	0.0231909
+ENSG00000144320	Mm Hs	LNPK	Cajal-Retzius cells	Ul|LNP1|KIAA1715	0.031	"lunapark, ER junction formation factor"	protein-coding gene	NA	Ectoderm	Brain	0	0.0508475	0.0238095	0.0333896
+ENSG00000134758	Mm Hs	RNF138	Cajal-Retzius cells	STRIN|NARF	0.053	ring finger protein 138	protein-coding gene	NA	Ectoderm	Brain	0	0.0112994	0.0742481	0.0496947
+ENSG00000205269	Mm Hs	TMEM170B	Cajal-Retzius cells	NA	0.027	transmembrane protein 170B	protein-coding gene	NA	Ectoderm	Brain	0	0.0847458	0	0.0324152
+ENSG00000114770	Mm Hs	ABCC5	Cajal-Retzius cells	MRP5|SMRP|EST277145|MOAT-C	0.044	ATP binding cassette subfamily C member 5	protein-coding gene	NA	Ectoderm	Brain	0	0.220339	0.00438596	0.0520333
+ENSG00000119865	Mm Hs	CNRIP1	Cajal-Retzius cells	DKFZP566K1924|CRIP1|CRIP1a|CRIP1b|C2orf32	0.031	cannabinoid receptor interacting protein 1	protein-coding gene	NA	Ectoderm	Brain	0	0.079096	0.0228697	0.0328699
+ENSG00000108001	Mm Hs	EBF3	Cajal-Retzius cells	COE3|DKFZp667B0210	0.012	early B cell factor 3	protein-coding gene	NA	Ectoderm	Brain	0	0.310734	0.000626566	0.0118877
+ENSG00000172461	Mm Hs	FUT9	Cajal-Retzius cells	Fuc-TIX	0.039	fucosyltransferase 9	protein-coding gene	NA	Ectoderm	Brain	0	0.0621469	0.0018797	0.0479408
+ENSG00000130119	Mm Hs	GNL3L	Cajal-Retzius cells	FLJ10613|GNL3B	0.053	G protein nucleolar 3 like	protein-coding gene	NA	Ectoderm	Brain	0	0.175141	0.000313283	0.0649604
+ENSG00000164978	Mm Hs	NUDT2	Cajal-Retzius cells	APAH1	0.03	nudix hydrolase 2	protein-coding gene	NA	Ectoderm	Brain	0	0.107345	0.0366541	0.0253345
+ENSG00000164209	Mm Hs	SLC25A46	Cajal-Retzius cells	NA	0.045	solute carrier family 25 member 46	protein-coding gene	NA	Ectoderm	Brain	0	0.175141	0.0263158	0.047616
+ENSG00000185115	Mm Hs	NSMCE3	Cajal-Retzius cells	HCA4|MAGEG1|MAGEL3|NSE3|NDNL2	0.048	"NSE3 homolog, SMC5-SMC6 complex component"	protein-coding gene	NA	Ectoderm	Brain	0	0.0847458	0.0222431	0.0534624
+ENSG00000165659	Mm Hs	DACH1	Cajal-Retzius cells	DACH	0.013	dachshund family transcription factor 1	protein-coding gene	NA	Ectoderm	Brain	0	0.288136	0.0275689	0.00799013
+ENSG00000165716	Mm Hs	FAM69B	Cajal-Retzius cells	MGC20262|C9orf136	0.034	family with sequence similarity 69 member B	protein-coding gene	NA	Ectoderm	Brain	0	0.141243	0.000626566	0.0417046
+ENSG00000103942	Mm Hs	HOMER2	Cajal-Retzius cells	CPD|Cupidin|Vesl-2|HOMER-2B|HOMER-2|HOMER-2A|DFNA68	0.022	homer scaffold protein 2	protein-coding gene	NA	Ectoderm	Brain	0	0.237288	0.0100251	0.0223464
+ENSG00000164114	Mm Hs	MAP9	Cajal-Retzius cells	ASAP|FLJ21159	0.037	microtubule associated protein 9	protein-coding gene	NA	Ectoderm	Brain	0	0.141243	0.0335213	0.0378719
+ENSG00000197959	Mm Hs	DNM3	Cajal-Retzius cells	KIAA0820	0.043	dynamin 3	protein-coding gene	NA	Ectoderm	Brain	0	0.146893	0.00313283	0.0526179
+ENSG00000163818	Mm Hs	LZTFL1	Cajal-Retzius cells	BBS17	0.026	leucine zipper transcription factor like 1	protein-coding gene	NA	Ectoderm	Brain	0	0.0225989	0.0181704	0.0287774
+ENSG00000105255	Mm Hs	FSD1	Cajal-Retzius cells	MGC3213|MIR1	0.015	fibronectin type III and SPRY domain containing 1	protein-coding gene	NA	Ectoderm	Brain	0	0.158192	0.0175439	0.0122126
+ENSG00000172465	Mm Hs	TCEAL1	Cajal-Retzius cells	pp21|SIIR|WEX9	0.017	transcription elongation factor A like 1	protein-coding gene	NA	Ectoderm	Brain	0	0.0734463	0.0178571	0.0159803
+ENSG00000107560	Mm Hs	RAB11FIP2	Cajal-Retzius cells	KIAA0941|nRip11|Rab11-FIP2	0.04	RAB11 family interacting protein 2	protein-coding gene	NA	Ectoderm	Brain	0	0.305085	0.00219298	0.0473561
+ENSG00000143032	Mm Hs	BARHL2	Cajal-Retzius cells	NA	0.004	BarH like homeobox 2	protein-coding gene	NA	Ectoderm	Brain	0	0.169492	0	0.00331298
+ENSG00000166326	Mm Hs	TRIM44	Cajal-Retzius cells	DIPB|MC7	0.055	tripartite motif containing 44	protein-coding gene	NA	Ectoderm	Brain	0	0.0564972	0.0679825	0.0485904
+ENSG00000091664	Mm Hs	SLC17A6	Cajal-Retzius cells	DNPI|VGLUT2	0.016	solute carrier family 17 member 6	protein-coding gene	NA	Ectoderm	Brain	0	0.214689	0.000313283	0.0178641
+ENSG00000172318	Mm Hs	B3GALT1	Cajal-Retzius cells	beta3Gal-T1	0.005	"beta-1,3-galactosyltransferase 1"	protein-coding gene	NA	Ectoderm	Brain	0	0.107345	0.00313283	0.0037677
+ENSG00000165300	Mm Hs	SLITRK5	Cajal-Retzius cells	bA364G4.2|KIAA0918|LRRC11	0.009	SLIT and NTRK like family member 5	protein-coding gene	NA	Ectoderm	Brain	0	0.0677966	0	0.0113031
+ENSG00000187672	Mm Hs	ERC2	Cajal-Retzius cells	CAST1|KIAA0378|SPBC110|Spc110|ELKSL	0.03	ELKS/RAB6-interacting/CAST family member 2	protein-coding gene	NA	Ectoderm	Brain	0	0.327684	0.000313283	0.0341042
+ENSG00000172915	Mm Hs	NBEA	Cajal-Retzius cells	KIAA1544|BCL8B|FLJ10197|LYST2	0.032	neurobeachin	protein-coding gene	NA	Ectoderm	Brain	0	0.039548	0.00469925	0.0387813
+ENSG00000114120	Mm Hs	SLC25A36	Cajal-Retzius cells	FLJ10618|PNC2	0.059	solute carrier family 25 member 36	protein-coding gene	NA	Ectoderm	Brain	0	0.124294	0.0755013	0.0535273
+ENSG00000204186	Mm Hs	ZDBF2	Cajal-Retzius cells	FLJ45338|KIAA1571|Slx9	0.018	zinc finger DBF-type containing 2	protein-coding gene	NA	Ectoderm	Brain	0	0.0734463	0.000313283	0.0226062
+ENSG00000107643	Mm Hs	MAPK8	Cajal-Retzius cells	JNK|JNK1|SAPK1|PRKM8	0.023	mitogen-activated protein kinase 8	protein-coding gene	NA	Ectoderm	Brain	0	0.39548	0.0194236	0.0207224
+ENSG00000125965	Mm Hs	GDF5	Cajal-Retzius cells	CDMP1|BMP14	0.004	growth differentiation factor 5	protein-coding gene	NA	Ectoderm	Brain	0	0.485876	0	0
+ENSG00000087085	Mm Hs	ACHE	Cajal-Retzius cells	YT	0.016	acetylcholinesterase (Cartwright blood group)	protein-coding gene	NA	Ectoderm	Brain	0	0.412429	0.00469925	0.0150708
+ENSG00000136280	Mm Hs	CCM2	Cajal-Retzius cells	MGC4607|OSM|C7orf22	0.052	CCM2 scaffold protein	protein-coding gene	NA	Ectoderm	Brain	0	0.293785	0.0435464	0.0478108
+ENSG00000116213	Mm Hs	WRAP73	Cajal-Retzius cells	WDR8	0.01	"WD repeat containing, antisense to TP73"	protein-coding gene	NA	Ectoderm	Brain	0	0.531073	0.00657895	0.00565155
+ENSG00000157168	Mm Hs	NRG1	Cajal-Retzius cells	HRG|NDF|GGF|NRG1-IT2	0.012	neuregulin 1	protein-coding gene	NA	Ectoderm	Brain	0	0.186441	0.0128446	0.0107185
+ENSG00000159363	Mm Hs	ATP13A2	Cajal-Retzius cells	HSA9947|CLN12|PARK9	0.034	ATPase cation transporting 13A2	protein-coding gene	NA	Ectoderm	Brain	0	0.779661	0.00469925	0.0326751
+ENSG00000174469	Mm Hs	CNTNAP2	Cajal-Retzius cells	Caspr2|KIAA0868	0.037	contactin associated protein like 2	protein-coding gene	NA	Ectoderm	Brain	0	0.632768	0.0238095	0.0339093
+ENSG00000168081	Mm Hs	PNOC	Cajal-Retzius cells	PPNOC|N/OFQ|NOP	0.009	prepronociceptin	protein-coding gene	NA	Ectoderm	Brain	0	0.282486	0.00093985	0.00682084
+ENSG00000132130	Mm Hs	LHX1	Cajal-Retzius cells	LIM-1	0.011	LIM homeobox 1	protein-coding gene	NA	Ectoderm	Brain	0	0.757062	0.00657895	0.00402754
+ENSG00000174482	Mm Hs	LINGO2	Cajal-Retzius cells	LERN3|LRRN6C	0.019	leucine rich repeat and Ig domain containing 2	protein-coding gene	NA	Ectoderm	Brain	0	0.740113	0.00219298	0.0154606
+ENSG00000165323	Mm Hs	FAT3	Cajal-Retzius cells	KIAA1989|CDHF15|CDHR10	0.009	FAT atypical cadherin 3	protein-coding gene	NA	Ectoderm	Brain	0	0.548023	0.00250627	0.00467715
+ENSG00000196220	Mm Hs	SRGAP3	Cajal-Retzius cells	KIAA0411|MEGAP|WRP|ARHGAP14|SRGAP2	0.018	SLIT-ROBO Rho GTPase activating protein 3	protein-coding gene	NA	Ectoderm	Brain	0	0.418079	0.0100251	0.01637
+ENSG00000179242	Mm Hs	CDH4	Cajal-Retzius cells	NA	0.017	cadherin 4	protein-coding gene	NA	Ectoderm	Brain	0	0.819209	0.000313283	0.0112381
+ENSG00000125848	Mm Hs	FLRT3	Cajal-Retzius cells	NA	0.027	fibronectin leucine rich transmembrane protein 3	protein-coding gene	NA	Ectoderm	Brain	0	0.836158	0.0153509	0.0210472
+ENSG00000164176	Mm Hs	EDIL3	Cajal-Retzius cells	DEL1	0.045	EGF like repeats and discoidin domains 3	protein-coding gene	NA	Ectoderm	Brain	0	0.717514	0.0222431	0.0432636
+ENSG00000174460	Mm Hs	ZCCHC12	Cajal-Retzius cells	FLJ16123|SIZN|SIZN1|PNMA7A	0.038	zinc finger CCHC-type containing 12	protein-coding gene	NA	Ectoderm	Brain	0	0.830508	0.000313283	0.0392361
+ENSG00000116191	Mm Hs	RALGPS2	Cajal-Retzius cells	FLJ10244|FLJ25604	0.048	Ral GEF with PH domain and SH3 binding motif 2	protein-coding gene	NA	Ectoderm	Brain	0	0.79096	0.023183	0.047616
+ENSG00000188916	Mm Hs	FAM196A	Cajal-Retzius cells	NA	0.009	"family with sequence similarity 196, member A"	protein coding gene	NA	Ectoderm	Brain	0	0.80791	0	0.00259841
+ENSG00000170365	Mm Hs	SMAD1	Cajal-Retzius cells	MADR1|JV4-1|MADH1	0.036	SMAD family member 1	protein-coding gene	NA	Ectoderm	Brain	0	0.841808	0.0153509	0.0328699
+ENSG00000136535	Mm Hs	TBR1	Cajal-Retzius cells	NA	0.018	"T-box, brain 1"	protein-coding gene	NA	Ectoderm	Brain	0	0.864407	0.00125313	0.0124724
+ENSG00000184611	Mm Hs	KCNH7	Cajal-Retzius cells	Kv11.3|HERG3|erg3	0.012	potassium voltage-gated channel subfamily H member 7	protein-coding gene	NA	Ectoderm	Brain	0	0.819209	0.000626566	0.00584643
+ENSG00000089116	Mm Hs	LHX5	Cajal-Retzius cells	NA	0.01	LIM homeobox 5	protein-coding gene	NA	Ectoderm	Brain	0	0.853107	0.00219298	0.00240353
+ENSG00000172137	Mm Hs	CALB2	Cajal-Retzius cells	CAL2	0.03	calbindin 2	protein-coding gene	1	Ectoderm	Brain	0	0.881356	0.00281955	0.027803
+ENSG00000170370	Mm Hs	EMX2	Cajal-Retzius cells	NA	0.027	empty spiracles homeobox 2	protein-coding gene	NA	Ectoderm	Brain	0	0.870057	0.0112782	0.0220216
+ENSG00000043355	Mm Hs	ZIC2	Cajal-Retzius cells	HPE5	0.01	Zic family member 2	protein-coding gene	NA	Ectoderm	Brain	0	0.079096	0.0119048	0.00889957
+ENSG00000188064	Mm Hs	WNT7B	Cajal-Retzius cells	NA	0.008	Wnt family member 7B	protein-coding gene	NA	Ectoderm	Brain	0	0.118644	0.00344612	0.00863973
+ENSG00000108270	Mm Hs	AATF	Cajal-Retzius cells	DED|CHE-1|BFR2	0.018	apoptosis antagonizing transcription factor	protein-coding gene	NA	Ectoderm	Brain	0	0.0169492	0.0469925	0.0101338
+ENSG00000188613	Mm Hs	NANOS1	Cajal-Retzius cells	NOS1|ZC2HC12A	0.002	nanos C2HC-type zinc finger 1	protein-coding gene	NA	Ectoderm	Brain	0	0.0338983	0	0.00168897
+ENSG00000145348	Mm Hs	TBCK	Cajal-Retzius cells	MGC16169|HSPC302	0.006	TBC1 domain containing kinase	protein-coding gene	NA	Ectoderm	Brain	0	0.0112994	0.00156642	0.00740548
+ENSG00000174136	Mm Hs	RGMB	Cajal-Retzius cells	FLJ90406|DRAGON	0.009	repulsive guidance molecule BMP co-receptor b	protein-coding gene	NA	Ectoderm	Brain	0	0.0112994	0.00626566	0.0103287
+ENSG00000165617	Mm Hs	DACT1	Cajal-Retzius cells	DAPPER1|THYEX3|HDPR1|DAPPER|FRODO	0.003	dishevelled binding antagonist of beta catenin 1	protein-coding gene	NA	Ectoderm	Brain	0	0.00564972	0.00783208	0.00266338
+ENSG00000070748	Mm Hs	CHAT	Cholinergic neurons	NA	0.001	choline O-acetyltransferase	protein-coding gene	1	Ectoderm	Brain	0	0	0	0.00160555
+ENSG00000187714	Mm Hs	SLC18A3	Cholinergic neurons	VACHT	0.002	solute carrier family 18 member A3	protein-coding gene	1	Ectoderm	Brain	0	0	0.00125313	0.00237621
+ENSG00000087085	Mm Hs	ACHE	Cholinergic neurons	YT	0.016	acetylcholinesterase (Cartwright blood group)	protein-coding gene	1	Ectoderm	Brain	0	0	0.00469925	0.0195877
+ENSG00000115665	Mm Hs	SLC5A7	Cholinergic neurons	hCHT|CHT1	0.002	solute carrier family 5 member 7	protein-coding gene	1	Ectoderm	Brain	0	0	0	0.00269732
+ENSG00000180176	Mm Hs	TH	Dopaminergic neurons	DYT5b	0.002	tyrosine hydroxylase	protein-coding gene	1	Ectoderm	Brain	1	0	0.00156691	0.00244043
+ENSG00000125798	Mm Hs	FOXA2	Dopaminergic neurons	HNF3B	0.009	forkhead box A2	protein-coding gene	NA	Ectoderm	Brain	0	0	0.00595425	0.0099544
+ENSG00000157542	Mm Hs	KCNJ6	Dopaminergic neurons	Kir3.2|GIRK2|KATP2|BIR1|hiGIRK2|KCNJ7	0.002	potassium voltage-gated channel subfamily J member 6	protein-coding gene	NA	Ectoderm	Brain	1	0	0.0103416	6.42E-05
+ENSG00000153234	Mm Hs	NR4A2	Dopaminergic neurons	TINUR|NOT|RNR1|HZF-3|NURR1	0.033	nuclear receptor subfamily 4 group A member 2	protein-coding gene	NA	Ectoderm	Brain	0	0	0.078032	0.0255603
+ENSG00000136944	Mm Hs	LMX1B	Dopaminergic neurons	NPS1	0.001	LIM homeobox transcription factor 1 beta	protein-coding gene	NA	Ectoderm	Brain	0	0	0	0.000899107
+ENSG00000007402	Mm Hs	CACNA2D2	Dopaminergic neurons	KIAA0558	0.027	calcium voltage-gated channel auxiliary subunit alpha2delta 2	protein-coding gene	NA	Ectoderm	Brain	0	0	0.00125353	0.0343587
+ENSG00000081803	Mm Hs	CADPS2	Dopaminergic neurons	CAPS2	0.004	calcium dependent secretion activator 2	protein-coding gene	NA	Ectoderm	Brain	0	0	0.00156691	0.00475242
+ENSG00000147434	Mm Hs	CHRNA6	Dopaminergic neurons	NA	0.003	cholinergic receptor nicotinic alpha 6 subunit	protein-coding gene	NA	Ectoderm	Brain	0	0	0	0.00398176
+ENSG00000008735	Mm Hs	MAPK8IP2	Dopaminergic neurons	IB2|JIP2|PRKM8IPL	0.025	mitogen-activated protein kinase 8 interacting protein 2	protein-coding gene	NA	Ectoderm	Brain	0	0	0	0.031533
+ENSG00000065320	Mm Hs	NTN1	Dopaminergic neurons	NTN1L	0.007	netrin 1	protein-coding gene	NA	Ectoderm	Brain	0	0	0	0.00866996
+ENSG00000126583	Mm Hs	PRKCG	Dopaminergic neurons	PKCC|MGC57564|PKCG|SCA14	0.005	protein kinase C gamma	protein-coding gene	NA	Ectoderm	Brain	0	0	0	0.00597264
+ENSG00000136531	Hs	SCN2A	Dopaminergic neurons	Nav1.2|HBSCII|SCN2A1|SCN2A2	0.002	sodium voltage-gated channel alpha subunit 2	protein-coding gene	NA	Ectoderm	Brain	0	0	0.0034472	0
+ENSG00000009694	Mm Hs	TENM1	Dopaminergic neurons	TEN-M1|TNM|ODZ1	0.013	teneurin transmembrane protein 1	protein-coding gene	NA	Ectoderm	Brain	0	0	0	0.0165693
+ENSG00000132437	Mm Hs	DDC	Dopaminergic neurons	AADC	0.014	dopa decarboxylase	protein-coding gene	1	Ectoderm	Brain	1	0	0.00438734	0.0163766
+ENSG00000165646	Mm Hs	SLC18A2	Dopaminergic neurons	SVMT|SVAT|VMAT2	0.006	solute carrier family 18 member A2	protein-coding gene	1	Ectoderm	Brain	0	0	0.00125353	0.00770663
+ENSG00000187714	Mm Hs	SLC18A3	Dopaminergic neurons	VACHT	0.002	solute carrier family 18 member A3	protein-coding gene	1	Ectoderm	Brain	0	0	0.00125353	0.00237621
+ENSG00000164600	Mm Hs	NEUROD6	Dopaminergic neurons	Atoh2|NEX1M|Math-2|bHLHa2|Nex1	0.087	neuronal differentiation 6	protein-coding gene	1	Ectoderm	Brain	0	0	0.0050141	0.108792
+ENSG00000157103	Mm Hs	SLC6A1	GABAergic neurons	GAT1|GABATR|GABATHG	0.043	solute carrier family 6 member 1	protein-coding gene	1	Ectoderm	Brain	0	0.875	0.00313283	0.0523035
+ENSG00000136928	Mm Hs	GABBR2	GABAergic neurons	HG20|GABABR2|GPRC3B|GPR51	0.023	gamma-aminobutyric acid type B receptor subunit 2	protein-coding gene	NA	Ectoderm	Brain	0	0	0.00657895	0.0262803
+ENSG00000128683	Mm Hs	GAD1	GABAergic neurons	GAD	0.03	glutamate decarboxylase 1	protein-coding gene	1	Ectoderm	Brain	0	1	0.00344612	0.0368181
+ENSG00000075891	Mm Hs	PAX2	GABAergic neurons	NA	0.002	paired box 2	protein-coding gene	1	Ectoderm	Brain	0	0	0.00344612	0.00167063
+ENSG00000101438	Mm Hs	SLC32A1	GABAergic neurons	VGAT|bA122O1.1|VIAAT	0.026	solute carrier family 32 member 1	protein-coding gene	1	Ectoderm	Brain	0	1	0.00156642	0.031742
+ENSG00000136750	Mm Hs	GAD2	GABAergic neurons	GAD65	0.073	glutamate decarboxylase 2	protein-coding gene	1	Ectoderm	Brain	0	1	0.0244361	0.0862944
+ENSG00000146469	Mm Hs	VIP	GABAergic neurons	NA	0.003	vasoactive intestinal peptide	protein-coding gene	1	Ectoderm	Brain	0	0.5	0	0.00231318
+ENSG00000157005	Mm Hs	SST	GABAergic neurons	SMST	0.027	somatostatin	protein-coding gene	1	Ectoderm	Brain	0	0.25	0.047619	0.0237743
+ENSG00000100362	Mm Hs	PVALB	GABAergic neurons	D22S749	0.005	parvalbumin	protein-coding gene	1	Ectoderm	Brain	0	0	0.00344612	0.0058472
+ENSG00000183578	Mm Hs	TNFAIP8L3	GABAergic neurons	FLJ41287	0.001	TNF alpha induced protein 8 like 3	protein-coding gene	1	Ectoderm	Brain	0	0	0	0.00077106
+ENSG00000075223	Mm Hs	SEMA3C	GABAergic neurons	SemE|SEMAE	0.04	semaphorin 3C	protein-coding gene	1	Ectoderm	Brain	0	0	0.0128446	0.0460066
+ENSG00000196091	Mm Hs	MYBPC1	GABAergic neurons	NA	0.001	"myosin binding protein C, slow type"	protein-coding gene	1	Ectoderm	Brain	0	0	0.00281955	0.00077106
+ENSG00000169116	Mm Hs	PARM1	GABAergic neurons	DKFZP564O0823|Cipar1|WSC4	0.02	prostate androgen-regulated mucin-like protein 1	protein-coding gene	1	Ectoderm	Brain	0	0.125	0.018797	0.0207544
+ENSG00000144355	Mm Hs	DLX1	GABAergic neurons	NA	0.036	distal-less homeobox 1	protein-coding gene	1	Ectoderm	Brain	0	0.375	0	0.0447215
+ENSG00000104888	Mm Hs	SLC17A7	Glutaminergic neurons	BNPI|VGLUT1	0.012	solute carrier family 17 member 7	protein-coding gene	1	Ectoderm	Brain	0	0	0	0.0138719
+ENSG00000091664	Mm Hs	SLC17A6	Glutaminergic neurons	DNPI|VGLUT2	0.016	solute carrier family 17 member 6	protein-coding gene	1	Ectoderm	Brain	0	0	0.000313283	0.0201015
+ENSG00000176884	Mm Hs	GRIN1	Glutaminergic neurons	GluN1|NMDAR1	0.016	glutamate ionotropic receptor NMDA type subunit 1	protein-coding gene	NA	Ectoderm	Brain	0	0	0.00125313	0.0203584
+ENSG00000273079	Mm Hs	GRIN2B	Glutaminergic neurons	GluN2B|NMDAR2B	0.076	glutamate ionotropic receptor NMDA type subunit 2B	protein-coding gene	NA	Ectoderm	Brain	0	0	0.00501253	0.0947274
+ENSG00000115419	Mm Hs	GLS	Glutaminergic neurons	KIAA0838|GLS1	0.061	glutaminase	protein-coding gene	NA	Ectoderm	Brain	0	0	0.0197368	0.0723781
+ENSG00000179520	Mm Hs	SLC17A8	Glutaminergic neurons	VGLUT3|DFNA25	0.001	solute carrier family 17 member 8	protein-coding gene	1	Ectoderm	Brain	0	0	0	0.000834885
+ENSG00000106688	Mm Hs	SLC1A1	Glutaminergic neurons	EAAC1|EAAT3	0.013	solute carrier family 1 member 1	protein-coding gene	1	Ectoderm	Brain	0	0	0.00156642	0.0161197
+ENSG00000110436	Mm Hs	SLC1A2	Glutaminergic neurons	GLT-1|EAAT2	0.071	solute carrier family 1 member 2	protein-coding gene	1	Ectoderm	Brain	0	0	0.0106516	0.0871492
+ENSG00000105143	Mm Hs	SLC1A6	Glutaminergic neurons	EAAT4	0.003	solute carrier family 1 member 6	protein-coding gene	1	Ectoderm	Brain	0	0	0.00313283	0.00295421
+ENSG00000196517	Mm Hs	SLC6A9	Glycinergic neurons	NA	0.001	solute carrier family 6 member 9	protein-coding gene	1	Ectoderm	Brain	0	0	0	0.000899107
+ENSG00000101438	Mm Hs	SLC32A1	Glycinergic neurons	VGAT|bA122O1.1|VIAAT	0.026	solute carrier family 32 member 1	protein-coding gene	1	Ectoderm	Brain	0	0	0.00156642	0.0322394
+ENSG00000007372	Mm Hs	PAX6	Immature neurons	D11S812E|AN2	0.049	paired box 6	protein-coding gene	1	Ectoderm	Brain	0	0	0.014411	0.0590238
+ENSG00000186472	Mm Hs	PCLO	Immature neurons	KIAA0559|DKFZp779G1236|ACZ	0.039	piccolo presynaptic cytomatrix protein	protein-coding gene	1	Ectoderm	Brain	0	0	0.00501253	0.0456005
+ENSG00000111249	Mm Hs	CUX2	Immature neurons	KIAA0293|CDP2|CUTL2	0.024	cut like homeobox 2	protein-coding gene	1	Ectoderm	Brain	0	0	0	0.0302505
+ENSG00000124140	Mm Hs	SLC12A5	Immature neurons	KIAA1176|KCC2	0.048	solute carrier family 12 member 5	protein-coding gene	1	Ectoderm	Brain	0	0	0.0037594	0.0583173
+ENSG00000115138	Mm Hs	POMC	Immature neurons	POC|ACTH|NPP|LPH	0.008	proopiomelanocortin	protein-coding gene	1	Ectoderm	Brain	0	0	0.0238095	0.00500963
+ENSG00000109689	Mm Hs	STIM2	Immature neurons	NA	0.036	stromal interaction molecule 2	protein-coding gene	1	Ectoderm	Brain	0	0	0.0131579	0.0418754
+ENSG00000134438	Mm Hs	RAX	Immature neurons	RX	0.006	retina and anterior neural fold homeobox	protein-coding gene	1	Ectoderm	Brain	0	0	0	0
+ENSG00000166266	Mm Hs	CUL5	Immature neurons	VACM-1	0.057	cullin 5	protein-coding gene	1	Ectoderm	Brain	0	0	0.0291353	0.0617213
+ENSG00000010818	Mm Hs	HIVEP2	Immature neurons	MBP-2|HIV-EP2|MIBP1|ZAS2|Schnurri-2|ZNF40B	0.055	human immunodeficiency virus type I enhancer binding protein 2	protein-coding gene	1	Ectoderm	Brain	0	1	0.00250627	0.068465
+ENSG00000172461	Mm Hs	FUT9	Immature neurons	Fuc-TIX	0.039	fucosyltransferase 9	protein-coding gene	1	Ectoderm	Brain	0	1	0.0018797	0.0480411
+ENSG00000136535	Mm Hs	TBR1	Immature neurons	NA	0.018	"T-box, brain 1"	protein-coding gene	1	Ectoderm	Brain	0	1	0.00125313	0.0220938
+ENSG00000117707	Mm Hs	PROX1	Immature neurons	NA	0.028	prospero homeobox 1	protein-coding gene	1	Ectoderm	Brain	0	1	0.0109649	0.0324342
+ENSG00000140538	Mm Hs	NTRK3	Immature neurons	TRKC	0.044	neurotrophic receptor tyrosine kinase 3	protein-coding gene	1	Ectoderm	Brain	0	1	0.00908521	0.0531792
+ENSG00000108830	Mm Hs	RND2	Immature neurons	Rho7|RhoN|ARHN	0.044	Rho family GTPase 2	protein-coding gene	1	Ectoderm	Brain	0	1	0.0213033	0.0503532
+ENSG00000153266	Mm Hs	FEZF2	Immature neurons	FLJ10142|FKSG36|TOF|FEZL|Zfp312|ZNF312	0.008	FEZ family zinc finger 2	protein-coding gene	1	Ectoderm	Brain	0	0	0.00093985	0.00976236
+ENSG00000134532	Mm Hs	SOX5	Immature neurons	L-SOX5|MGC35153	0.009	SRY-box 5	protein-coding gene	1	Ectoderm	Brain	0	0	0.0203634	0.007386
+ENSG00000169855	Mm Hs	ROBO1	Immature neurons	DUTT1|FLJ21882|SAX3	0.006	roundabout guidance receptor 1	protein-coding gene	1	Ectoderm	Brain	0	1	0.00657895	0.0059088
+ENSG00000135333	Mm Hs	EPHA7	Immature neurons	Hek11	0.008	EPH receptor A7	protein-coding gene	0	Ectoderm	Brain	0	1	0.00845865	0.00828516
+ENSG00000044524	Mm Hs	EPHA3	Immature neurons	HEK|HEK4|ETK1	0.018	EPH receptor A3	protein-coding gene	1	Ectoderm	Brain	0	0	0.000626566	0.0229929
+ENSG00000230797	Mm Hs	YY2	Immature neurons	ZNF631	0.001	YY2 transcription factor	protein-coding gene	1	Ectoderm	Brain	0	0	0.00344612	0
+ENSG00000106688	Mm Hs	SLC1A1	Immature neurons	EAAC1|EAAT3	0.013	solute carrier family 1 member 1	protein-coding gene	1	Ectoderm	Brain	0	0	0.00156642	0.0161207
+ENSG00000074181	Mm Hs	NOTCH3	Immature neurons	CASIL|CADASIL	0.02	notch 3	protein-coding gene	1	Ectoderm	Brain	0	0	0.014411	0.0220938
+ENSG00000148400	Mm Hs	NOTCH1	Immature neurons	TAN1	0.007	notch 1	protein-coding gene	1	Ectoderm	Brain	0	0	0.00469925	0.0076429
+ENSG00000106852	Mm Hs	LHX6	Immature neurons	LHX6.1	0.011	LIM homeobox 6	protein-coding gene	1	Ectoderm	Brain	0	0	0.00438596	0.013359
+ENSG00000132688	Mm Hs	NES	Immature neurons	FLJ21841	0.048	nestin	protein-coding gene	1	Ectoderm	Brain	0	0	0.0510652	0.0441875
+ENSG00000167281	Mm Hs	RBFOX3	Immature neurons	FOX-3|NeuN|HRNBP3	0.04	RNA binding fox-1 homolog 3	protein-coding gene	1	Ectoderm	Brain	0	1	0.0109649	0.0484265
+ENSG00000118260	Mm Hs	CREB1	Immature neurons	NA	0.016	cAMP responsive element binding protein 1	protein-coding gene	1	Ectoderm	Brain	0	0	0.0413534	0.00976236
+ENSG00000162992	Mm Hs	NEUROD1	Immature neurons	BETA2|BHF-1|NeuroD|bHLHa3|MODY6|NEUROD	0.038	neuronal differentiation 1	protein-coding gene	1	Ectoderm	Brain	0	1	0.023183	0.0429672
+ENSG00000139352	Mm Hs	ASCL1	Immature neurons	HASH1|bHLHa46	0.007	achaete-scute family bHLH transcription factor 1	protein-coding gene	1	Ectoderm	Brain	0	0	0.00532581	0.00725755
+ENSG00000198400	Mm Hs	NTRK1	Immature neurons	TRKA|MTC	0.004	neurotrophic receptor tyrosine kinase 1	protein-coding gene	1	Ectoderm	Brain	0	0	0	0.00475273
+ENSG00000008056	Mm Hs	SYN1	Immature neurons	NA	0.028	synapsin I	protein-coding gene	1	Ectoderm	Brain	0	1	0.000626566	0.034939
+ENSG00000196712	Mm Hs	NF1	Immature neurons	NA	0.029	neurofibromin 1	protein-coding gene	1	Ectoderm	Brain	0	0	0.0350877	0.0285806
+ENSG00000171791	Mm Hs	BCL2	Immature neurons	Bcl-2|PPP1R50	0.043	"BCL2, apoptosis regulator"	protein-coding gene	1	Ectoderm	Brain	0	0	0.00156642	0.051702
+ENSG00000186564	Mm Hs	FOXD2	Immature neurons	FREAC9|FKHL17	0.001	forkhead box D2	protein-coding gene	1	Ectoderm	Brain	0	0	0.00250627	0.000770713
+ENSG00000105376	Mm Hs	ICAM5	Immature neurons	TLCN	0.006	intercellular adhesion molecule 5	protein-coding gene	1	Ectoderm	Brain	0	0	0	0.007386
+ENSG00000180616	Mm Hs	SSTR2	Immature neurons	NA	0.028	somatostatin receptor 2	protein-coding gene	1	Ectoderm	Brain	0	1	0.0115915	0.0299294
+ENSG00000178403	Mm Hs	NEUROG2	Immature neurons	Atoh4|Math4A|ngn-2|bHLHa8|NGN2	0.016	neurogenin 2	protein-coding gene	1	Ectoderm	Brain	0	0	0.00093985	0.0203597
+ENSG00000104327	Mm Hs	CALB1	Interneurons	CALB	0.019	calbindin 1	protein-coding gene	1	Ectoderm	Brain	0	0.144385	0.00125313	0.0221009
+ENSG00000187094	Mm Hs	CCK	Interneurons	NA	0.033	cholecystokinin	protein-coding gene	1	Ectoderm	Brain	0	0.737968	0.00344612	0.0300312
+ENSG00000070748	Mm Hs	CHAT	Interneurons	NA	0.001	choline O-acetyltransferase	protein-coding gene	1	Ectoderm	Brain	0	0	0	0.00162506
+ENSG00000119614	Mm Hs	VSX2	Interneurons	RET1|HOX10|CHX10	0.004	visual system homeobox 2	protein-coding gene	1	Ectoderm	Brain	0	0	0	0.0049402
+ENSG00000163064	Mm Hs	EN1	Interneurons	NA	0.003	engrailed homeobox 1	protein-coding gene	1	Ectoderm	Brain	0	0	0	0.00377015
+ENSG00000006468	Mm Hs	ETV1	Interneurons	ER81	0.037	ETS variant 1	protein-coding gene	1	Ectoderm	Brain	0	0.128342	0.00814536	0.0440718
+ENSG00000128683	Mm Hs	GAD1	Interneurons	GAD	0.03	glutamate decarboxylase 1	protein-coding gene	1	Ectoderm	Brain	0	0.149733	0.00344612	0.0359464
+ENSG00000016082	Mm Hs	ISL1	Interneurons	Isl-1|ISLET1	0.028	ISL LIM homeobox 1	protein-coding gene	1	Ectoderm	Brain	0	0.0534759	0.0134712	0.0311362
+ENSG00000132130	Mm Hs	LHX1	Interneurons	LIM-1	0.011	LIM homeobox 1	protein-coding gene	1	Ectoderm	Brain	0	0	0.00657895	0.0127405
+ENSG00000089116	Mm Hs	LHX5	Interneurons	NA	0.01	LIM homeobox 5	protein-coding gene	1	Ectoderm	Brain	0	0	0.00219298	0.0122205
+ENSG00000107187	Mm Hs	LHX3	Interneurons	NA	0.001	LIM homeobox 3	protein-coding gene	1	Ectoderm	Brain	0	0	0	0.000845034
+ENSG00000106852	Mm Hs	LHX6	Interneurons	LHX6.1	0.011	LIM homeobox 6	protein-coding gene	1	Ectoderm	Brain	0	0.0213904	0.00438596	0.0132605
+ENSG00000152822	Mm Hs	GRM1	Interneurons	GPRC1A|mGlu1|MGLUR1|PPP1R85	0.004	glutamate metabotropic receptor 1	protein-coding gene	1	Ectoderm	Brain	0	0.139037	0	0.00338014
+ENSG00000122585	Mm Hs	NPY	Interneurons	PYY4	0.015	neuropeptide Y	protein-coding gene	1	Ectoderm	Brain	0	0.0427807	0.0056391	0.0167707
+ENSG00000105464	Mm Hs	GRIN2D	Interneurons	GluN2D|EB11|NR2D|NMDAR2D	0.002	glutamate ionotropic receptor NMDA type subunit 2D	protein-coding gene	1	Ectoderm	Brain	0	0.0160428	0	0.00182007
+ENSG00000089250	Mm Hs	NOS1	Interneurons	nNOS	0.004	nitric oxide synthase 1	protein-coding gene	1	Ectoderm	Brain	0	0.0213904	0	0.00383515
+ENSG00000100362	Mm Hs	PVALB	Interneurons	D22S749	0.005	parvalbumin	protein-coding gene	1	Ectoderm	Brain	0	0.0320856	0.00344612	0.00552522
+ENSG00000075891	Mm Hs	PAX2	Interneurons	NA	0.002	paired box 2	protein-coding gene	1	Ectoderm	Brain	0	0	0.00344612	0.00169007
+ENSG00000157005	Mm Hs	SST	Interneurons	SMST	0.027	somatostatin	protein-coding gene	1	Ectoderm	Brain	0	0.0374332	0.047619	0.0237259
+ENSG00000115353	Mm Hs	TACR1	Interneurons	SPR|NK1R|TAC1R	0.001	tachykinin receptor 1	protein-coding gene	1	Ectoderm	Brain	0	0.0106952	0	0.00104004
+ENSG00000146469	Mm Hs	VIP	Interneurons	NA	0.003	vasoactive intestinal peptide	protein-coding gene	1	Ectoderm	Brain	0	0.0106952	0	0.0024701
+ENSG00000120088	Mm Hs	CRHR1	Interneurons	CRF-R|CRF1|CRHR	0.002	corticotropin releasing hormone receptor 1	protein-coding gene	1	Ectoderm	Brain	0	0.026738	0	0.00175507
+ENSG00000124507	Mm Hs	PACSIN1	Interneurons	SDPI	0.04	protein kinase C and casein kinase substrate in neurons 1	protein-coding gene	NA	Ectoderm	Brain	0	0.550802	0	0.0439418
+ENSG00000008056	Mm Hs	SYN1	Interneurons	NA	0.028	synapsin I	protein-coding gene	NA	Ectoderm	Brain	0	0.545455	0.000626566	0.0287962
+ENSG00000114279	Mm Hs	FGF12	Interneurons	FHF1|FGF12B	0.014	fibroblast growth factor 12	protein-coding gene	NA	Ectoderm	Brain	0	0.160428	0.00438596	0.0154056
+ENSG00000122584	Mm Hs	NXPH1	Interneurons	NA	0.022	neurexophilin 1	protein-coding gene	1	Ectoderm	Brain	0	0.0748663	0.000313283	0.0271711
+ENSG00000011347	Mm Hs	SYT7	Interneurons	IPCA-7|SYT-VII|MGC150517|PCANAP7	0.024	synaptotagmin 7	protein-coding gene	NA	Ectoderm	Brain	0	0.71123	0.00626566	0.0200858
+ENSG00000151490	Mm Hs	PTPRO	Interneurons	PTPU2|GLEPP1|PTP-U2|PTP-oc|NPHS6	0.011	"protein tyrosine phosphatase, receptor type O"	protein-coding gene	1	Ectoderm	Brain	0	0.0695187	0.0075188	0.0115055
+ENSG00000170579	Mm Hs	DLGAP1	Interneurons	GKAP|SAPAP1|DAP-1	0.036	DLG associated protein 1	protein-coding gene	NA	Ectoderm	Brain	0	0.764706	0.00219298	0.0359464
+ENSG00000168243	Mm Hs	GNG4	Interneurons	NA	0.013	G protein subunit gamma 4	protein-coding gene	NA	Ectoderm	Brain	0	0.0748663	0.0175439	0.0110504
+ENSG00000173805	Mm Hs	HAP1	Interneurons	hHLP1|HIP5	0.041	huntingtin associated protein 1	protein-coding gene	NA	Ectoderm	Brain	0	0.144385	0.000626566	0.049922
+ENSG00000234965	Mm Hs	SHISA8	Interneurons	Orf26|C22orf17	0.004	shisa family member 8	protein-coding gene	NA	Ectoderm	Brain	0	0.0481283	0	0.00513521
+ENSG00000183570	Mm Hs	PCBP3	Interneurons	FLJ44028|PCBP3-OT1|PCBP3OT	0.02	poly(rC) binding protein 3	protein-coding gene	NA	Ectoderm	Brain	0	0.0855615	0.00250627	0.023791
+ENSG00000183044	Mm Hs	ABAT	Interneurons	GABAT	0.032	4-aminobutyrate aminotransferase	protein-coding gene	NA	Ectoderm	Brain	0	0.213904	0.00344612	0.0365315
+ENSG00000248485	Mm Hs	PCP4L1	Interneurons	IQM1	0.044	Purkinje cell protein 4 like 1	protein-coding gene	NA	Ectoderm	Brain	0	0.144385	0	0.0542772
+ENSG00000069482	Mm Hs	GAL	Interneurons	GMAP|GAL-GMAP|GLNN|GALN	0.014	galanin and GMAP prepropeptide	protein-coding gene	NA	Ectoderm	Brain	0	0.026738	0.0184837	0.0110504
+ENSG00000180176	Mm Hs	TH	Interneurons	DYT5b	0.002	tyrosine hydroxylase	protein-coding gene	NA	Ectoderm	Brain	0	0.0427807	0.0018797	0.00195008
+ENSG00000163630	Mm Hs	SYNPR	Interneurons	MGC26651	0.022	synaptoporin	protein-coding gene	NA	Ectoderm	Brain	0	0.0748663	0.00093985	0.0270411
+ENSG00000170893	Mm Hs	TRH	Interneurons	NA	0.002	thyrotropin releasing hormone	protein-coding gene	NA	Ectoderm	Brain	0	0.0427807	0	0.00208008
+ENSG00000155897	Mm Hs	ADCY8	Interneurons	HBAC1|AC8|ADCY3	0.001	adenylate cyclase 8	protein-coding gene	NA	Ectoderm	Brain	0	0.0320856	0	0.000390016
+ENSG00000118523	Mm Hs	CTGF	Interneurons	IGFBP8|CCN2	0.028	connective tissue growth factor	protein-coding gene	NA	Ectoderm	Brain	0	0.0160428	0.0996241	0.0124155
+ENSG00000165521	Mm Hs	EML5	Interneurons	HuEMAP-2	0.01	echinoderm microtubule associated protein like 5	protein-coding gene	NA	Ectoderm	Brain	0	0.0160428	0	0.0120255
+ENSG00000186318	Mm Hs	BACE1	Interneurons	BACE	0.022	beta-secretase 1	protein-coding gene	NA	Ectoderm	Brain	0	0.0588235	0.0037594	0.025611
+ENSG00000166862	Mm Hs	CACNG2	Interneurons	stargazin|MGC138502|MGC138504	0.014	calcium voltage-gated channel auxiliary subunit gamma 2	protein-coding gene	NA	Ectoderm	Brain	0	0.219251	0	0.0152106
+ENSG00000123684	Mm Hs	LPGAT1	Interneurons	KIAA0205|FAM34A1|NET8|FAM34A	0.043	lysophosphatidylglycerol acyltransferase 1	protein-coding gene	NA	Ectoderm	Brain	0	0.390374	0.0222431	0.0442668
+ENSG00000090971	Mm Hs	NAT14	Interneurons	KLP1	0.015	N-acetyltransferase 14 (putative)	protein-coding gene	NA	Ectoderm	Brain	0	0.262032	0.00657895	0.0133255
+ENSG00000124140	Mm Hs	SLC12A5	Interneurons	KIAA1176|KCC2	0.048	solute carrier family 12 member 5	protein-coding gene	NA	Ectoderm	Brain	0	0.695187	0.0037594	0.050572
+ENSG00000155792	Mm Hs	DEPTOR	Interneurons	DEP.6|FLJ12428|DEPDC6	0.012	DEP domain containing MTOR interacting protein	protein-coding gene	NA	Ectoderm	Brain	0	0.0481283	0.00281955	0.0135855
+ENSG00000163393	Mm Hs	SLC22A15	Interneurons	FLIPT1	0.017	solute carrier family 22 member 15	protein-coding gene	NA	Ectoderm	Brain	0	0.128342	0	0.0199558
+ENSG00000065989	Mm Hs	PDE4A	Interneurons	DPDE2	0.013	phosphodiesterase 4A	protein-coding gene	NA	Ectoderm	Brain	0	0.219251	0.00125313	0.0134555
+ENSG00000075539	Mm Hs	FRYL	Interneurons	DKFZp686E205|AF4p12|MOR2|KIAA0826	0.03	FRY like transcription coactivator	protein-coding gene	NA	Ectoderm	Brain	0	0.0748663	0.0291353	0.0304862
+ENSG00000100505	Mm Hs	TRIM9	Interneurons	SPRING|RNF91	0.023	tripartite motif containing 9	protein-coding gene	NA	Ectoderm	Brain	0	0.411765	0.00093985	0.0236609
+ENSG00000129159	Mm Hs	KCNC1	Interneurons	Kv3.1	0.03	potassium voltage-gated channel subfamily C member 1	protein-coding gene	NA	Ectoderm	Brain	0	0.224599	0.000313283	0.0356864
+ENSG00000169213	Mm Hs	RAB3B	Interneurons	NA	0.023	"RAB3B, member RAS oncogene family"	protein-coding gene	NA	Ectoderm	Brain	0	0.128342	0.0191103	0.0225559
+ENSG00000059758	Mm Hs	CDK17	Interneurons	PCTAIRE2|PCTK2	0.023	cyclin dependent kinase 17	protein-coding gene	NA	Ectoderm	Brain	0	0.235294	0.0128446	0.023791
+ENSG00000091844	Mm Hs	RGS17	Interneurons	RGSZ2|RGS-17	0.031	regulator of G protein signaling 17	protein-coding gene	NA	Ectoderm	Brain	0	0.171123	0.0037594	0.0356864
+ENSG00000114770	Mm Hs	ABCC5	Interneurons	MRP5|SMRP|EST277145|MOAT-C	0.044	ATP binding cassette subfamily C member 5	protein-coding gene	NA	Ectoderm	Brain	0	0.171123	0.00438596	0.0525221
+ENSG00000167964	Mm Hs	RAB26	Interneurons	NA	0.002	"RAB26, member RAS oncogene family"	protein-coding gene	NA	Ectoderm	Brain	0	0.0374332	0.00532581	0.000650026
+ENSG00000147852	Mm Hs	VLDLR	Interneurons	CARMQ1|CHRMQ1|VLDLRCH	0.025	very low density lipoprotein receptor	protein-coding gene	NA	Ectoderm	Brain	0	0.0588235	0.0037594	0.0305512
+ENSG00000105605	Mm Hs	CACNG7	Interneurons	NA	0.002	calcium voltage-gated channel auxiliary subunit gamma 7	protein-coding gene	NA	Ectoderm	Brain	0	0.0802139	0	0.00214509
+ENSG00000257704	Mm Hs	INAFM1	Interneurons	PRR24	0.021	InaF motif containing 1	protein-coding gene	NA	Ectoderm	Brain	0	0.0534759	0.0162907	0.0212559
+ENSG00000078725	Mm Hs	BRINP1	Interneurons	FAM5A|DBCCR1	0.013	BMP/retinoic acid inducible neural specific 1	protein-coding gene	NA	Ectoderm	Brain	0	0.459893	0.000313283	0.0115705
+ENSG00000139200	Mm Hs	PIANP	Interneurons	DKFZp547D2210|PANP|C12orf53	0.023	PILR alpha associated neural protein	protein-coding gene	NA	Ectoderm	Brain	0	0.395722	0	0.024441
+ENSG00000168993	Mm Hs	CPLX1	Interneurons	CPX-I	0.026	complexin 1	protein-coding gene	NA	Ectoderm	Brain	0	0.433155	0	0.0276911
+ENSG00000188803	Mm Hs	SHISA6	Interneurons	FLJ45455	0.002	shisa family member 6	protein-coding gene	NA	Ectoderm	Brain	0	0.0481283	0	0.00143006
+ENSG00000152578	Mm Hs	GRIA4	Interneurons	GluA4|GLURD|GLUR4	0.014	glutamate ionotropic receptor AMPA type subunit 4	protein-coding gene	NA	Ectoderm	Brain	0	0.0641711	0.00344612	0.0159906
+ENSG00000125841	Mm Hs	NRSN2	Interneurons	dJ1103G7.6|C20orf98	0.032	neurensin 2	protein-coding gene	NA	Ectoderm	Brain	0	0.208556	0.000626566	0.0374415
+ENSG00000148600	Mm Hs	CDHR1	Interneurons	KIAA1775|CORD15|RP65|PCDH21	0.003	cadherin related family member 1	protein-coding gene	NA	Ectoderm	Brain	0	0.0748663	0	0.00279511
+ENSG00000159842	Mm Hs	ABR	Interneurons	MDB	0.031	"ABR, RhoGEF and GTPase activating protein"	protein-coding gene	NA	Ectoderm	Brain	0	0.518717	0.000626566	0.0322413
+ENSG00000124785	Mm Hs	NRN1	Interneurons	NRN	0.021	neuritin 1	protein-coding gene	NA	Ectoderm	Brain	0	0.540107	0.0100251	0.0167707
+ENSG00000010818	Mm Hs	HIVEP2	Interneurons	MBP-2|HIV-EP2|MIBP1|ZAS2|Schnurri-2|ZNF40B	0.055	human immunodeficiency virus type I enhancer binding protein 2	protein-coding gene	NA	Ectoderm	Brain	0	0.491979	0.00250627	0.0633775
+ENSG00000182379	Mm Hs	NXPH4	Interneurons	NPH4	0.003	neurexophilin 4	protein-coding gene	NA	Ectoderm	Brain	0	0.0320856	0.00156642	0.0025351
+ENSG00000179242	Mm Hs	CDH4	Interneurons	NA	0.017	cadherin 4	protein-coding gene	NA	Ectoderm	Brain	0	0.0534759	0.000313283	0.0200208
+ENSG00000175264	Mm Hs	CHST1	Interneurons	KSGal6ST	0.032	carbohydrate sulfotransferase 1	protein-coding gene	NA	Ectoderm	Brain	0	0.57754	0.0131579	0.0311362
+ENSG00000237515	Mm Hs	SHISA9	Interneurons	NA	0.004	shisa family member 9	protein-coding gene	NA	Ectoderm	Brain	0	0.139037	0.000313283	0.00338014
+ENSG00000163508	Mm Hs	EOMES	Interneurons	TBR2	0.021	eomesodermin	protein-coding gene	NA	Ectoderm	Brain	0	0.0427807	0.00219298	0.025936
+ENSG00000197696	Mm Hs	NMB	Interneurons	MGC2277|MGC3936|MGC17211	0.013	neuromedin B	protein-coding gene	NA	Ectoderm	Brain	0	0.0588235	0.0256892	0.00734529
+ENSG00000206401	Mm Hs	LY6G6E	Interneurons	G6e|C6orf22	0.002	lymphocyte antigen 6 family member G6E	other	NA	Ectoderm	Brain	0	0.026738	0	0.0024051
+ENSG00000183166	Mm Hs	CALN1	Interneurons	CABP8	0.018	calneuron 1	protein-coding gene	NA	Ectoderm	Brain	0	0.459893	0.000313283	0.0169007
+ENSG00000147044	Mm Hs	CASK	Interneurons	LIN2|CAGH39|FGS4|TNRC8	0.043	calcium/calmodulin dependent serine protein kinase	protein-coding gene	NA	Ectoderm	Brain	0	0.395722	0.00219298	0.049662
+ENSG00000198216	Mm Hs	CACNA1E	Interneurons	Cav2.3|BII|CACH6|CACNL1A6	0.023	calcium voltage-gated channel subunit alpha1 E	protein-coding gene	NA	Ectoderm	Brain	0	0.454545	0.0018797	0.0228159
+ENSG00000157470	Mm Hs	FAM81A	Interneurons	MGC26690	0.028	family with sequence similarity 81 member A	protein-coding gene	NA	Ectoderm	Brain	0	0.55615	0	0.0292512
+ENSG00000164076	Mm Hs	CAMKV	Interneurons	MGC8407|VACAMKL	0.024	CaM kinase like vesicle associated	protein-coding gene	NA	Ectoderm	Brain	0	0.540107	0.00313283	0.0232059
+ENSG00000107863	Mm Hs	ARHGAP21	Interneurons	KIAA1424|ARHGAP10	0.019	Rho GTPase activating protein 21	protein-coding gene	NA	Ectoderm	Brain	0	0.0320856	0.0134712	0.0205408
+ENSG00000181418	Mm Hs	DDN	Interneurons	KIAA0749	0.007	dendrin	protein-coding gene	NA	Ectoderm	Brain	0	0.320856	0.00125313	0.00468019
+ENSG00000185518	Mm Hs	SV2B	Interneurons	KIAA0735|HsT19680	0.009	synaptic vesicle glycoprotein 2B	protein-coding gene	NA	Ectoderm	Brain	0	0.502674	0.000626566	0.00559022
+ENSG00000260230	Mm Hs	FRRS1L	Interneurons	CG-6|C9orf4	0.028	ferric chelate reductase 1 like	protein-coding gene	NA	Ectoderm	Brain	0	0.68984	0.00125313	0.025936
+ENSG00000068366	Mm Hs	ACSL4	Interneurons	ACS4|LACS4|FACL4|MRX63|MRX68	0.035	acyl-CoA synthetase long chain family member 4	protein-coding gene	NA	Ectoderm	Brain	0	0.160428	0.016604	0.0384165
+ENSG00000152495	Mm Hs	CAMK4	Interneurons	CaMK-GR	0.027	calcium/calmodulin dependent protein kinase IV	protein-coding gene	NA	Ectoderm	Brain	0	0.561497	0.0325815	0.0197608
+ENSG00000221890	Mm Hs	NPTXR	Interneurons	NA	0.02	neuronal pentraxin receptor	protein-coding gene	NA	Ectoderm	Brain	0	0.42246	0	0.0200208
+ENSG00000169783	Mm Hs	LINGO1	Interneurons	FLJ14594|LERN1|LRRN6A	0.019	leucine rich repeat and Ig domain containing 1	protein-coding gene	NA	Ectoderm	Brain	0	0.588235	0.0018797	0.0166407
+ENSG00000116983	Mm Hs	HPCAL4	Interneurons	HLP4|DKFZp761G122	0.013	hippocalcin like 4	protein-coding gene	NA	Ectoderm	Brain	0	0.417112	0.00093985	0.0110504
+ENSG00000048540	Mm Hs	LMO3	Interneurons	Rhom-3|RBTNL2	0.01	LIM domain only 3	protein-coding gene	NA	Ectoderm	Brain	0	0.229947	0.00720551	0.00806032
+ENSG00000150551	Mm Hs	LYPD1	Interneurons	MGC29643|LYPDC1	0.005	LY6/PLAUR domain containing 1	protein-coding gene	NA	Ectoderm	Brain	0	0.0909091	0.0100251	0.00286011
+ENSG00000128656	Mm Hs	CHN1	Interneurons	ARHGAP2|n-chimerin|DURS2	0.035	chimerin 1	protein-coding gene	NA	Ectoderm	Brain	0	0.582888	0.0328947	0.0289262
+ENSG00000154146	Mm Hs	NRGN	Interneurons	NA	0.031	neurogranin	protein-coding gene	NA	Ectoderm	Brain	0	0.491979	0.0109649	0.0289912
+ENSG00000104888	Mm Hs	SLC17A7	Interneurons	BNPI|VGLUT1	0.012	solute carrier family 17 member 7	protein-coding gene	NA	Ectoderm	Brain	0	0.604278	0	0.00669527
+ENSG00000070808	Mm Hs	CAMK2A	Interneurons	KIAA0968|CAMKA	0.026	calcium/calmodulin dependent protein kinase II alpha	protein-coding gene	NA	Ectoderm	Brain	0	0.663102	0	0.024116
+ENSG00000166501	Mm Hs	PRKCB	Interneurons	PRKCB2|PKCB|PRKCB1	0.046	protein kinase C beta	protein-coding gene	NA	Ectoderm	Brain	0	0.593583	0.0294486	0.0426417
+ENSG00000104490	Mm Hs	NCALD	Interneurons	NA	0.035	neurocalcin delta	protein-coding gene	NA	Ectoderm	Brain	0	0.55615	0.00125313	0.0376365
+ENSG00000139998	Mm Hs	RAB15	Interneurons	NA	0.019	"RAB15, member RAS oncogene family"	protein-coding gene	NA	Ectoderm	Brain	0	0.299465	0	0.0208658
+ENSG00000072803	Mm Hs	FBXW11	Interneurons	KIAA0696|Fbw1b|BTRCP2|BTRC2|Hos|Fbw11|FBXW1B	0.017	F-box and WD repeat domain containing 11	protein-coding gene	NA	Ectoderm	Brain	0	0.0588235	0.0100251	0.0182007
+ENSG00000164742	Mm Hs	ADCY1	Interneurons	AC1|DFNB44	0.017	adenylate cyclase 1	protein-coding gene	NA	Ectoderm	Brain	0	0.470588	0.00125313	0.0148206
+ENSG00000138081	Mm Hs	FBXO11	Interneurons	FBX11|UBR6	0.013	F-box protein 11	protein-coding gene	NA	Ectoderm	Brain	0	0.0534759	0.000626566	0.0162506
+ENSG00000117154	Mm Hs	IGSF21	Interneurons	MGC15730|RP11-121A23.1	0.004	immunoglobin superfamily member 21	protein-coding gene	NA	Ectoderm	Brain	0	0.0748663	0.000626566	0.00370515
+ENSG00000196220	Mm Hs	SRGAP3	Interneurons	KIAA0411|MEGAP|WRP|ARHGAP14|SRGAP2	0.018	SLIT-ROBO Rho GTPase activating protein 3	protein-coding gene	NA	Ectoderm	Brain	0	0.176471	0.0100251	0.0190458
+ENSG00000162631	Mm Hs	NTNG1	Interneurons	KIAA0976|Lmnt1	0.015	netrin G1	protein-coding gene	NA	Ectoderm	Brain	0	0.28877	0.00407268	0.0146256
+ENSG00000198934	Mm Hs	MAGEE1	Interneurons	KIAA1587|DAMAGE	0.021	MAGE family member E1	protein-coding gene	NA	Ectoderm	Brain	0	0.160428	0	0.024246
+ENSG00000085365	Mm Hs	SCAMP1	Interneurons	SCAMP37	0.041	secretory carrier membrane protein 1	protein-coding gene	NA	Ectoderm	Brain	0	0.465241	0.0134712	0.0430317
+ENSG00000156011	Mm Hs	PSD3	Interneurons	KIAA0942|HCA67|EFA6R|DKFZp761K1423|EFA6D	0.022	pleckstrin and Sec7 domain containing 3	protein-coding gene	NA	Ectoderm	Brain	0	0.518717	0.0244361	0.0158606
+ENSG00000069667	Mm Hs	RORA	Interneurons	RZRA|ROR1|ROR2|ROR3|NR1F1	0.045	RAR related orphan receptor A	protein-coding gene	NA	Ectoderm	Brain	0	0.272727	0.0140977	0.050637
+ENSG00000136485	Mm Hs	DCAF7	Interneurons	HAN11|SWAN-1|WDR68	0.05	DDB1 and CUL4 associated factor 7	protein-coding gene	NA	Ectoderm	Brain	0	0.101604	0.0980576	0.0348414
+ENSG00000128564	Mm Hs	VGF	Interneurons	SCG7|SgVII	0.021	VGF nerve growth factor inducible	protein-coding gene	NA	Ectoderm	Brain	0	0.197861	0.0125313	0.0191758
+ENSG00000176396	Mm Hs	EID2	Interneurons	EID-2|MGC20452|CRI2	0.004	EP300 interacting inhibitor of differentiation 2	protein-coding gene	NA	Ectoderm	Brain	0	0.0534759	0.0018797	0.00292512
+ENSG00000182175	Mm Hs	RGMA	Interneurons	RGM|RGMa	0.008	repulsive guidance molecule BMP co-receptor a	protein-coding gene	NA	Ectoderm	Brain	0	0.0374332	0.0203634	0.00468019
+ENSG00000170616	Mm Hs	SCRT1	Interneurons	DKFZp547F072|ZNF898	0.004	scratch family transcriptional repressor 1	protein-coding gene	NA	Ectoderm	Brain	0	0.0481283	0	0.00455018
+ENSG00000028277	Mm Hs	POU2F2	Interneurons	OTF2	0.034	POU class 2 homeobox 2	protein-coding gene	NA	Ectoderm	Brain	0	0.0427807	0.0191103	0.0362714
+ENSG00000172915	Mm Hs	NBEA	Interneurons	KIAA1544|BCL8B|FLJ10197|LYST2	0.032	neurobeachin	protein-coding gene	NA	Ectoderm	Brain	0	0.315508	0.00469925	0.0354264
+ENSG00000196935	Mm Hs	SRGAP1	Interneurons	KIAA1304|ARHGAP13	0.025	SLIT-ROBO Rho GTPase activating protein 1	protein-coding gene	NA	Ectoderm	Brain	0	0.0588235	0.0802005	0.0120255
+ENSG00000137478	Mm Hs	FCHSD2	Interneurons	KIAA0769|SH3MD3	0.003	FCH and double SH3 domains 2	protein-coding gene	NA	Ectoderm	Brain	0	0.0481283	0.00156642	0.0024051
+ENSG00000155380	Mm Hs	SLC16A1	Interneurons	NA	0.039	solute carrier family 16 member 1	protein-coding gene	NA	Ectoderm	Brain	0	0.0588235	0.0494987	0.0336063
+ENSG00000123643	Mm Hs	SLC36A1	Interneurons	LYAAT-1|TRAMD3	0.006	solute carrier family 36 member 1	protein-coding gene	NA	Ectoderm	Brain	0	0.0641711	0.00438596	0.00552522
+ENSG00000091664	Mm Hs	SLC17A6	Interneurons	DNPI|VGLUT2	0.016	solute carrier family 17 member 6	protein-coding gene	NA	Ectoderm	Brain	0	0.176471	0.000313283	0.0182007
+ENSG00000157985	Mm Hs	AGAP1	Interneurons	KIAA1099|GGAP1|CENTG2	0.024	"ArfGAP with GTPase domain, ankyrin repeat and PH domain 1"	protein-coding gene	NA	Ectoderm	Brain	0	0.0962567	0.0037594	0.0289262
+ENSG00000177108	Mm Hs	ZDHHC22	Interneurons	C14orf59	0.008	zinc finger DHHC-type containing 22	protein-coding gene	NA	Ectoderm	Brain	0	0.197861	0	0.00832033
+ENSG00000107897	Mm Hs	ACBD5	Interneurons	DKFZp434A2417|KIAA1996	0.02	acyl-CoA binding domain containing 5	protein-coding gene	NA	Ectoderm	Brain	0	0.0695187	0.0109649	0.0222309
+ENSG00000171885	Mm Hs	AQP4	Interneurons	MIWC	0.024	aquaporin 4	protein-coding gene	NA	Ectoderm	Brain	0	0.0534759	0.00595238	0.0291212
+ENSG00000152128	Mm Hs	TMEM163	Interneurons	DKFZP566N034|SV31	0.027	transmembrane protein 163	protein-coding gene	NA	Ectoderm	Brain	0	0.15508	0.000626566	0.0319163
+ENSG00000186908	Mm Hs	ZDHHC17	Interneurons	HIP14|HYPH|KIAA0946	0.01	zinc finger DHHC-type containing 17	protein-coding gene	NA	Ectoderm	Brain	0	0.117647	0.00125313	0.0107254
+ENSG00000174963	Mm Hs	ZIC4	Interneurons	NA	0.006	Zic family member 4	protein-coding gene	NA	Ectoderm	Brain	0	0.0534759	0.00156642	0.00617525
+ENSG00000104722	Mm Hs	NEFM	Interneurons	NFM|NF-M|NEF3	0.028	neurofilament medium	protein-coding gene	NA	Ectoderm	Brain	0	0.139037	0.0200501	0.0270411
+ENSG00000198910	Mm Hs	L1CAM	Interneurons	CD171|HSAS1|SPG1|HSAS|MIC5	0.018	L1 cell adhesion molecule	protein-coding gene	NA	Ectoderm	Brain	0	0.176471	0.00156642	0.0195008
+ENSG00000010404	Mm Hs	IDS	Interneurons	SIDS	0.039	iduronate 2-sulfatase	protein-coding gene	NA	Ectoderm	Brain	0	0.251337	0.0836466	0.026196
+ENSG00000197959	Mm Hs	DNM3	Interneurons	KIAA0820	0.043	dynamin 3	protein-coding gene	NA	Ectoderm	Brain	0	0.224599	0.00313283	0.0516121
+ENSG00000116675	Mm Hs	DNAJC6	Interneurons	KIAA0473|PARK19	0.018	DnaJ heat shock protein family (Hsp40) member C6	protein-coding gene	NA	Ectoderm	Brain	0	0.315508	0.00156642	0.0190458
+ENSG00000197177	Mm Hs	ADGRA1	Interneurons	KIAA1828|GPR123	0.008	adhesion G protein-coupled receptor A1	protein-coding gene	NA	Ectoderm	Brain	0	0.187166	0	0.00851534
+ENSG00000089091	Mm Hs	DZANK1	Interneurons	FLJ10600|dJ568F9.2|FLJ30892|bA189K21.8|ANKRD64|C20orf84|C20orf12	0.015	double zinc ribbon and ankyrin repeat domains 1	protein-coding gene	NA	Ectoderm	Brain	0	0.203209	0.000626566	0.0169007
+ENSG00000149575	Mm Hs	SCN2B	Interneurons	NA	0.035	sodium voltage-gated channel beta subunit 2	protein-coding gene	NA	Ectoderm	Brain	0	0.502674	0.000626566	0.0377665
+ENSG00000165868	Mm Hs	HSPA12A	Interneurons	FLJ13874|KIAA0417	0.013	heat shock protein family A (Hsp70) member 12A	protein-coding gene	NA	Ectoderm	Brain	0	0.240642	0	0.0130655
+ENSG00000019505	Mm Hs	SYT13	Interneurons	KIAA1427	0.029	synaptotagmin 13	protein-coding gene	NA	Ectoderm	Brain	0	0.470588	0.00689223	0.0293812
+ENSG00000122679	Mm Hs	RAMP3	Interneurons	NA	0.014	receptor activity modifying protein 3	protein-coding gene	NA	Ectoderm	Brain	0	0.117647	0.0147243	0.0125455
+ENSG00000180155	Mm Hs	LYNX1	Interneurons	SLURP2	0.019	Ly6/neurotoxin 1	protein-coding gene	NA	Ectoderm	Brain	0	0.502674	0	0.0181357
+ENSG00000177301	Mm Hs	KCNA2	Interneurons	Kv1.2	0.019	potassium voltage-gated channel subfamily A member 2	protein-coding gene	NA	Ectoderm	Brain	0	0.363636	0	0.0202808
+ENSG00000164830	Mm Hs	OXR1	Interneurons	TLDC3	0.046	oxidation resistance 1	protein-coding gene	NA	Ectoderm	Brain	0	0.379679	0.0451128	0.0438768
+ENSG00000140323	Mm Hs	DISP2	Interneurons	DISPB|KIAA1742|HsT16908|LINC00594|C15orf36	0.03	dispatched RND transporter family member 2	protein-coding gene	NA	Ectoderm	Brain	0	0.454545	0.000313283	0.0320463
+ENSG00000125851	Mm Hs	PCSK2	Interneurons	SPC2|NEC2	0.032	proprotein convertase subtilisin/kexin type 2	protein-coding gene	NA	Ectoderm	Brain	0	0.486631	0.0247494	0.0293812
+ENSG00000168779	Mm Hs	SHOX2	Interneurons	SHOT|OG12X|OG12	0.006	short stature homeobox 2	protein-coding gene	NA	Ectoderm	Brain	0	0.0962567	0.00344612	0.00552522
+ENSG00000196876	Mm Hs	SCN8A	Interneurons	Nav1.6|NaCh6|PN4|CerIII|CIAT	0.025	sodium voltage-gated channel alpha subunit 8	protein-coding gene	NA	Ectoderm	Brain	0	0.636364	0.000626566	0.0236609
+ENSG00000115977	Mm Hs	AAK1	Interneurons	KIAA1048|DKFZp686K16132	0.044	AP2 associated kinase 1	protein-coding gene	NA	Ectoderm	Brain	0	0.534759	0.0335213	0.0414717
+ENSG00000109158	Mm Hs	GABRA4	Interneurons	NA	0.005	gamma-aminobutyric acid type A receptor alpha4 subunit	protein-coding gene	NA	Ectoderm	Brain	0	0.176471	0.00093985	0.00422517
+ENSG00000175352	Mm Hs	NRIP3	Interneurons	C11orf14	0.021	nuclear receptor interacting protein 3	protein-coding gene	NA	Ectoderm	Brain	0	0.240642	0.0322682	0.0163157
+ENSG00000108924	Mm Hs	HLF	Interneurons	MGC33822	0.02	"HLF, PAR bZIP transcription factor"	protein-coding gene	NA	Ectoderm	Brain	0	0.245989	0	0.0219709
+ENSG00000163932	Mm Hs	PRKCD	Interneurons	NA	0.042	protein kinase C delta	protein-coding gene	NA	Ectoderm	Brain	0	0.0481283	0.00783208	0.0484919
+ENSG00000070159	Mm Hs	PTPN3	Interneurons	PTPH1	0.004	"protein tyrosine phosphatase, non-receptor type 3"	protein-coding gene	NA	Ectoderm	Brain	0	0.0962567	0.00250627	0.00325013
+ENSG00000166006	Mm Hs	KCNC2	Interneurons	Kv3.2	0.005	potassium voltage-gated channel subfamily C member 2	protein-coding gene	NA	Ectoderm	Brain	0	0.117647	0	0.00546022
+ENSG00000008086	Mm Hs	CDKL5	Interneurons	EIEE2|CFAP247|STK9	0.009	cyclin dependent kinase like 5	protein-coding gene	NA	Ectoderm	Brain	0	0.459893	0.00093985	0.00624025
+ENSG00000128596	Mm Hs	CCDC136	Interneurons	KIAA1793|NAG6|DKFZP434G156	0.027	coiled-coil domain containing 136	protein-coding gene	NA	Ectoderm	Brain	0	0.13369	0.0382206	0.024506
+ENSG00000156113	Mm Hs	KCNMA1	Interneurons	KCa1.1|mSLO1|SLO	0.043	potassium calcium-activated channel subfamily M alpha 1	protein-coding gene	NA	Ectoderm	Brain	0	0.657754	0.0184837	0.0411466
+ENSG00000196104	Mm Hs	SPOCK3	Interneurons	testican-3	0.036	"SPARC (osteonectin), cwcv and kazal like domains proteoglycan 3"	protein-coding gene	NA	Ectoderm	Brain	0	0.181818	0.00783208	0.0419267
+ENSG00000088179	Mm Hs	PTPN4	Interneurons	PTPMEG	0.004	"protein tyrosine phosphatase, non-receptor type 4"	protein-coding gene	NA	Ectoderm	Brain	0	0.112299	0.00313283	0.00357514
+ENSG00000164951	Mm Hs	PDP1	Interneurons	PDP|PDH|PPM2A|PPM2C	0.007	pyruvate dehyrogenase phosphatase catalytic subunit 1	protein-coding gene	NA	Ectoderm	Brain	0	0.106952	0.0175439	0.00344514
+ENSG00000186479	Mm Hs	RGS7BP	Interneurons	R7BP	0.034	regulator of G protein signaling 7 binding protein	protein-coding gene	NA	Ectoderm	Brain	0	0.604278	0	0.0360114
+ENSG00000101333	Mm Hs	PLCB4	Interneurons	NA	0.026	phospholipase C beta 4	protein-coding gene	NA	Ectoderm	Brain	0	0.203209	0.00281955	0.0289262
+ENSG00000136928	Mm Hs	GABBR2	Interneurons	HG20|GABABR2|GPRC3B|GPR51	0.023	gamma-aminobutyric acid type B receptor subunit 2	protein-coding gene	NA	Ectoderm	Brain	0	0.540107	0.00657895	0.0200208
+ENSG00000155849	Mm Hs	ELMO1	Interneurons	KIAA0281|ELMO-1	0.026	engulfment and cell motility 1	protein-coding gene	NA	Ectoderm	Brain	0	0.304813	0.0056391	0.0277561
+ENSG00000197381	Mm Hs	ADARB1	Interneurons	ADAR2|DRADA2|ADAR2g|DRABA2|RED1|hRED1|ADAR2a-L1|ADAR2a-L2|ADAR2a-L3|ADAR2a|ADAR2b|ADAR2c|ADAR2d	0.011	"adenosine deaminase, RNA specific B1"	protein-coding gene	NA	Ectoderm	Brain	0	0.171123	0	0.0122205
+ENSG00000143195	Mm Hs	ILDR2	Interneurons	C1orf32	0.018	immunoglobulin like domain containing receptor 2	protein-coding gene	NA	Ectoderm	Brain	0	0.272727	0.000626566	0.0200858
+ENSG00000011243	Mm Hs	AKAP8L	Interneurons	NAKAP95|HAP95	0.027	A-kinase anchoring protein 8 like	protein-coding gene	NA	Ectoderm	Brain	0	0.0802139	0.0379073	0.023921
+ENSG00000179119	Mm Hs	SPTY2D1	Interneurons	FLJ39441|DKFZp686I068|Spt2	0.009	SPT2 chromatin protein domain containing 1	protein-coding gene	NA	Ectoderm	Brain	0	0.0427807	0.00344612	0.0104654
+ENSG00000165494	Mm Hs	PCF11	Interneurons	KIAA0824	0.038	"PCF11, cleavage and polyadenylation factor subunit"	protein-coding gene	NA	Ectoderm	Brain	0	0.0641711	0.039787	0.0380915
+ENSG00000169116	Mm Hs	PARM1	Interneurons	DKFZP564O0823|Cipar1|WSC4	0.02	prostate androgen-regulated mucin-like protein 1	protein-coding gene	NA	Ectoderm	Brain	0	0.0962567	0.018797	0.0198908
+ENSG00000164093	Mm Hs	PITX2	Interneurons	IGDS|Brx1|Otlx2|IRID2|IHG2|RIEG|RIEG1|RGS	0.01	paired like homeodomain 2	protein-coding gene	NA	Ectoderm	Brain	0	0.0320856	0.0109649	0.00838534
+ENSG00000069011	Mm Hs	PITX1	Interneurons	POTX|BFT	0.009	paired like homeodomain 1	protein-coding gene	NA	Ectoderm	Brain	0	0.0320856	0.00657895	0.00884035
+ENSG00000213937	Mm Hs	CLDN9	Interneurons	NA	0.003	claudin 9	protein-coding gene	NA	Ectoderm	Brain	0	0.0374332	0	0.00396516
+ENSG00000196507	Mm Hs	TCEAL3	Interneurons	MGC15737|WEX8	0.041	transcription elongation factor A like 3	protein-coding gene	NA	Ectoderm	Brain	0	0.0695187	0.0592105	0.0343864
+ENSG00000169427	Mm Hs	KCNK9	Interneurons	K2p9.1|TASK3|TASK-3	0.004	potassium two pore domain channel subfamily K member 9	protein-coding gene	NA	Ectoderm	Brain	0	0.0534759	0	0.00442018
+ENSG00000134200	Mm Hs	TSHB	Interneurons	NA	0.001	thyroid stimulating hormone beta	protein-coding gene	NA	Ectoderm	Brain	0	0.0427807	0	0.000975039
+ENSG00000198963	Mm Hs	RORB	Interneurons	RZRB|NR1F2|ROR-BETA	0.023	RAR related orphan receptor B	protein-coding gene	NA	Ectoderm	Brain	0	0.176471	0.012218	0.024311
+ENSG00000179348	Mm Hs	GATA2	Interneurons	NFE1B	0.02	GATA binding protein 2	protein-coding gene	NA	Ectoderm	Brain	0	0.0481283	0.0134712	0.0215159
+ENSG00000111602	Mm Hs	TIMELESS	Interneurons	hTIM	0.01	timeless circadian regulator	protein-coding gene	NA	Ectoderm	Brain	0	0.0481283	0.0075188	0.00962039
+ENSG00000145824	Mm Hs	CXCL14	Interneurons	BRAK|NJAC|bolekine|Kec|MIP-2g|BMAC|SCYB14	0.049	C-X-C motif chemokine ligand 14	protein-coding gene	1	Ectoderm	Brain	0	0.117647	0.0426065	0.0475169
+ENSG00000110245	Mm Hs	APOC3	Interneurons	NA	0.018	apolipoprotein C3	protein-coding gene	NA	Ectoderm	Brain	0	0.0427807	0.0244361	0.0167707
+ENSG00000135346	Mm Hs	CGA	Interneurons	GPHa|GPHA1|FSHA|LHA|TSHA	0.003	"glycoprotein hormones, alpha polypeptide"	protein-coding gene	NA	Ectoderm	Brain	0	0.0427807	0.00845865	0.000975039
+ENSG00000128271	Mm Hs	ADORA2A	Interneurons	RDC8|ADORA2	0.01	adenosine A2a receptor	protein-coding gene	NA	Ectoderm	Brain	0	0	0	0.0127405
+ENSG00000179673	Mm Hs	RPRML	Interneurons	MGC43894	0.011	reprimo like	protein-coding gene	NA	Ectoderm	Brain	0	0.406417	0	0.00890536
+ENSG00000067191	Mm Hs	CACNB1	Interneurons	CACNLB1	0.003	calcium voltage-gated channel auxiliary subunit beta 1	protein-coding gene	NA	Ectoderm	Brain	0	0.0213904	0	0.00390016
+ENSG00000185760	Mm Hs	KCNQ5	Interneurons	Kv7.5	0.001	potassium voltage-gated channel subfamily Q member 5	protein-coding gene	NA	Ectoderm	Brain	0	0.0106952	0.000313283	0.000910036
+ENSG00000126583	Mm Hs	PRKCG	Interneurons	PKCC|MGC57564|PKCG|SCA14	0.005	protein kinase C gamma	protein-coding gene	1	Ectoderm	Brain	0	0.283422	0	0.0026001
+ENSG00000186297	Mm Hs	GABRA5	Interneurons	NA	0.005	gamma-aminobutyric acid type A receptor alpha5 subunit	protein-coding gene	1	Ectoderm	Brain	0	0.0909091	0	0.00572023
+ENSG00000007372	Mm Hs	PAX6	Interneurons	D11S812E|AN2	0.049	paired box 6	protein-coding gene	1	Ectoderm	Brain	0	0.0481283	0.014411	0.0591524
+ENSG00000168081	Mm Hs	PNOC	Interneurons	PPNOC|N/OFQ|NOP	0.009	prepronociceptin	protein-coding gene	1	Ectoderm	Brain	0	0.0320856	0.00093985	0.00968539
+ENSG00000166736	Mm Hs	HTR3A	Interneurons	5-HT3R|5-HT3A	0.007	5-hydroxytryptamine receptor 3A	protein-coding gene	1	Ectoderm	Brain	0	0.0106952	0	0.00903536
+ENSG00000189056	Mm Hs	RELN	Interneurons	RL|PRO1598	0.018	reelin	protein-coding gene	1	Ectoderm	Brain	0	0.0748663	0.00344612	0.0211258
+ENSG00000172137	Mm Hs	CALB2	Interneurons	CAL2	0.03	calbindin 2	protein-coding gene	1	Ectoderm	Brain	0	0.112299	0.00281955	0.0365965
+ENSG00000115252	Mm Hs	PDE1A	Interneurons	NA	0.018	phosphodiesterase 1A	protein-coding gene	1	Ectoderm	Brain	0	0.240642	0.0216165	0.0149506
+ENSG00000117114	Mm Hs	ADGRL2	Interneurons	KIAA0786|LEC1|LPHH1|LPHN2	0.021	adhesion G protein-coupled receptor L2	protein-coding gene	1	Ectoderm	Brain	0	0.0213904	0.00407268	0.025481
+ENSG00000120049	Mm Hs	KCNIP2	Interneurons	KCHIP2	0.008	potassium voltage-gated channel interacting protein 2	protein-coding gene	1	Ectoderm	Brain	0	0.0695187	0.000626566	0.00929537
+ENSG00000136999	Mm Hs	NOV	Interneurons	IGFBP9|CCN3	0.004	nephroblastoma overexpressed	protein-coding gene	1	Ectoderm	Brain	0	0.0802139	0.00469925	0.00377015
+ENSG00000124772	Mm Hs	CPNE5	Interneurons	CPN5|COPN5|KIAA1599	0.008	copine 5	protein-coding gene	1	Ectoderm	Brain	0	0.0481283	0.00093985	0.00968539
+ENSG00000115665	Mm Hs	SLC5A7	Interneurons	hCHT|CHT1	0.002	solute carrier family 5 member 7	protein-coding gene	1	Ectoderm	Brain	0	0	0	0.00273011
+ENSG00000147571	Mm Hs	CRH	Interneurons	CRH1	0.001	corticotropin releasing hormone	protein-coding gene	1	Ectoderm	Brain	0	0.0160428	0.000626566	0.00110504
+ENSG00000119125	Mm Hs	GDA	Interneurons	NA	0.039	guanine deaminase	protein-coding gene	1	Ectoderm	Brain	0	0.433155	0.0018797	0.0430967
+ENSG00000170381	Mm Hs	SEMA3E	Interneurons	M-SemaK|KIAA0331|coll-5|SEMAH	0.005	semaphorin 3E	protein-coding gene	1	Ectoderm	Brain	0	0.0106952	0	0.00656526
+ENSG00000144355	Mm Hs	DLX1	Interneurons	NA	0.036	distal-less homeobox 1	protein-coding gene	1	Ectoderm	Brain	0	0.0534759	0	0.0447868
+ENSG00000115844	Mm Hs	DLX2	Interneurons	TES-1	0.031	distal-less homeobox 2	protein-coding gene	1	Ectoderm	Brain	0	0	0.00657895	0.0375715
+ENSG00000105880	Mm Hs	DLX5	Interneurons	NA	0.019	distal-less homeobox 5	protein-coding gene	1	Ectoderm	Brain	0	0	0.0056391	0.0227509
+ENSG00000004848	Mm Hs	ARX	Interneurons	ISSX|CT121|EIEE1|MRXS1|PRTS|MRX76|MRX54|MRX43|MRX36|MRX29|MRX32|MRX33|MRX38|MRX87	0.019	aristaless related homeobox	protein-coding gene	1	Ectoderm	Brain	0	0	0.00219298	0.023921
+ENSG00000173376	Mm Hs	NDNF	Interneurons	FLJ23191|C4orf31	0.017	neuron derived neurotrophic factor	protein-coding gene	1	Ectoderm	Brain	0	0.0374332	0.00626566	0.0203458
+ENSG00000169896	Mm Hs	ITGAM	Microglia	CD11b|CR3A|CD11B	0.025	integrin subunit alpha M	protein-coding gene	1	Ectoderm	Brain	0	0.359268	0.00313283	0.0208141
+ENSG00000140678	Mm Hs	ITGAX	Microglia	CD11c|CD11C	0.007	integrin subunit alpha X	protein-coding gene	1	Ectoderm	Brain	0	0	0.0162907	0.00541826
+ENSG00000197405	Mm Hs	C5AR1	Microglia	C5A|C5AR|CD88|C5R1	0.027	complement C5a receptor 1	protein-coding gene	1	Ectoderm	Brain	0	0.112128	0.0140977	0.0278842
+ENSG00000168329	Mm Hs	CX3CR1	Microglia	CMKDR1|V28|GPR13|CMKBRL1	0.039	C-X3-C motif chemokine receptor 1	protein-coding gene	1	Ectoderm	Brain	0	0.988558	0.00219298	0.0211444
+ENSG00000169313	Mm Hs	P2RY12	Microglia	P2Y12|SP1999|HORK3	0.025	purinergic receptor P2Y12	protein-coding gene	1	Ectoderm	Brain	0	0.970252	0	0.0047575
+ENSG00000089041	Mm Hs	P2RX7	Microglia	P2X7|MGC20089	0.004	purinergic receptor P2X 7	protein-coding gene	1	Ectoderm	Brain	0	0.0160183	0.00877193	0.00310559
+ENSG00000101017	Mm Hs	CD40	Microglia	Bp50|TNFRSF5	0.012	CD40 molecule	protein-coding gene	1	Ectoderm	Brain	0	0	0.0131579	0.0111669
+ENSG00000095970	Mm Hs	TREM2	Microglia	TREM-2|Trem2a|Trem2b|Trem2c	0.042	triggering receptor expressed on myeloid cells 2	protein-coding gene	1	Ectoderm	Brain	0	0.990847	0.00657895	0.0239857
+ENSG00000183160	Mm Hs	TMEM119	Microglia	NA	0.031	transmembrane protein 119	protein-coding gene	1	Ectoderm	Brain	0	0.723112	0.0056391	0.0167173
+ENSG00000171659	Mm Hs	GPR34	Microglia	NA	0.026	G protein-coupled receptor 34	protein-coding gene	1	Ectoderm	Brain	0	0.919908	0.00501253	0.0061451
+ENSG00000160180	Mm Hs	TFF3	Microglia	HITF|ITF	0.022	trefoil factor 3	protein-coding gene	NA	Ectoderm	Brain	0	0	0.0451128	0.0148672
+ENSG00000103449	Mm Hs	SALL1	Microglia	Hsal1|ZNF794|TBS	0.004	spalt like transcription factor 1	protein-coding gene	1	Ectoderm	Brain	0	0.0572082	0	0.00297344
+ENSG00000119535	Mm Hs	CSF3R	Microglia	GCSFR|CD114	0.012	colony stimulating factor 3 receptor	protein-coding gene	NA	Ectoderm	Brain	0	0.171625	0.0213033	0.00627726
+ENSG00000110719	Mm Hs	TCIRG1	Microglia	TIRC7|OC-116|OC116|ATP6N1C|Atp6i|a3|ATP6V0A3	0.011	"T cell immune regulator 1, ATPase H+ transporting V0 subunit a3"	protein-coding gene	1	Ectoderm	Brain	0	0.0572082	0.00595238	0.0109687
+ENSG00000157303	Mm Hs	SUSD3	Microglia	MGC26847	0.018	sushi domain containing 3	protein-coding gene	NA	Ectoderm	Brain	0	0.210526	0.0253759	0.0109026
+ENSG00000169508	Mm Hs	GPR183	Microglia	EBI2	0.019	G protein-coupled receptor 183	protein-coding gene	1	Ectoderm	Brain	0	0.10984	0.0488722	0.00977931
+ENSG00000141968	Mm Hs	VAV1	Microglia	VAV	0.016	vav guanine nucleotide exchange factor 1	protein-coding gene	1	Ectoderm	Brain	0	0.132723	0.000626566	0.0156601
+ENSG00000142583	Mm Hs	SLC2A5	Microglia	GLUT5	0.012	solute carrier family 2 member 5	protein-coding gene	1	Ectoderm	Brain	0	0.171625	0.0131579	0.00786309
+ENSG00000103522	Mm Hs	IL21R	Microglia	CD360	0.013	interleukin 21 receptor	protein-coding gene	NA	Ectoderm	Brain	0	0.125858	0	0.0128849
+ENSG00000110324	Mm Hs	IL10RA	Microglia	HIL-10R|CDW210A|CD210a|CD210|IL10R	0.011	interleukin 10 receptor subunit alpha	protein-coding gene	NA	Ectoderm	Brain	0	0.160183	0.0075188	0.00779701
+ENSG00000169403	Mm Hs	PTAFR	Microglia	NA	0.018	platelet activating factor receptor	protein-coding gene	NA	Ectoderm	Brain	0	0.130435	0.00657895	0.0180389
+ENSG00000089692	Mm Hs	LAG3	Microglia	CD223	0.011	lymphocyte activating 3	protein-coding gene	1	Ectoderm	Brain	0	0.212815	0.0106516	0.00574865
+ENSG00000138185	Mm Hs	ENTPD1	Microglia	NTPDase-1|ATPDase|SPG64|CD39	0.014	ectonucleoside triphosphate diphosphohydrolase 1	protein-coding gene	1	Ectoderm	Brain	0	0.194508	0.00657895	0.0100436
+ENSG00000169252	Mm Hs	ADRB2	Microglia	ADRBR|B2AR|ADRB2R	0.016	adrenoceptor beta 2	protein-coding gene	1	Ectoderm	Brain	0	0.153318	0.0100251	0.0142725
+ENSG00000184584	Mm Hs	TMEM173	Microglia	FLJ38577|NET23|MPYS|STING|MITA	0.012	transmembrane protein 173	protein-coding gene	NA	Ectoderm	Brain	0	0.15103	0.00501253	0.0103079
+ENSG00000059377	Mm Hs	TBXAS1	Microglia	CYP5|CYP5A1|THAS|TXS|TXAS	0.013	thromboxane A synthase 1	protein-coding gene	NA	Ectoderm	Brain	0	0.16476	0.00532581	0.0107705
+ENSG00000171631	Mm Hs	P2RY6	Microglia	P2Y6	0.018	pyrimidinergic receptor P2Y6	protein-coding gene	1	Ectoderm	Brain	0	0.201373	0.00281955	0.0167834
+ENSG00000181631	Mm Hs	P2RY13	Microglia	FKSG77|P2Y13|GPR94|GPR86	0.008	purinergic receptor P2Y13	protein-coding gene	1	Ectoderm	Brain	0	0.327231	0.00125313	0.000858993
+ENSG00000245848	Mm Hs	CEBPA	Microglia	C/EBP-alpha|CEBP	0.025	CCAAT enhancer binding protein alpha	protein-coding gene	1	Ectoderm	Brain	0	0.194508	0	0.0252412
+ENSG00000134061	Mm Hs	CD180	Microglia	RP105|Ly78|LY64	0.012	CD180 molecule	protein-coding gene	1	Ectoderm	Brain	0	0.183066	0.00093985	0.00938285
+ENSG00000142347	Mm Hs	MYO1F	Microglia	NA	0.031	myosin IF	protein-coding gene	NA	Ectoderm	Brain	0	0.0846682	0.0281955	0.0290736
+ENSG00000116774	Mm Hs	OLFML3	Microglia	HNOEL-iso|OLF44	0.053	olfactomedin like 3	protein-coding gene	1	Ectoderm	Brain	0	0.805492	0.031015	0.0365402
+ENSG00000143546	Mm Hs	S100A8	Microglia	P8|CGLA|CAGA	0.064	S100 calcium binding protein A8	protein-coding gene	1	Ectoderm	Brain	0	0.0572082	0.0798872	0.058808
+ENSG00000213316	Mm Hs	LTC4S	Microglia	MGC33147	0.037	leukotriene C4 synthase	protein-coding gene	1	Ectoderm	Brain	0	0.805492	0.00783208	0.0229285
+ENSG00000106799	Mm Hs	TGFBR1	Microglia	ALK-5|ALK5|TBRI|TBR-i|MSSE|ESS1	0.031	transforming growth factor beta receptor 1	protein-coding gene	1	Ectoderm	Brain	0	0.71167	0.0106516	0.0169816
+ENSG00000087253	Mm Hs	LPCAT2	Microglia	FLJ20481|AGPAT11|LysoPAFAT|AYTL1	0.034	lysophosphatidylcholine acyltransferase 2	protein-coding gene	1	Ectoderm	Brain	0	0.745995	0.00469925	0.0214748
+ENSG00000082781	Mm Hs	ITGB5	Microglia	NA	0.047	integrin subunit beta 5	protein-coding gene	1	Ectoderm	Brain	0	0.734554	0.0150376	0.0359456
+ENSG00000167613	Mm Hs	LAIR1	Microglia	CD305	0.027	leukocyte associated immunoglobulin like receptor 1	protein-coding gene	NA	Ectoderm	Brain	0	0.457666	0.0159774	0.0178406
+ENSG00000176170	Mm Hs	SPHK1	Microglia	SPHK	0.016	sphingosine kinase 1	protein-coding gene	1	Ectoderm	Brain	0	0	0.0369674	0.0122902
+ENSG00000158270	Mm Hs	COLEC12	Microglia	SRCL|CL-P1|SCARA4	0.025	collectin subfamily member 12	protein-coding gene	1	Ectoderm	Brain	0	0	0.0119048	0.0286111
+ENSG00000128918	Mm Hs	ALDH1A2	Microglia	RALDH2	0.011	aldehyde dehydrogenase 1 family member A2	protein-coding gene	1	Ectoderm	Brain	0	0	0.0250627	0.00845778
+ENSG00000106624	Mm Hs	AEBP1	Microglia	ACLP	0.044	AE binding protein 1	protein-coding gene	NA	Ectoderm	Brain	0	0	0.0335213	0.0489626
+ENSG00000107317	Mm Hs	PTGDS	Microglia	L-PGDS	0.054	prostaglandin D2 synthase	protein-coding gene	NA	Ectoderm	Brain	0	0.0389016	0.0582707	0.0556363
+ENSG00000160791	Mm Hs	CCR5	Microglia	CKR-5|CC-CKR-5|CKR5|CD195|IDDM22|CMKBR5	0.015	C-C motif chemokine receptor 5 (gene/pseudogene)	protein-coding gene	1	Ectoderm	Brain	0	0.286041	0	0.0106383
+ENSG00000184060	Mm Hs	ADAP2	Microglia	CENTA2	0.019	ArfGAP with dual PH domains 2	protein-coding gene	NA	Ectoderm	Brain	0	0.210526	0.0100251	0.0159905
+ENSG00000137491	Mm Hs	SLCO2B1	Microglia	OATP-B|OATP2B1|SLC21A9	0.021	solute carrier organic anion transporter family member 2B1	protein-coding gene	1	Ectoderm	Brain	0	0.322654	0.00407268	0.0175102
+ENSG00000095303	Mm Hs	PTGS1	Microglia	PGHS-1|PTGHS	0.029	prostaglandin-endoperoxide synthase 1	protein-coding gene	1	Ectoderm	Brain	0	0.469108	0.0037594	0.0235232
+ENSG00000077420	Mm Hs	APBB1IP	Microglia	INAG1|RIAM	0.052	amyloid beta precursor protein binding family B member 1 interacting protein	protein-coding gene	1	Ectoderm	Brain	0	0.343249	0.02099	0.0506145
+ENSG00000068793	Mm Hs	CYFIP1	Microglia	KIAA0068|P140SRA-1|SHYC	0.051	cytoplasmic FMR1 interacting protein 1	protein-coding gene	NA	Ectoderm	Brain	0	0.517162	0.0159774	0.0467821
+ENSG00000100055	Mm Hs	CYTH4	Microglia	CYT4|cytohesin-4|PSCD4	0.053	cytohesin 4	protein-coding gene	1	Ectoderm	Brain	0	0.7254	0.00219298	0.0446676
+ENSG00000153208	Mm Hs	MERTK	Microglia	mer|RP38|c-Eyk|Tyro12	0.016	"MER proto-oncogene, tyrosine kinase"	protein-coding gene	1	Ectoderm	Brain	0	0.295195	0.00093985	0.0118937
+ENSG00000120594	Mm Hs	PLXDC2	Microglia	TEM7R|FLJ14623	0.046	plexin domain containing 2	protein-coding gene	NA	Ectoderm	Brain	0	0.411899	0.018797	0.0437426
+ENSG00000204103	Mm Hs	MAFB	Microglia	KRML	0.053	MAF bZIP transcription factor B	protein-coding gene	1	Ectoderm	Brain	0	0.421053	0.0592105	0.0422889
+ENSG00000163106	Mm Hs	HPGDS	Microglia	GSTS|H-PGDS|PGD2|GSTS1-1|GSTS1	0.033	hematopoietic prostaglandin D synthase	protein-coding gene	1	Ectoderm	Brain	0	0.73913	0.0184837	0.0169156
+ENSG00000110934	Mm Hs	BIN2	Microglia	BRAP-1	0.06	bridging integrator 2	protein-coding gene	NA	Ectoderm	Brain	0	0.389016	0.0463659	0.0528611
+ENSG00000091317	Mm Hs	CMTM6	Microglia	FLJ20396|CKLFSF6	0.051	CKLF like MARVEL transmembrane domain containing 6	protein-coding gene	NA	Ectoderm	Brain	0	0.469108	0.0504386	0.0387868
+ENSG00000129277	Mm Hs	CCL4	Microglia	MIP-1-beta|Act-2|AT744.1|SCYA4	0.049	C-C motif chemokine ligand 4	protein-coding gene	1	Ectoderm	Brain	0	0.558352	0.0557644	0.0342936
+ENSG00000006075	Mm Hs	CCL3	Microglia	G0S19-1|LD78ALPHA|MIP-1-alpha|SCYA3	0.036	C-C motif chemokine ligand 3	protein-coding gene	1	Ectoderm	Brain	0	0.567506	0.00783208	0.0274217
+ENSG00000121797	Mm Hs	CCRL2	Microglia	CRAM-B|CKRX|CRAM-A|ACKR5	0.018	C-C motif chemokine receptor like 2	protein-coding gene	1	Ectoderm	Brain	0	0.121281	0.00156642	0.0191622
+ENSG00000175567	Mm Hs	UCP2	Microglia	SLC25A8|BMIQ4	0.013	uncoupling protein 2	protein-coding gene	1	Ectoderm	Brain	0	0.0160183	0.00501253	0.015528
+ENSG00000028137	Mm Hs	TNFRSF1B	Microglia	TNFBR|TNFR80|TNF-R75|TNF-R-II|CD120b|TNFR2	0.02	TNF receptor superfamily member 1B	protein-coding gene	NA	Ectoderm	Brain	0	0.0915332	0.0285088	0.0167173
+ENSG00000163815	Mm Hs	CLEC3B	Microglia	TNA	0.021	C-type lectin domain family 3 member B	protein-coding gene	1	Ectoderm	Brain	0	0	0	0.0275539
+ENSG00000011028	Mm Hs	MRC2	Microglia	KIAA0709|ENDO180|CLEC13E|CD280	0.012	mannose receptor C type 2	protein-coding gene	1	Ectoderm	Brain	0	0	0.0213033	0.0112991
+ENSG00000132514	Mm Hs	CLEC10A	Microglia	HML2|HML|CD301|CLECSF14	0.01	C-type lectin domain containing 10A	protein-coding gene	1	Ectoderm	Brain	0	0.00686499	0.0119048	0.00977931
+ENSG00000163737	Mm Hs	PF4	Microglia	SCYB4|CXCL4	0.029	platelet factor 4	protein-coding gene	1	Ectoderm	Brain	0	0.0640732	0.00344612	0.0343597
+ENSG00000182578	Mm Hs	CSF1R	Microglia	C-FMS|CSFR|CD115|FMS	0.064	colony stimulating factor 1 receptor	protein-coding gene	1	Ectoderm	Brain	0	0.997712	0.0178571	0.049293
+ENSG00000157933	Mm Hs	SKI	Microglia	NA	0.034	SKI proto-oncogene	protein-coding gene	1	Ectoderm	Brain	0	0.02746	0.00156642	0.0428836
+ENSG00000173369	Mm Hs	C1QB	Microglia	NA	0.071	complement C1q B chain	protein-coding gene	1	Ectoderm	Brain	0	1	0.0191103	0.0569578
+ENSG00000016082	Mm Hs	ISL1	Motor neurons	Isl-1|ISLET1	0.028	ISL LIM homeobox 1	protein-coding gene	1	Ectoderm	Brain	0	0	0.0134712	0.0314045
+ENSG00000159556	Mm Hs	ISL2	Motor neurons	FLJ10160	0.004	ISL LIM homeobox 2	protein-coding gene	NA	Ectoderm	Brain	0	0	0	0.00520198
+ENSG00000070748	Mm Hs	CHAT	Motor neurons	NA	0.001	choline O-acetyltransferase	protein-coding gene	NA	Ectoderm	Brain	0	0	0	0.00160555
+ENSG00000119614	Mm Hs	VSX2	Motor neurons	RET1|HOX10|CHX10	0.004	visual system homeobox 2	protein-coding gene	NA	Ectoderm	Brain	0	0	0	0.00488087
+ENSG00000163064	Mm Hs	EN1	Motor neurons	NA	0.003	engrailed homeobox 1	protein-coding gene	NA	Ectoderm	Brain	0	0	0	0.00372487
+ENSG00000113578	Mm Hs	FGF1	Motor neurons	AFGF|ECGF|ECGFA|ECGFB|HBGF1|ECGF-beta|FGF-alpha|GLIO703|FGFA	0.011	fibroblast growth factor 1	protein-coding gene	NA	Ectoderm	Brain	0	0	0.00313283	0.0125875
+ENSG00000107187	Mm Hs	LHX3	Motor neurons	NA	0.001	LIM homeobox 3	protein-coding gene	NA	Ectoderm	Brain	0	0	0	0.000834885
+ENSG00000163623	Mm Hs	NKX6-1	Motor neurons	Nkx6.1|NKX6A	0.006	NK6 homeobox 1	protein-coding gene	NA	Ectoderm	Brain	0	0	0.0103383	0.0052662
+ENSG00000064300	Mm Hs	NGFR	Motor neurons	TNFRSF16|CD271|p75NTR	0.007	nerve growth factor receptor	protein-coding gene	NA	Ectoderm	Brain	0	0	0.00219298	0.00744975
+ENSG00000182968	Mm Hs	SOX1	Neural stem/precursor cells	NA	0.002	SRY-box 1	protein-coding gene	1	Ectoderm	Brain	0	0.148148	0	0.00250901
+ENSG00000007062	Mm Hs	PROM1	Neural stem/precursor cells	AC133|CD133|RP41|CORD12|PROML1|STGD4	0.021	prominin 1	protein-coding gene	1	Ectoderm	Brain	0	0	0.00720551	0.0242537
+ENSG00000140443	Mm Hs	IGF1R	Neural stem/precursor cells	JTK13|CD221|IGFIR|MGC18216|IGFR	0.076	insulin like growth factor 1 receptor	protein-coding gene	1	Ectoderm	Brain	0	0.0740741	0.047619	0.0813176
+ENSG00000164651	Mm Hs	SP8	Neural stem/precursor cells	NA	0.007	Sp8 transcription factor	protein-coding gene	1	Ectoderm	Brain	0	0.555556	0	0.00733402
+ENSG00000131095	Mm Hs	GFAP	Neural stem/precursor cells	FLJ45472	0.013	glial fibrillary acidic protein	protein-coding gene	1	Ectoderm	Brain	0	0	0.0056391	0.0149897
+ENSG00000134595	Mm Hs	SOX3	Neural stem/precursor cells	PHP	0.002	SRY-box 3	protein-coding gene	1	Ectoderm	Brain	0	0	0.00501253	0.001544
+ENSG00000160307	Mm Hs	S100B	Neural stem/precursor cells	S100beta	0.066	S100 calcium binding protein B	protein-coding gene	NA	Ectoderm	Brain	0	0	0.033208	0.0746269
+ENSG00000079215	Mm Hs	SLC1A3	Neural stem/precursor cells	EAAT1|GLAST|EA6	0.074	solute carrier family 1 member 3	protein-coding gene	1	Ectoderm	Brain	0	0.185185	0.0109649	0.0900669
+ENSG00000123307	Mm Hs	NEUROD4	Neural stem/precursor cells	Atoh3|ATH-3|MATH-3|bHLHa4	0.006	neuronal differentiation 4	protein-coding gene	NA	Ectoderm	Brain	0	0	0.000313283	0.00772002
+ENSG00000181965	Mm Hs	NEUROG1	Neural stem/precursor cells	AKA|Math4C|ngn1|bHLHa6|NEUROD3	0.001	neurogenin 1	protein-coding gene	NA	Ectoderm	Brain	0	0.0740741	0.00093985	0.000900669
+ENSG00000178403	Mm Hs	NEUROG2	Neural stem/precursor cells	Atoh4|Math4A|ngn-2|bHLHa8|NGN2	0.016	neurogenin 2	protein-coding gene	NA	Ectoderm	Brain	0	0.0740741	0.00093985	0.0202651
+ENSG00000171786	Mm Hs	NHLH1	Neural stem/precursor cells	NSCL|NSCL1|bHLHa35	0.002	nescient helix-loop-helix 1	protein-coding gene	NA	Ectoderm	Brain	0	0	0.00313283	0.000900669
+ENSG00000106341	Mm Hs	PPP1R17	Neural stem/precursor cells	GSBS|C7orf16	0.002	protein phosphatase 1 regulatory subunit 17	protein-coding gene	NA	Ectoderm	Brain	0	0	0.00156642	0.00141534
+ENSG00000125247	Mm Hs	TMTC4	Neural stem/precursor cells	FLJ14624|FLJ22153	0.006	transmembrane and tetratricopeptide repeat containing 4	protein-coding gene	NA	Ectoderm	Brain	0	0	0.00532581	0.00656202
+ENSG00000163508	Mm Hs	EOMES	Neural stem/precursor cells	TBR2	0.021	eomesodermin	protein-coding gene	1	Ectoderm	Brain	0	0	0.00219298	0.0261837
+ENSG00000152527	Mm Hs	PLEKHH2	Neural stem/precursor cells	KIAA2028|PLEKHH1L	0.003	"pleckstrin homology, MyTH4 and FERM domain containing H2"	protein-coding gene	NA	Ectoderm	Brain	0	0	0.0056391	0.00250901
+ENSG00000164342	Mm Hs	TLR3	Neural stem/precursor cells	CD283	0.003	toll like receptor 3	protein-coding gene	NA	Ectoderm	Brain	0	0	0.00720551	0.00295934
+ENSG00000059378	Mm Hs	PARP12	Neural stem/precursor cells	FLJ22693|PARP-12|ZC3H1|ZC3HDC1	0.005	poly(ADP-ribose) polymerase family member 12	protein-coding gene	NA	Ectoderm	Brain	0	0	0.00720551	0.00501801
+ENSG00000089041	Mm Hs	P2RX7	Neural stem/precursor cells	P2X7|MGC20089	0.004	purinergic receptor P2X 7	protein-coding gene	NA	Ectoderm	Brain	0	0	0.00877193	0.00347401
+ENSG00000259330	Mm Hs	INAFM2	Neural stem/precursor cells	OGU1|LINC00984	0.007	InaF motif containing 2	protein-coding gene	NA	Ectoderm	Brain	0	0	0.00720551	0.00739835
+ENSG00000146674	Mm Hs	IGFBP3	Neural stem/precursor cells	IBP3|BP-53	0.031	insulin like growth factor binding protein 3	protein-coding gene	NA	Ectoderm	Brain	0	0	0.0592105	0.0256691
+ENSG00000185745	Mm Hs	IFIT1	Neural stem/precursor cells	GARG-16|G10P1|IFI56|IFNAI1	0.015	interferon induced protein with tetratricopeptide repeats 1	protein-coding gene	NA	Ectoderm	Brain	0	0	0.0159774	0.013317
+ENSG00000137965	Mm Hs	IFI44	Neural stem/precursor cells	MTAP44|TLDC5	0.007	interferon induced protein 44	protein-coding gene	NA	Ectoderm	Brain	0	0	0.012218	0.00456768
+ENSG00000152127	Mm Hs	MGAT5	Neural stem/precursor cells	GNT-V|MGAT5A	0.046	"alpha-1,6-mannosylglycoprotein 6-beta-N-acetylglucosaminyltransferase"	protein-coding gene	NA	Ectoderm	Brain	0	0.037037	0.000313283	0.0551338
+ENSG00000168078	Mm Hs	PBK	Neural stem/precursor cells	TOPK|FLJ14385|Nori-3|CT84	0.06	PDZ binding kinase	protein-coding gene	NA	Ectoderm	Brain	0	0.185185	0.0432331	0.0620818
+ENSG00000115844	Mm Hs	DLX2	Neural stem/precursor cells	TES-1	0.031	distal-less homeobox 2	protein-coding gene	1	Ectoderm	Brain	0	0.925926	0.00657895	0.0355764
+ENSG00000105880	Mm Hs	DLX5	Neural stem/precursor cells	NA	0.019	distal-less homeobox 5	protein-coding gene	NA	Ectoderm	Brain	0	0.814815	0.0056391	0.0211014
+ENSG00000217236	Mm Hs	SP9	Neural stem/precursor cells	ZNF990	0.02	Sp9 transcription factor	protein-coding gene	1	Ectoderm	Brain	0	0.962963	0.000626566	0.0234174
+ENSG00000196767	Mm Hs	POU3F4	Neural stem/precursor cells	BRN4|OTF9|DFNX2|DFN3	0.004	POU class 3 homeobox 4	protein-coding gene	1	Ectoderm	Brain	0	0.555556	0.00219298	0.00353834
+ENSG00000143032	Mm Hs	BARHL2	Neural stem/precursor cells	NA	0.004	BarH like homeobox 2	protein-coding gene	NA	Ectoderm	Brain	0	0.0740741	0	0.00508235
+ENSG00000143355	Mm Hs	LHX9	Neural stem/precursor cells	NA	0.004	LIM homeobox 9	protein-coding gene	NA	Ectoderm	Brain	0	0.037037	0.00250627	0.00508235
+ENSG00000168779	Mm Hs	SHOX2	Neural stem/precursor cells	SHOT|OG12X|OG12	0.006	short stature homeobox 2	protein-coding gene	NA	Ectoderm	Brain	0	0.0740741	0.00344612	0.00649768
+ENSG00000090932	Mm Hs	DLL3	Neural stem/precursor cells	SCDO1	0.009	delta like canonical Notch ligand 3	protein-coding gene	NA	Ectoderm	Brain	0	0.0740741	0.0153509	0.00662635
+ENSG00000164093	Mm Hs	PITX2	Neural stem/precursor cells	IGDS|Brx1|Otlx2|IRID2|IHG2|RIEG|RIEG1|RGS	0.01	paired like homeodomain 2	protein-coding gene	NA	Ectoderm	Brain	0	0	0.0109649	0.00868502
+ENSG00000004848	Mm Hs	ARX	Neural stem/precursor cells	ISSX|CT121|EIEE1|MRXS1|PRTS|MRX76|MRX54|MRX43|MRX36|MRX29|MRX32|MRX33|MRX38|MRX87	0.019	aristaless related homeobox	protein-coding gene	1	Ectoderm	Brain	0	0.814815	0.00219298	0.0222594
+ENSG00000122584	Mm Hs	NXPH1	Neural stem/precursor cells	NA	0.022	neurexophilin 1	protein-coding gene	NA	Ectoderm	Brain	0	0.0740741	0.000313283	0.0276634
+ENSG00000103460	Mm Hs	TOX3	Neural stem/precursor cells	CAGF9|TNRC9	0.017	TOX high mobility group box family member 3	protein-coding gene	NA	Ectoderm	Brain	0	0.518519	0.0037594	0.0195574
+ENSG00000183734	Mm Hs	ASCL2	Neural stem/precursor cells	HASH2|bHLHa45	0.005	achaete-scute family bHLH transcription factor 2	protein-coding gene	1	Ectoderm	Brain	0	0	0.0075188	0.00482501
+ENSG00000197921	Mm Hs	HES5	Neural stem/precursor cells	bHLHb38	0.036	hes family bHLH transcription factor 5	protein-coding gene	1	Ectoderm	Brain	0	0.222222	0.00125313	0.0420098
+ENSG00000171476	Mm Hs	HOPX	Neural stem/precursor cells	LAGY|OB1|NECC1|SMAP31	0.033	HOP homeobox	protein-coding gene	1	Ectoderm	Brain	0	0	0.091792	0.0223237
+ENSG00000162992	Mm Hs	NEUROD1	Neural stem/precursor cells	BETA2|BHF-1|NeuroD|bHLHa3|MODY6|NEUROD	0.038	neuronal differentiation 1	protein-coding gene	1	Ectoderm	Brain	0	0.0740741	0.023183	0.0429748
+ENSG00000237412	Mm Hs	PRSS56	Neural stem/precursor cells	NA	0.002	serine protease 56	protein-coding gene	1	Ectoderm	Brain	0	0	0	0.00199434
+ENSG00000125398	Mm Hs	SOX9	Neural stem/precursor cells	SRA1|CMD1|CMPD1	0.086	SRY-box 9	protein-coding gene	1	Ectoderm	Brain	0	0.111111	0.0322682	0.100746
+ENSG00000109107	Mm Hs	ALDOC	Neural stem/precursor cells	NA	0.078	"aldolase, fructose-bisphosphate C"	protein-coding gene	1	Ectoderm	Brain	0	0.037037	0.00093985	0.0969506
+ENSG00000172201	Mm Hs	ID4	Neural stem/precursor cells	bHLHb27	0.093	"inhibitor of DNA binding 4, HLH protein"	protein-coding gene	1	Ectoderm	Brain	0	0.555556	0.0642231	0.101068
+ENSG00000181449	Mm Hs	SOX2	Neural stem/precursor cells	NA	0.082	SRY-box 2	protein-coding gene	1	Ectoderm	Brain	0	0.666667	0.0288221	0.0930263
+ENSG00000144355	Mm Hs	DLX1	Neural stem/precursor cells	NA	0.036	distal-less homeobox 1	protein-coding gene	1	Ectoderm	Brain	0	0.925926	0	0.0433608
+ENSG00000111674	Mm Hs	ENO2	Neurons	NA	0.06	enolase 2	protein-coding gene	1	Ectoderm	Brain	1	0.692222	0.024191	0.0272647
+ENSG00000167281	Mm Hs	RBFOX3	Neurons	FOX-3|NeuN|HRNBP3	0.04	RNA binding fox-1 homolog 3	protein-coding gene	1	Ectoderm	Brain	0	0.353333	0.0109959	0.0297867
+ENSG00000070748	Mm Hs	CHAT	Neurons	NA	0.001	choline O-acetyltransferase	protein-coding gene	1	Ectoderm	Brain	0	0.0255556	0	0.000136323
+ENSG00000180176	Mm Hs	TH	Neurons	DYT5b	0.002	tyrosine hydroxylase	protein-coding gene	1	Ectoderm	Brain	0.222222	0.0188889	0.00125668	0.0014314
+ENSG00000104327	Mm Hs	CALB1	Neurons	CALB	0.019	calbindin 1	protein-coding gene	1	Ectoderm	Brain	0	0.217778	0.00125668	0.0116556
+ENSG00000172137	Mm Hs	CALB2	Neurons	CAL2	0.03	calbindin 2	protein-coding gene	1	Ectoderm	Brain	0	0.141111	0.00282752	0.0311499
+ENSG00000016082	Mm Hs	ISL1	Neurons	Isl-1|ISLET1	0.028	ISL LIM homeobox 1	protein-coding gene	1	Ectoderm	Brain	0	0.0622222	0.0135093	0.029514
+ENSG00000108342	Mm Hs	CSF3	Neurons	MGC45931|GCSF|G-CSF|C17orf33	0.003	colony stimulating factor 3	protein-coding gene	1	Ectoderm	Brain	0	0	0.00973924	0.00197669
+ENSG00000100285	Mm Hs	NEFH	Neurons	NA	0.009	neurofilament heavy	protein-coding gene	1	Ectoderm	Brain	0.444444	0.0588889	0.00251335	0.00770227
+ENSG00000104722	Mm Hs	NEFM	Neurons	NFM|NF-M|NEF3	0.028	neurofilament medium	protein-coding gene	1	Ectoderm	Brain	0.666667	0.146667	0.0182218	0.0211301
+ENSG00000132535	Mm Hs	DLG4	Neurons	PSD-95|PSD95|SAP90|SAP-90	0.022	discs large MAGUK scaffold protein 4	protein-coding gene	1	Ectoderm	Brain	0	0.281111	0.000314169	0.0125417
+ENSG00000124140	Mm Hs	SLC12A5	Neurons	KIAA1176|KCC2	0.048	solute carrier family 12 member 5	protein-coding gene	1	Ectoderm	Brain	0.666667	0.675556	0.00188501	0.0204485
+ENSG00000022355	Mm Hs	GABRA1	Neurons	EJM5	0.027	gamma-aminobutyric acid type A receptor alpha1 subunit	protein-coding gene	1	Ectoderm	Brain	0.111111	0.335556	0	0.0136323
+ENSG00000240583	Mm Hs	AQP1	Neurons	CHIP28|CO	0.037	aquaporin 1 (Colton blood group)	protein-coding gene	1	Ectoderm	Brain	0	0	0.0179076	0.045123
+ENSG00000119917	Mm Hs	IFIT3	Neurons	ISG60|RIG-G|CIG-49|IFI60|GARG-49|IRG2|IFIT4	0.014	interferon induced protein with tetratricopeptide repeats 3	protein-coding gene	1	Ectoderm	Brain	0	0	0.0219918	0.0121328
+ENSG00000018280	Mm Hs	SLC11A1	Neurons	NRAMP|NRAMP1	0.017	solute carrier family 11 member 1	protein-coding gene	1	Ectoderm	Brain	0	0	0.00659755	0.0209938
+ENSG00000160180	Mm Hs	TFF3	Neurons	HITF|ITF	0.022	trefoil factor 3	protein-coding gene	1	Ectoderm	Brain	0	0	0.0452403	0.0153364
+ENSG00000106688	Mm Hs	SLC1A1	Neurons	EAAC1|EAAT3	0.013	solute carrier family 1 member 1	protein-coding gene	1	Ectoderm	Brain	0	0.0344444	0.00157085	0.0149956
+ENSG00000163739	Mm Hs	CXCL1	Neurons	SCYB1|GROa|MGSA-a|NAP-3|MGSA|GRO1|FSP	0.032	C-X-C motif chemokine ligand 1	protein-coding gene	1	Ectoderm	Brain	0	0	0.0458687	0.032445
+ENSG00000160683	Mm Hs	CXCR5	Neurons	MDR15|CD185|BLR1	0.001	C-X-C motif chemokine receptor 5	protein-coding gene	1	Ectoderm	Brain	0	0	0	0.00109059
+ENSG00000163568	Mm Hs	AIM2	Neurons	PYHIN4	0.002	absent in melanoma 2	protein-coding gene	1	Ectoderm	Brain	0	0	0.00157085	0.00184037
+ENSG00000132561	Mm Hs	MATN2	Neurons	NA	0.017	matrilin 2	protein-coding gene	1	Ectoderm	Brain	0	0.01	0.0179076	0.0182673
+ENSG00000180773	Mm Hs	SLC36A4	Neurons	PAT4|FLJ38932	0.006	solute carrier family 36 member 4	protein-coding gene	1	Ectoderm	Brain	0	0.0366667	0.00754006	0.00122691
+ENSG00000135406	Mm Hs	PRPH	Neurons	PRPH1|NEF4	0.011	peripherin	protein-coding gene	1	Ectoderm	Brain	0	0.00555556	0.024191	0.00913366
+ENSG00000169057	Mm Hs	MECP2	Neurons	RTT|MRX16|MRX79	0.011	methyl-CpG binding protein 2	protein-coding gene	1	Ectoderm	Brain	0	0.0588889	0.0122526	0.00708881
+ENSG00000254550	Mm Hs	OMP	Neurons	NA	0.001	olfactory marker protein	protein-coding gene	1	Ectoderm	Brain	0	0.00111111	0	0.00170404
+ENSG00000179295	Mm Hs	PTPN11	Neurons	BPTP3|SH-PTP2|SHP-2|PTP2C|SHP2|NS1	0.05	"protein tyrosine phosphatase, non-receptor type 11"	protein-coding gene	1	Ectoderm	Brain	0.111111	0.111111	0.0326736	0.0511894
+ENSG00000122585	Mm Hs	NPY	Neurons	PYY4	0.015	neuropeptide Y	protein-coding gene	1	Ectoderm	Brain	0	0.127778	0.00565504	0.0102924
+ENSG00000159723	Mm Hs	AGRP	Neurons	Agrt|ART|ASIP2	0.001	agouti related neuropeptide	protein-coding gene	1	Ectoderm	Brain	0	0.0211111	0	0.00040897
+ENSG00000182698	Mm Hs	RESP18	Neurons	NA	0.062	regulated endocrine specific protein 18	protein-coding gene	1	Ectoderm	Brain	0	0.725556	0	0.0377616
+ENSG00000106089	Mm Hs	STX1A	Neurons	HPC-1|p35-1|STX1	0.013	syntaxin 1A	protein-coding gene	1	Ectoderm	Brain	0	0.0888889	0.00659755	0.0108377
+ENSG00000149575	Mm Hs	SCN2B	Neurons	NA	0.035	sodium voltage-gated channel beta subunit 2	protein-coding gene	1	Ectoderm	Brain	0.222222	0.562222	0	0.0115193
+ENSG00000140323	Mm Hs	DISP2	Neurons	DISPB|KIAA1742|HsT16908|LINC00594|C15orf36	0.03	dispatched RND transporter family member 2	protein-coding gene	NA	Ectoderm	Brain	0.111111	0.418889	0	0.0137005
+ENSG00000099625	Mm Hs	CBARP	Neurons	MGC40084|DOS|BARP|C19orf26	0.035	CACN subunit beta associated regulatory protein	protein-coding gene	NA	Ectoderm	Brain	0	0.491111	0.00314169	0.0158817
+ENSG00000112309	Mm Hs	B3GAT2	Neurons	GlcAT-S	0.003	"beta-1,3-glucuronyltransferase 2"	protein-coding gene	1	Ectoderm	Brain	0	0.0177778	0	0.00327176
+ENSG00000010932	Mm Hs	FMO1	Neurons	NA	0.012	flavin containing monooxygenase 1	protein-coding gene	1	Ectoderm	Brain	0	0	0.000314169	0.0151319
+ENSG00000163520	Mm Hs	FBLN2	Neurons	NA	0.025	fibulin 2	protein-coding gene	1	Ectoderm	Brain	0	0	0.0197926	0.0286279
+ENSG00000180730	Mm Hs	SHISA2	Neurons	bA398O19.2|PRO28631|WGAR9166|hShisa|C13orf13|TMEM46	0.011	shisa family member 2	protein-coding gene	1	Ectoderm	Brain	0.111111	0	0.0329877	0.00449867
+ENSG00000187398	Mm Hs	LUZP2	Neurons	NA	0.037	leucine zipper protein 2	protein-coding gene	1	Ectoderm	Brain	0	0.0366667	0.00471254	0.0462136
+ENSG00000164106	Mm Hs	SCRG1	Neurons	SCRG-1	0.037	stimulator of chondrogenesis 1	protein-coding gene	1	Ectoderm	Brain	0.111111	0	0.0169651	0.0454638
+ENSG00000182103	Mm Hs	FAM181B	Neurons	LOC220382|MGC33846	0.018	family with sequence similarity 181 member B	protein-coding gene	NA	Ectoderm	Brain	0	0	0.000314169	0.0245382
+ENSG00000017427	Mm Hs	IGF1	Neurons	IGF1A|IGFI|IGF-I|IGF	0.044	insulin like growth factor 1	protein-coding gene	1	Ectoderm	Brain	0	0.0644444	0.00282752	0.0537796
+ENSG00000233932	Mm Hs	CTXN2	Neurons	NA	0.015	cortexin 2	protein-coding gene	NA	Ectoderm	Brain	0	0.235556	0	0.00504396
+ENSG00000166448	Mm Hs	TMEM130	Neurons	DKFZp761L1417|FLJ42643	0.04	transmembrane protein 130	protein-coding gene	NA	Ectoderm	Brain	0.666667	0.653333	0	0.0127462
+ENSG00000089091	Mm Hs	DZANK1	Neurons	FLJ10600|dJ568F9.2|FLJ30892|bA189K21.8|ANKRD64|C20orf84|C20orf12	0.015	double zinc ribbon and ankyrin repeat domains 1	protein-coding gene	NA	Ectoderm	Brain	0	0.258889	0.000628338	0.00443051
+ENSG00000068366	Mm Hs	ACSL4	Neurons	ACS4|LACS4|FACL4|MRX63|MRX68	0.035	acyl-CoA synthetase long chain family member 4	protein-coding gene	NA	Ectoderm	Brain	0.111111	0.158889	0.0163368	0.0325813
+ENSG00000139182	Mm Hs	CLSTN3	Neurons	CSTN3|KIAA0726|CDHR14	0.033	calsyntenin 3	protein-coding gene	NA	Ectoderm	Brain	0.666667	0.547778	0.000628338	0.0096108
+ENSG00000242173	Mm Hs	ARHGDIG	Neurons	RHOGDI-3	0.038	Rho GDP dissociation inhibitor gamma	protein-coding gene	NA	Ectoderm	Brain	0.222222	0.371111	0.00282752	0.0270602
+ENSG00000173805	Mm Hs	HAP1	Neurons	hHLP1|HIP5	0.041	huntingtin associated protein 1	protein-coding gene	NA	Ectoderm	Brain	0	0.608889	0.000628338	0.0168359
+ENSG00000125841	Mm Hs	NRSN2	Neurons	dJ1103G7.6|C20orf98	0.032	neurensin 2	protein-coding gene	NA	Ectoderm	Brain	0	0.551111	0.000628338	0.00811124
+ENSG00000183044	Mm Hs	ABAT	Neurons	GABAT	0.032	4-aminobutyrate aminotransferase	protein-coding gene	NA	Ectoderm	Brain	0.222222	0.336667	0.00282752	0.0203803
+ENSG00000163517	Mm Hs	HDAC11	Neurons	NA	0.032	histone deacetylase 11	protein-coding gene	NA	Ectoderm	Brain	0	0.343333	0.018536	0.0175857
+ENSG00000014824	Mm Hs	SLC30A9	Neurons	HUEL|ZNT9|GAC63|C4orf1	0.04	solute carrier family 30 member 9	protein-coding gene	NA	Ectoderm	Brain	0	0.284444	0.0254477	0.0297185
+ENSG00000085365	Mm Hs	SCAMP1	Neurons	SCAMP37	0.041	secretory carrier membrane protein 1	protein-coding gene	NA	Ectoderm	Brain	0.333333	0.361111	0.0125668	0.0289006
+ENSG00000198934	Mm Hs	MAGEE1	Neurons	KIAA1587|DAMAGE	0.021	MAGE family member E1	protein-coding gene	NA	Ectoderm	Brain	0	0.285556	0	0.00995161
+ENSG00000104490	Mm Hs	NCALD	Neurons	NA	0.035	neurocalcin delta	protein-coding gene	NA	Ectoderm	Brain	0	0.341111	0.00125668	0.0256288
+ENSG00000181789	Mm Hs	COPG1	Neurons	COPG	0.039	coatomer protein complex subunit gamma 1	protein-coding gene	NA	Ectoderm	Brain	0	0.361111	0.0150801	0.0259014
+ENSG00000129159	Mm Hs	KCNC1	Neurons	Kv3.1	0.03	potassium voltage-gated channel subfamily C member 1	protein-coding gene	NA	Ectoderm	Brain	0.111111	0.455556	0	0.0123373
+ENSG00000109670	Mm Hs	FBXW7	Neurons	AGO|FLJ11071|SEL-10|SEL10|FBW7|CDC4|FBXW6	0.038	F-box and WD repeat domain containing 7	protein-coding gene	NA	Ectoderm	Brain	0	0.271111	0.0373861	0.0233795
+ENSG00000113327	Mm Hs	GABRG2	Neurons	NA	0.024	gamma-aminobutyric acid type A receptor gamma2 subunit	protein-coding gene	NA	Ectoderm	Brain	0.333333	0.341111	0.000314169	0.0106332
+ENSG00000136448	Mm Hs	NMT1	Neurons	NMT	0.028	N-myristoyltransferase 1	protein-coding gene	NA	Ectoderm	Brain	0	0.0688889	0.0251335	0.0261741
+ENSG00000032219	Mm Hs	ARID4A	Neurons	RBP1|RBP-1|RBBP1	0.051	AT-rich interaction domain 4A	protein-coding gene	NA	Ectoderm	Brain	0.666667	0.173333	0.0436695	0.0465544
+ENSG00000212643	Mm Hs	ZRSR1	Neurons	NA	0.005	"zinc finger (CCCH type), RNA binding motif and serine/arginine rich 1"	protein coding gene	NA	Ectoderm	Brain	0	0.0555556	0	0.00279463
+ENSG00000091844	Mm Hs	RGS17	Neurons	RGSZ2|RGS-17	0.031	regulator of G protein signaling 17	protein-coding gene	NA	Ectoderm	Brain	0.222222	0.424444	0.00314169	0.0135642
+ENSG00000142046	Mm Hs	TMEM91	Neurons	FLJ27310|IFITMD6|DSPC3	0.011	transmembrane protein 91	protein-coding gene	NA	Ectoderm	Brain	0	0.18	0.0116243	0.000136323
+ENSG00000164885	Mm Hs	CDK5	Neurons	PSSALRE	0.026	cyclin dependent kinase 5	protein-coding gene	NA	Ectoderm	Brain	0.111111	0.144444	0.00659755	0.0231068
+ENSG00000160633	Mm Hs	SAFB	Neurons	HET|SAFB1	0.061	scaffold attachment factor B	protein-coding gene	NA	Ectoderm	Brain	0.222222	0.108889	0.0628338	0.0570513
+ENSG00000187147	Mm Hs	RNF220	Neurons	FLJ10597|C1orf164	0.044	ring finger protein 220	protein-coding gene	NA	Ectoderm	Brain	0	0.168889	0.0175935	0.0433508
+ENSG00000058335	Mm Hs	RASGRF1	Neurons	CDC25L|GRF55|H-GRF55|GNRP|PP13187|GRF1	0.023	Ras protein specific guanine nucleotide releasing factor 1	protein-coding gene	NA	Ectoderm	Brain	0.333333	0.391111	0.00219918	0.00627087
+ENSG00000204071	Mm Hs	TCEAL6	Neurons	WEX2	0.015	transcription elongation factor A like 6	protein-coding gene	NA	Ectoderm	Brain	0	0.261111	0.000942507	0.00429419
+ENSG00000258986	Mm Hs	TMEM179	Neurons	FLJ42486|TMEM179A|C14orf90	0.03	transmembrane protein 179	protein-coding gene	NA	Ectoderm	Brain	0.111111	0.468889	0	0.0113148
+ENSG00000145029	Mm Hs	NICN1	Neurons	MGC12936	0.022	nicolin 1	protein-coding gene	NA	Ectoderm	Brain	0	0.215556	0	0.0161543
+ENSG00000134265	Mm Hs	NAPG	Neurons	NA	0.033	NSF attachment protein gamma	protein-coding gene	NA	Ectoderm	Brain	0.111111	0.346667	0.020421	0.016427
+ENSG00000153815	Mm Hs	CMIP	Neurons	NA	0.031	c-Maf inducing protein	protein-coding gene	NA	Ectoderm	Brain	0.333333	0.204444	0.0254477	0.0225615
+ENSG00000015171	Mm Hs	ZMYND11	Neurons	BS69	0.036	zinc finger MYND-type containing 11	protein-coding gene	NA	Ectoderm	Brain	0.222222	0.204444	0.0103676	0.0330584
+ENSG00000005486	Mm Hs	RHBDD2	Neurons	NPD007|RHBDL7	0.026	rhomboid domain containing 2	protein-coding gene	NA	Ectoderm	Brain	1	0.124444	0.0810556	0.00429419
+ENSG00000177511	Mm Hs	ST8SIA3	Neurons	SIAT8C	0.017	"ST8 alpha-N-acetyl-neuraminide alpha-2,8-sialyltransferase 3"	protein-coding gene	NA	Ectoderm	Brain	0	0.267778	0	0.00688433
+ENSG00000102103	Mm Hs	PQBP1	Neurons	RENS1|MRXS8|SHS|MRX55|MRX2|MRXS3	0.06	polyglutamine binding protein 1	protein-coding gene	NA	Ectoderm	Brain	0	0.134444	0.0870248	0.043419
+ENSG00000007264	Mm Hs	MATK	Neurons	HYLTK|CTK|HYL|Lsk|HHYLTK|DKFZp434N1212|MGC1708|MGC2101	0.032	megakaryocyte-associated tyrosine kinase	protein-coding gene	NA	Ectoderm	Brain	0	0.417778	0.018536	0.0134279
+ENSG00000067445	Mm Hs	TRO	Neurons	MAGE-D3|KIAA1114|MAGED3	0.032	trophinin	protein-coding gene	NA	Ectoderm	Brain	0	0.568889	0.00125668	0.00824756
+ENSG00000011243	Mm Hs	AKAP8L	Neurons	NAKAP95|HAP95	0.027	A-kinase anchoring protein 8 like	protein-coding gene	NA	Ectoderm	Brain	0	0.166667	0.0380145	0.0158817
+ENSG00000133878	Mm Hs	DUSP26	Neurons	MGC1136	0.04	dual specificity phosphatase 26	protein-coding gene	NA	Ectoderm	Brain	0.222222	0.39	0.0116243	0.0267875
+ENSG00000129990	Mm Hs	SYT5	Neurons	NA	0.033	synaptotagmin 5	protein-coding gene	NA	Ectoderm	Brain	0.222222	0.377778	0.00345586	0.020653
+ENSG00000128683	Mm Hs	GAD1	Neurons	GAD	0.03	glutamate decarboxylase 1	protein-coding gene	NA	Ectoderm	Brain	0.333333	0.425556	0.00251335	0.013496
+ENSG00000059122	Mm Hs	FLYWCH1	Neurons	DKFZp761A132	0.022	FLYWCH-type zinc finger 1	protein-coding gene	NA	Ectoderm	Brain	0	0.228889	0.00282752	0.0148592
+ENSG00000152214	Mm Hs	RIT2	Neurons	RIBA|RIN	0.029	Ras like without CAAX 2	protein-coding gene	NA	Ectoderm	Brain	0	0.434444	0.000314169	0.0123373
+ENSG00000204065	Mm Hs	TCEAL5	Neurons	WEX4	0.025	transcription elongation factor A like 5	protein-coding gene	NA	Ectoderm	Brain	0.222222	0.38	0.00816839	0.00804308
+ENSG00000130822	Mm Hs	PNCK	Neurons	MGC45419|CaMK1b	0.021	pregnancy up-regulated nonubiquitous CaM kinase	protein-coding gene	NA	Ectoderm	Brain	0	0.343333	0	0.00708881
+ENSG00000105696	Mm Hs	TMEM59L	Neurons	BSMAP|C19orf4	0.046	transmembrane protein 59 like	protein-coding gene	NA	Ectoderm	Brain	0.888889	0.658889	0.00754006	0.0175176
+ENSG00000196507	Mm Hs	TCEAL3	Neurons	MGC15737|WEX8	0.041	transcription elongation factor A like 3	protein-coding gene	NA	Ectoderm	Brain	0.333333	0.358889	0.0584354	0.0149274
+ENSG00000158301	Mm Hs	GPRASP2	Neurons	GASP2|FLJ37327	0.033	G protein-coupled receptor associated sorting protein 2	protein-coding gene	NA	Ectoderm	Brain	0	0.574444	0	0.00926999
+ENSG00000184368	Mm Hs	MAP7D2	Neurons	FLJ14503	0.039	MAP7 domain containing 2	protein-coding gene	NA	Ectoderm	Brain	0.222222	0.486667	0.0263902	0.015609
+ENSG00000225783	Mm Hs	MIAT	Neurons	FLJ25967|Rncr2|gomafu|NCRNA00066|LINC00066|lncRNA-MIAT|C22orf35	0.02	myocardial infarction associated transcript	non-coding RNA	NA	Ectoderm	Brain	0.666667	0.172222	0.0144518	0.00947447
+ENSG00000023287	Mm Hs	RB1CC1	Neurons	KIAA0203|Cc1|DRAGOU14|FIP200|ATG17|PPP1R131	0.058	RB1 inducible coiled-coil 1	protein-coding gene	NA	Ectoderm	Brain	0.222222	0.211111	0.0945649	0.0388522
+ENSG00000125675	Mm Hs	GRIA3	Neurons	GluA3|GLURC|MRX94|GLUR3	0.02	glutamate ionotropic receptor AMPA type subunit 3	protein-coding gene	NA	Ectoderm	Brain	0	0.227778	0.00219918	0.0105651
+ENSG00000172915	Mm Hs	NBEA	Neurons	KIAA1544|BCL8B|FLJ10197|LYST2	0.032	neurobeachin	protein-coding gene	NA	Ectoderm	Brain	0.111111	0.262222	0.00439837	0.0250835
+ENSG00000061936	Mm Hs	SFSWAP	Neurons	SFRS8	0.025	splicing factor SWAP	protein-coding gene	NA	Ectoderm	Brain	0	0.0555556	0.0135093	0.0255606
+ENSG00000126870	Mm Hs	WDR60	Neurons	FLJ10300|FAP163	0.017	WD repeat domain 60	protein-coding gene	NA	Ectoderm	Brain	0	0.00888889	0.0562363	0.00926999
+ENSG00000144285	Mm Hs	SCN1A	Neurons	Nav1.1|GEFSP2|SMEI|SCN1|FEB3	0.018	sodium voltage-gated channel alpha subunit 1	protein-coding gene	NA	Ectoderm	Brain	0.222222	0.293333	0.00125668	0.00579374
+ENSG00000185946	Mm Hs	RNPC3	Neurons	KIAA1839|FLJ20008|RBM40	0.02	"RNA binding region (RNP1, RRM) containing 3"	protein-coding gene	NA	Ectoderm	Brain	0	0.248889	0.00219918	0.010974
+ENSG00000037965	Mm Hs	HOXC8	Neurons	HOX3A	0.005	homeobox C8	protein-coding gene	NA	Ectoderm	Brain	0	0.00777778	0.00314169	0.00518029
+ENSG00000142599	Mm Hs	RERE	Neurons	KIAA0458|DNB1|ATN1L	0.049	arginine-glutamic acid dipeptide repeats	protein-coding gene	NA	Ectoderm	Brain	0.333333	0.188889	0.0386428	0.0429419
+ENSG00000196876	Mm Hs	SCN8A	Neurons	Nav1.6|NaCh6|PN4|CerIII|CIAT	0.025	sodium voltage-gated channel alpha subunit 8	protein-coding gene	NA	Ectoderm	Brain	0.222222	0.325556	0	0.0129507
+ENSG00000100815	Mm Hs	TRIP11	Neurons	CEV14|Trip230|GMAP-210|GMAP210	0.037	thyroid hormone receptor interactor 11	protein-coding gene	NA	Ectoderm	Brain	0	0.0444444	0.0430412	0.0366028
+ENSG00000165521	Mm Hs	EML5	Neurons	HuEMAP-2	0.01	echinoderm microtubule associated protein like 5	protein-coding gene	NA	Ectoderm	Brain	0	0.114444	0	0.00579374
+ENSG00000055609	Mm Hs	KMT2C	Neurons	KIAA1506|HALR|MLL3	0.037	lysine methyltransferase 2C	protein-coding gene	NA	Ectoderm	Brain	0.222222	0.0677778	0.0493245	0.0323086
+ENSG00000115977	Mm Hs	AAK1	Neurons	KIAA1048|DKFZp686K16132	0.044	AP2 associated kinase 1	protein-coding gene	NA	Ectoderm	Brain	0.555556	0.47	0.0320452	0.0214709
+ENSG00000130254	Mm Hs	SAFB2	Neurons	KIAA0138	0.024	scaffold attachment factor B2	protein-coding gene	NA	Ectoderm	Brain	0.111111	0.0266667	0.0486962	0.0174494
+ENSG00000151835	Mm Hs	SACS	Neurons	ARSACS|KIAA0730|DKFZp686B15167|DNAJC29|SPAX6|PPP1R138	0.005	sacsin molecular chaperone	protein-coding gene	NA	Ectoderm	Brain	0	0.04	0.00471254	0.00279463
+ENSG00000198626	Mm Hs	RYR2	Neurons	ARVC2|VTSIP|ARVD2	0.008	ryanodine receptor 2	protein-coding gene	NA	Ectoderm	Brain	0	0.0844444	0	0.00449867
+ENSG00000104218	Mm Hs	CSPP1	Neurons	FLJ22490|CSPP|JBTS21	0.018	centrosome and spindle pole associated protein 1	protein-coding gene	NA	Ectoderm	Brain	0	0.0533333	0.0263902	0.0154045
+ENSG00000152578	Mm Hs	GRIA4	Neurons	GluA4|GLURD|GLUR4	0.014	glutamate ionotropic receptor AMPA type subunit 4	protein-coding gene	NA	Ectoderm	Brain	0.333333	0.154444	0.00251335	0.00811124
+ENSG00000124177	Mm Hs	CHD6	Neurons	KIAA1335|FLJ22369|dJ620E11.1|RIGB	0.044	chromodomain helicase DNA binding protein 6	protein-coding gene	NA	Ectoderm	Brain	0	0.305556	0.0267044	0.0308091
+ENSG00000147905	Mm Hs	ZCCHC7	Neurons	FLJ22611|AIR1	0.034	zinc finger CCHC-type containing 7	protein-coding gene	NA	Ectoderm	Brain	0	0.227778	0.0345586	0.0217436
+ENSG00000186566	Mm Hs	GPATCH8	Neurons	KIAA0553|GPATC8	0.048	G-patch domain containing 8	protein-coding gene	NA	Ectoderm	Brain	0	0.296667	0.00942507	0.0435553
+ENSG00000186472	Mm Hs	PCLO	Neurons	KIAA0559|DKFZp779G1236|ACZ	0.039	piccolo presynaptic cytomatrix protein	protein-coding gene	NA	Ectoderm	Brain	0.333333	0.503333	0.0040842	0.0175176
+ENSG00000131018	Mm Hs	SYNE1	Neurons	SYNE-1B|KIAA0796|8B|Nesprin-1|enaptin|MYNE1|CPG2|dJ45H2.2|SCAR8|ARCA1|Nesp1|C6orf98	0.05	spectrin repeat containing nuclear envelope protein 1	protein-coding gene	NA	Ectoderm	Brain	0.333333	0.368889	0.0144518	0.0381024
+ENSG00000117707	Mm Hs	PROX1	Neurons	NA	0.028	prospero homeobox 1	protein-coding gene	NA	Ectoderm	Brain	0	0.0544444	0.0109959	0.0311499
+ENSG00000154146	Mm Hs	NRGN	Neurons	NA	0.031	neurogranin	protein-coding gene	1	Ectoderm	Brain	0.111111	0.177778	0.0106817	0.0257651
+ENSG00000198729	Mm Hs	PPP1R14C	Neurons	NY-BR-81|KEPI	0.026	protein phosphatase 1 regulatory inhibitor subunit 14C	protein-coding gene	NA	Ectoderm	Brain	0	0.0588889	0.00596921	0.0299911
+ENSG00000163630	Mm Hs	SYNPR	Neurons	MGC26651	0.022	synaptoporin	protein-coding gene	NA	Ectoderm	Brain	0.333333	0.166667	0	0.0190853
+ENSG00000160050	Mm Hs	CCDC28B	Neurons	MGC1203|RP4-622L5.5	0.02	coiled-coil domain containing 28B	protein-coding gene	NA	Ectoderm	Brain	0.222222	0.0333333	0.018536	0.0195624
+ENSG00000135750	Mm Hs	KCNK1	Neurons	K2p1.1|TWIK-1	0.042	potassium two pore domain channel subfamily K member 1	protein-coding gene	NA	Ectoderm	Brain	0	0.0755556	0.027961	0.0446459
+ENSG00000119865	Mm Hs	CNRIP1	Neurons	DKFZP566K1924|CRIP1|CRIP1a|CRIP1b|C2orf32	0.031	cannabinoid receptor interacting protein 1	protein-coding gene	NA	Ectoderm	Brain	0.222222	0.2	0.022306	0.023175
+ENSG00000260230	Mm Hs	FRRS1L	Neurons	CG-6|C9orf4	0.028	ferric chelate reductase 1 like	protein-coding gene	NA	Ectoderm	Brain	0.222222	0.378889	0.000628338	0.0127462
+ENSG00000165716	Mm Hs	FAM69B	Neurons	MGC20262|C9orf136	0.034	family with sequence similarity 69 member B	protein-coding gene	NA	Ectoderm	Brain	0	0.286667	0.000628338	0.0278781
+ENSG00000250510	Mm Hs	GPR162	Neurons	A-2|GRCA	0.019	G protein-coupled receptor 162	protein-coding gene	NA	Ectoderm	Brain	0	0.231111	0.000314169	0.0115193
+ENSG00000166862	Mm Hs	CACNG2	Neurons	stargazin|MGC138502|MGC138504	0.014	calcium voltage-gated channel auxiliary subunit gamma 2	protein-coding gene	NA	Ectoderm	Brain	0	0.191111	0	0.00702065
+ENSG00000196104	Mm Hs	SPOCK3	Neurons	testican-3	0.036	"SPARC (osteonectin), cwcv and kazal like domains proteoglycan 3"	protein-coding gene	NA	Ectoderm	Brain	0.555556	0.375556	0.00628338	0.0232431
+ENSG00000186479	Mm Hs	RGS7BP	Neurons	R7BP	0.034	regulator of G protein signaling 7 binding protein	protein-coding gene	NA	Ectoderm	Brain	0	0.307778	0	0.0265831
+ENSG00000197959	Mm Hs	DNM3	Neurons	KIAA0820	0.043	dynamin 3	protein-coding gene	NA	Ectoderm	Brain	0.777778	0.451111	0.000942507	0.0293095
+ENSG00000206140	Mm Hs	TMEM191C	Neurons	NA	0.031	transmembrane protein 191C	protein-coding gene	NA	Ectoderm	Brain	0	0.353333	0.0201068	0.0149274
+ENSG00000197106	Mm Hs	SLC6A17	Neurons	NA	0.023	solute carrier family 6 member 17	protein-coding gene	NA	Ectoderm	Brain	0	0.303333	0	0.0121328
+ENSG00000187957	Mm Hs	DNER	Neurons	UNQ26|bet	0.046	delta/notch like EGF repeat containing	protein-coding gene	NA	Ectoderm	Brain	1	0.456667	0.0153943	0.0297867
+ENSG00000168959	Mm Hs	GRM5	Neurons	MGLUR5|GPRC1E|mGlu5|PPP1R86	0.033	glutamate metabotropic receptor 5	protein-coding gene	NA	Ectoderm	Brain	0	0.468889	0	0.0158817
+ENSG00000174469	Mm Hs	CNTNAP2	Neurons	Caspr2|KIAA0868	0.037	contactin associated protein like 2	protein-coding gene	NA	Ectoderm	Brain	0.333333	0.321111	0.0229343	0.0235158
+ENSG00000168993	Mm Hs	CPLX1	Neurons	CPX-I	0.026	complexin 1	protein-coding gene	NA	Ectoderm	Brain	0	0.293333	0	0.0165633
+ENSG00000101438	Mm Hs	SLC32A1	Neurons	VGAT|bA122O1.1|VIAAT	0.026	solute carrier family 32 member 1	protein-coding gene	NA	Ectoderm	Brain	0	0.42	0.00157085	0.00845205
+ENSG00000170579	Mm Hs	DLGAP1	Neurons	GKAP|SAPAP1|DAP-1	0.036	DLG associated protein 1	protein-coding gene	NA	Ectoderm	Brain	0.444444	0.341111	0.000942507	0.0265149
+ENSG00000158528	Mm Hs	PPP1R9A	Neurons	Neurabin-I|KIAA1222|FLJ20068	0.044	protein phosphatase 1 regulatory subunit 9A	protein-coding gene	NA	Ectoderm	Brain	0.222222	0.468889	0.00439837	0.0284234
+ENSG00000130119	Mm Hs	GNL3L	Neurons	FLJ10613|GNL3B	0.053	G protein nucleolar 3 like	protein-coding gene	NA	Ectoderm	Brain	0	0.646667	0.000314169	0.0306046
+ENSG00000174460	Mm Hs	ZCCHC12	Neurons	FLJ16123|SIZN|SIZN1|PNMA7A	0.038	zinc finger CCHC-type containing 12	protein-coding gene	NA	Ectoderm	Brain	0.111111	0.498889	0	0.0205848
+ENSG00000047249	Mm Hs	ATP6V1H	Neurons	CGI-11|VMA13|SFDalpha|SFDbeta	0.031	ATPase H+ transporting V1 subunit H	protein-coding gene	NA	Ectoderm	Brain	0.444444	0.12	0.0282752	0.0263104
+ENSG00000121905	Mm Hs	HPCA	Neurons	NA	0.015	hippocalcin	protein-coding gene	NA	Ectoderm	Brain	0.333333	0.148889	0.00251335	0.00974712
+ENSG00000128656	Mm Hs	CHN1	Neurons	ARHGAP2|n-chimerin|DURS2	0.035	chimerin 1	protein-coding gene	NA	Ectoderm	Brain	0.555556	0.284444	0.0314169	0.0203122
+ENSG00000100884	Mm Hs	CPNE6	Neurons	NA	0.006	copine 6	protein-coding gene	NA	Ectoderm	Brain	0	0.0733333	0	0.00293095
+ENSG00000115252	Mm Hs	PDE1A	Neurons	NA	0.018	phosphodiesterase 1A	protein-coding gene	NA	Ectoderm	Brain	0.111111	0.121111	0.0213635	0.0113148
+ENSG00000127955	Mm Hs	GNAI1	Neurons	NA	0.05	G protein subunit alpha i1	protein-coding gene	NA	Ectoderm	Brain	0.222222	0.318889	0.0405278	0.0381705
+ENSG00000187094	Mm Hs	CCK	Neurons	NA	0.033	cholecystokinin	protein-coding gene	NA	Ectoderm	Brain	0	0.188889	0.00345586	0.0293095
+ENSG00000117016	Mm Hs	RIMS3	Neurons	RIM3|NIM3	0.008	regulating synaptic membrane exocytosis 3	protein-coding gene	NA	Ectoderm	Brain	0.111111	0.0877778	0	0.0049758
+ENSG00000087263	Mm Hs	OGFOD1	Neurons	KIAA1612|FLJ10826|TPA1	0.006	2-oxoglutarate and iron dependent oxygenase domain containing 1	protein-coding gene	NA	Ectoderm	Brain	0	0.0744444	0.00973924	0.000749778
+ENSG00000140488	Mm Hs	CELF6	Neurons	BRUNOL6	0.014	CUGBP Elav-like family member 6	protein-coding gene	1	Ectoderm	Brain	0	0.206667	0	0.00613455
+ENSG00000101200	Mm Hs	AVP	Neurons	ADH|ARVP	0.004	arginine vasopressin	protein-coding gene	1	Ectoderm	Brain	0	0.0444444	0.0103676	0.000477132
+ENSG00000069667	Mm Hs	RORA	Neurons	RZRA|ROR1|ROR2|ROR3|NR1F1	0.045	RAR related orphan receptor A	protein-coding gene	1	Ectoderm	Brain	0.333333	0.116667	0.0131951	0.0494172
+ENSG00000128564	Mm Hs	VGF	Neurons	SCG7|SgVII	0.021	VGF nerve growth factor inducible	protein-coding gene	1	Ectoderm	Brain	0	0.256667	0.0125668	0.00688433
+ENSG00000125851	Mm Hs	PCSK2	Neurons	SPC2|NEC2	0.032	proprotein convertase subtilisin/kexin type 2	protein-coding gene	1	Ectoderm	Brain	0.111111	0.278889	0.0245052	0.0199032
+ENSG00000154645	Mm Hs	CHODL	Neurons	FLJ12627|PRED12|MT75|C21orf68	0.004	chondrolectin	protein-coding gene	1	Ectoderm	Brain	0	0.02	0.00125668	0.00333992
+ENSG00000103154	Mm Hs	NECAB2	Neurons	EFCBP2	0.011	N-terminal EF-hand calcium binding protein 2	protein-coding gene	1	Ectoderm	Brain	0.111111	0.108889	0.00188501	0.00749778
+ENSG00000156113	Mm Hs	KCNMA1	Neurons	KCa1.1|mSLO1|SLO	0.043	potassium calcium-activated channel subfamily M alpha 1	protein-coding gene	1	Ectoderm	Brain	0.111111	0.44	0.0182218	0.0245382
+ENSG00000167535	Mm Hs	CACNB3	Neurons	CACNLB3	0.032	calcium voltage-gated channel auxiliary subunit beta 3	protein-coding gene	NA	Ectoderm	Brain	0.111111	0.118889	0.00157085	0.0346943
+ENSG00000174145	Mm Hs	NWD2	Neurons	KIAA1239	0.003	NACHT and WD repeat domain containing 2	protein-coding gene	NA	Ectoderm	Brain	0	0.0288889	0	0.00211301
+ENSG00000152977	Mm Hs	ZIC1	Neurons	ZIC|ZNF201	0.046	Zic family member 1	protein-coding gene	NA	Ectoderm	Brain	0.111111	0.0744444	0.00816839	0.0544612
+ENSG00000088992	Mm Hs	TESC	Neurons	FLJ20607|CHP3	0.032	tescalcin	protein-coding gene	NA	Ectoderm	Brain	0	0.0855556	0.0782281	0.0196306
+ENSG00000125967	Mm Hs	NECAB3	Neurons	XB51|dJ63M2.4|dJ63M2.5|EFCBP3|SYTIP2|APBA2BP	0.005	N-terminal EF-hand calcium binding protein 3	protein-coding gene	NA	Ectoderm	Brain	0	0.0133333	0.0160226	0.0014314
+ENSG00000124785	Mm Hs	NRN1	Neurons	NRN	0.021	neuritin 1	protein-coding gene	NA	Ectoderm	Brain	0.111111	0.118889	0.00973924	0.0171767
+ENSG00000136928	Mm Hs	GABBR2	Neurons	HG20|GABABR2|GPRC3B|GPR51	0.023	gamma-aminobutyric acid type B receptor subunit 2	protein-coding gene	NA	Ectoderm	Brain	0.555556	0.221111	0.0050267	0.014314
+ENSG00000104888	Mm Hs	SLC17A7	Neurons	BNPI|VGLUT1	0.012	solute carrier family 17 member 7	protein-coding gene	1	Ectoderm	Brain	0	0.0933333	0	0.00899734
+ENSG00000136267	Mm Hs	DGKB	Neurons	KIAA0718|DGK-BETA|DAGK2	0.01	diacylglycerol kinase beta	protein-coding gene	NA	Ectoderm	Brain	0	0.153333	0	0.00395338
+ENSG00000182389	Mm Hs	CACNB4	Neurons	EJM4	0.017	calcium voltage-gated channel auxiliary subunit beta 4	protein-coding gene	NA	Ectoderm	Brain	0.222222	0.162222	0.000314169	0.0127462
+ENSG00000077063	Mm Hs	CTTNBP2	Neurons	KIAA1758|Orf4|CORTBP2|C7orf8	0.032	cortactin binding protein 2	protein-coding gene	NA	Ectoderm	Brain	0	0.0677778	0.00628338	0.0370118
+ENSG00000131771	Mm Hs	PPP1R1B	Neurons	DARPP-32|FLJ20940	0.026	protein phosphatase 1 regulatory inhibitor subunit 1B	protein-coding gene	1	Ectoderm	Brain	0.111111	0.0455556	0.0160226	0.0275373
+ENSG00000183036	Mm Hs	PCP4	Neurons	PEP-19	0.083	Purkinje cell protein 4	protein-coding gene	1	Ectoderm	Brain	0.333333	0.53	0.018536	0.0705473
+ENSG00000120899	Mm Hs	PTK2B	Neurons	CAKB|PYK2|RAFTK|PTK|CADTK|FAK2	0.014	protein tyrosine kinase 2 beta	protein-coding gene	1	Ectoderm	Brain	0	0.0933333	0.00157085	0.0115875
+ENSG00000181418	Mm Hs	DDN	Neurons	KIAA0749	0.007	dendrin	protein-coding gene	1	Ectoderm	Brain	0	0.0611111	0.00125668	0.00524845
+ENSG00000105376	Mm Hs	ICAM5	Neurons	TLCN	0.006	intercellular adhesion molecule 5	protein-coding gene	1	Ectoderm	Brain	0	0.0833333	0	0.00272647
+ENSG00000163032	Mm Hs	VSNL1	Neurons	VILIP|HPCAL3|HUVISL1|VILIP-1	0.049	visinin like 1	protein-coding gene	1	Ectoderm	Brain	0.777778	0.641111	0.00534087	0.0221525
+ENSG00000124507	Mm Hs	PACSIN1	Neurons	SDPI	0.04	protein kinase C and casein kinase substrate in neurons 1	protein-coding gene	1	Ectoderm	Brain	0	0.537778	0	0.0201077
+ENSG00000153956	Mm Hs	CACNA2D1	Neurons	lncRNA-N3|CACNL2A|CACNA2|MHS3|LINC01112	0.039	calcium voltage-gated channel auxiliary subunit alpha2delta 1	protein-coding gene	1	Ectoderm	Brain	0.111111	0.268889	0.0103676	0.0330584
+ENSG00000118473	Mm Hs	SGIP1	Neurons	DKFZp761D221	0.047	SH3 domain GRB2 like endophilin interacting protein 1	protein-coding gene	1	Ectoderm	Brain	0.222222	0.563333	0.00125668	0.0275373
+ENSG00000033627	Mm Hs	ATP6V0A1	Neurons	a1|VPP1|ATP6N1|ATP6N1A	0.047	ATPase H+ transporting V0 subunit a1	protein-coding gene	1	Ectoderm	Brain	0.666667	0.541111	0.00282752	0.0285597
+ENSG00000197535	Mm Hs	MYO5A	Neurons	MYO5|MYR12|MYH12	0.045	myosin VA	protein-coding gene	1	Ectoderm	Brain	0.666667	0.428889	0.00219918	0.0317633
+ENSG00000158560	Mm Hs	DYNC1I1	Neurons	DNCIC1|DNCI1	0.022	dynein cytoplasmic 1 intermediate chain 1	protein-coding gene	1	Ectoderm	Brain	0.777778	0.166667	0.000314169	0.0184037
+ENSG00000106772	Mm Hs	PRUNE2	Neurons	BMCC1|BNIPXL|A214N16.3|bA214N16.3|C9orf65|KIAA0367	0.033	prune homolog 2	protein-coding gene	1	Ectoderm	Brain	0	0.315556	0.00722589	0.0234476
+ENSG00000007402	Mm Hs	CACNA2D2	Neurons	KIAA0558	0.027	calcium voltage-gated channel auxiliary subunit alpha2delta 2	protein-coding gene	1	Ectoderm	Brain	0	0.303333	0.00125668	0.0178584
+ENSG00000091664	Mm Hs	SLC17A6	Neurons	DNPI|VGLUT2	0.016	solute carrier family 17 member 6	protein-coding gene	1	Ectoderm	Brain	0	0.128889	0.000314169	0.0134279
+ENSG00000180176	Mm Hs	TH	Noradrenergic neurons	DYT5b	0.002	tyrosine hydroxylase	protein-coding gene	1	Ectoderm	Brain	0	1	0.0018797	0.0022482
+ENSG00000132437	Mm Hs	DDC	Noradrenergic neurons	AADC	0.014	dopa decarboxylase	protein-coding gene	1	Ectoderm	Brain	0	1	0.00469925	0.016187
+ENSG00000123454	Mm Hs	DBH	Noradrenergic neurons	DBM	0.001	dopamine beta-hydroxylase	protein-coding gene	1	Ectoderm	Brain	0	1	0	0.000642343
+ENSG00000165646	Mm Hs	SLC18A2	Noradrenergic neurons	SVMT|SVAT|VMAT2	0.006	solute carrier family 18 member A2	protein-coding gene	1	Ectoderm	Brain	0	1	0.00125313	0.00751542
+ENSG00000187714	Mm Hs	SLC18A3	Noradrenergic neurons	VACHT	0.002	solute carrier family 18 member A3	protein-coding gene	1	Ectoderm	Brain	0	0	0.00125313	0.00237667
+ENSG00000103546	Mm Hs	SLC6A2	Noradrenergic neurons	SLC6A5	0.002	solute carrier family 6 member 2	protein-coding gene	1	Ectoderm	Brain	0	1	0.00156642	0.00167009
+ENSG00000133195	Mm Hs	SLC39A11	Noradrenergic neurons	C17orf26	0.005	solute carrier family 39 member 11	protein-coding gene	1	Ectoderm	Brain	0	0	0.00219298	0.0044964
+ENSG00000164038	Mm Hs	SLC9B2	Noradrenergic neurons	FLJ23984|NHA2|NHEDC2	0.002	solute carrier family 9 member B2	protein-coding gene	1	Ectoderm	Brain	0	0	0.00720551	0.000385406
+ENSG00000173546	Mm Hs	CSPG4	Oligodendrocyte progenitor cells	MCSPG|MEL-CSPG|HMW-MAA	0.015	chondroitin sulfate proteoglycan 4	protein-coding gene	1	Ectoderm	Brain	0	0.410377	0.000627943	0.013803
+ENSG00000134853	Mm Hs	PDGFRA	Oligodendrocyte progenitor cells	CD140a|PDGFR2|GAS9	0.044	platelet derived growth factor receptor alpha	protein-coding gene	1	Ectoderm	Brain	1	0.849057	0.0455259	0.0329449
+ENSG00000100146	Mm Hs	SOX10	Oligodendrocyte progenitor cells	DOM|WS4|WS2E	0.04	SRY-box 10	protein-coding gene	1	Ectoderm	Brain	0	0.660377	0	0.0414741
+ENSG00000205927	Mm Hs	OLIG2	Oligodendrocyte progenitor cells	RACK17|OLIGO2|bHLHe19|PRKCBP2|BHLHB1	0.039	oligodendrocyte transcription factor 2	protein-coding gene	1	Ectoderm	Brain	0.285714	0.938679	0.000941915	0.0371118
+ENSG00000124159	Mm Hs	MATN4	Oligodendrocyte progenitor cells	NA	0.015	matrilin 4	protein-coding gene	1	Ectoderm	Brain	0	0.669811	0	0.010222
+ENSG00000131094	Mm Hs	C1QL1	Oligodendrocyte progenitor cells	C1QRF|C1QTNF14	0.013	complement C1q like 1	protein-coding gene	1	Ectoderm	Brain	0	0.801887	0.00627944	0.00436226
+ENSG00000170075	Mm Hs	GPR37L1	Oligodendrocyte progenitor cells	ETBR-LP-2	0.041	G protein-coupled receptor 37 like 1	protein-coding gene	1	Ectoderm	Brain	1	0.745283	0.0021978	0.0411485
+ENSG00000144230	Mm Hs	GPR17	Oligodendrocyte progenitor cells	NA	0.02	G protein-coupled receptor 17	protein-coding gene	1	Ectoderm	Brain	0	0.693396	0	0.0156911
+ENSG00000115041	Mm Hs	KCNIP3	Oligodendrocyte progenitor cells	DREAM|KCHIP3|CSEN	0.007	potassium voltage-gated channel interacting protein 3	protein-coding gene	1	Ectoderm	Brain	0	0.410377	0	0.00325542
+ENSG00000166292	Mm Hs	TMEM100	Oligodendrocyte progenitor cells	FLJ10970|FLJ37856	0.021	transmembrane protein 100	protein-coding gene	1	Ectoderm	Brain	0	0.650943	0.00376766	0.0158213
+ENSG00000038427	Mm Hs	VCAN	Oligodendrocyte progenitor cells	PG-M|CSPG2	0.056	versican	protein-coding gene	1	Ectoderm	Brain	1	0.641509	0.0948195	0.0362654
+ENSG00000129596	Mm Hs	CDO1	Oligodendrocyte progenitor cells	NA	0.036	cysteine dioxygenase type 1	protein-coding gene	1	Ectoderm	Brain	0	0.556604	0.0119309	0.0347679
+ENSG00000072134	Mm Hs	EPN2	Oligodendrocyte progenitor cells	KIAA1065|EHB21	0.046	epsin 2	protein-coding gene	1	Ectoderm	Brain	1	0.801887	0.0213501	0.042646
+ENSG00000187416	Mm Hs	LHFPL3	Oligodendrocyte progenitor cells	LHFPL4	0.014	LHFPL tetraspan subfamily member 3	protein-coding gene	1	Ectoderm	Brain	0	0.816038	0	0.00631552
+ENSG00000204099	Mm Hs	NEU4	Oligodendrocyte progenitor cells	NA	0.009	neuraminidase 4	protein-coding gene	1	Ectoderm	Brain	0.142857	0.495283	0.000627943	0.00410183
+ENSG00000139352	Mm Hs	ASCL1	Oligodendrocyte progenitor cells	HASH1|bHLHa46	0.007	achaete-scute family bHLH transcription factor 1	protein-coding gene	1	Ectoderm	Brain	0	0.0283019	0.00533752	0.0069666
+ENSG00000159166	Mm Hs	LAD1	Oligodendrocyte progenitor cells	NA	0.023	ladinin 1	protein-coding gene	1	Ectoderm	Brain	0	0.00471698	0.0282575	0.022202
+ENSG00000140107	Mm Hs	SLC25A47	Oligodendrocyte progenitor cells	C14orf68	0.001	solute carrier family 25 member 47	protein-coding gene	1	Ectoderm	Brain	0	0	0.000313972	0.00143238
+ENSG00000244405	Mm Hs	ETV5	Oligodendrocyte progenitor cells	ERM	0.019	ETS variant 5	protein-coding gene	1	Ectoderm	Brain	0	0.0235849	0.0131868	0.0188163
+ENSG00000114646	Mm Hs	CSPG5	Oligodendrocyte progenitor cells	NGC	0.09	chondroitin sulfate proteoglycan 5	protein-coding gene	1	Ectoderm	Brain	0	0.867925	0.00156986	0.101699
+ENSG00000184221	Mm Hs	OLIG1	Oligodendrocyte progenitor cells	BHLHB6|bHLHe21	0.066	oligodendrocyte transcription factor 1	protein-coding gene	1	Ectoderm	Brain	1	0.995283	0.0021978	0.069666
+ENSG00000150275	Mm Hs	PCDH15	Oligodendrocyte progenitor cells	CDHR15|USH1F|DFNB23	0.006	protocadherin related 15	protein-coding gene	1	Ectoderm	Brain	0.142857	0.377358	0.00156986	0.0015626
+ENSG00000109107	Mm Hs	ALDOC	Oligodendrocyte progenitor cells	NA	0.078	"aldolase, fructose-bisphosphate C"	protein-coding gene	1	Ectoderm	Brain	0	0.292453	0.000941915	0.0941468
+ENSG00000116147	Mm Hs	TNR	Oligodendrocyte progenitor cells	NA	0.009	tenascin R	protein-coding gene	1	Ectoderm	Brain	1	0.433962	0	0.00553421
+ENSG00000010810	Mm Hs	FYN	Oligodendrocyte progenitor cells	SLK|MGC45350	0.069	"FYN proto-oncogene, Src family tyrosine kinase"	protein-coding gene	1	Ectoderm	Brain	0	0.391509	0.0549451	0.0706426
+ENSG00000148826	Mm Hs	NKX6-2	Oligodendrocyte progenitor cells	NKX6B|GTX|NKX6.1	0.024	NK6 homeobox 2	protein-coding gene	1	Ectoderm	Brain	0	0	0.000627943	0.0306661
+ENSG00000054983	Mm Hs	GALC	Oligodendrocytes	NA	0.002	galactosylceramidase	protein-coding gene	1	Ectoderm	Brain	0	0.00134048	0.00410872	0.00128162
+ENSG00000137345	Mm Hs	MOG	Oligodendrocytes	BTN6|BTNL11	0.039	myelin oligodendrocyte glycoprotein	protein-coding gene	1	Ectoderm	Brain	0.964286	0.906166	0.000316056	0.00323777
+ENSG00000184221	Mm Hs	OLIG1	Oligodendrocytes	BHLHB6|bHLHe21	0.066	oligodendrocyte transcription factor 1	protein-coding gene	1	Ectoderm	Brain	0.142857	0.991957	0.00316056	0.0364924
+ENSG00000205927	Mm Hs	OLIG2	Oligodendrocytes	RACK17|OLIGO2|bHLHe19|PRKCBP2|BHLHB1	0.039	oligodendrocyte transcription factor 2	protein-coding gene	1	Ectoderm	Brain	0	0.462466	0.00158028	0.0286003
+ENSG00000091513	Hs	TF	Oligodendrocytes	PRO1557|PRO2086	0.004	transferrin	protein-coding gene	1	Ectoderm	Brain	1	0	0.00884956	0
+ENSG00000177468	Mm Hs	OLIG3	Oligodendrocytes	Bhlhb7|bHLHe20	0.001	oligodendrocyte transcription factor 3	protein-coding gene	1	Ectoderm	Brain	0	0	0	0.000876897
+ENSG00000100146	Mm Hs	SOX10	Oligodendrocytes	DOM|WS4|WS2E	0.04	SRY-box 10	protein-coding gene	1	Ectoderm	Brain	0	0.655496	0	0.0194266
+ENSG00000198835	Mm Hs	GJC2	Oligodendrocytes	CX47|CX46.6|SPG44|GJA12	0.021	gap junction protein gamma 2	protein-coding gene	1	Ectoderm	Brain	0	0.545576	0	0.000607083
+ENSG00000130005	Mm Hs	GAMT	Oligodendrocytes	PIG2|TP53I2	0.051	guanidinoacetate N-methyltransferase	protein-coding gene	1	Ectoderm	Brain	0	0.520107	0.0666877	0.0220573
+ENSG00000064787	Mm Hs	BCAS1	Oligodendrocytes	NABC1|AIBC1	0.035	breast carcinoma amplified sequence 1	protein-coding gene	1	Ectoderm	Brain	0.214286	0.676944	0.00600506	0.0100506
+ENSG00000164303	Mm Hs	ENPP6	Oligodendrocytes	MGC33971	0.021	ectonucleotide pyrophosphatase/phosphodiesterase 6	protein-coding gene	1	Ectoderm	Brain	0.107143	0.41689	0	0.00681282
+ENSG00000196187	Mm Hs	TMEM63A	Oligodendrocytes	KIAA0792	0.016	transmembrane protein 63A	protein-coding gene	1	Ectoderm	Brain	0.642857	0.269437	0.00316056	0.00593592
+ENSG00000180929	Mm Hs	GPR62	Oligodendrocytes	NA	0.006	G protein-coupled receptor 62	protein-coding gene	1	Ectoderm	Brain	0	0.116622	0	0.00155143
+ENSG00000186318	Mm Hs	BACE1	Oligodendrocytes	BACE	0.022	beta-secretase 1	protein-coding gene	1	Ectoderm	Brain	0.0357143	0.227882	0.00347661	0.0158516
+ENSG00000146592	Mm Hs	CREB5	Oligodendrocytes	H_GS165L15.1|CRE-BPA	0.026	cAMP responsive element binding protein 5	protein-coding gene	1	Ectoderm	Brain	0.0714286	0.264075	0.0135904	0.0171332
+ENSG00000066468	Mm Hs	FGFR2	Oligodendrocytes	CEK3|TK14|TK25|ECT1|K-SAM|CD332|KGFR|BEK|JWS	0.034	fibroblast growth factor receptor 2	protein-coding gene	1	Ectoderm	Brain	0.321429	0.447721	0.0129583	0.0182125
+ENSG00000144659	Mm Hs	SLC25A38	Oligodendrocytes	FLJ20551	0.012	solute carrier family 25 member 38	protein-coding gene	1	Ectoderm	Brain	0	0.0991957	0.00790139	0.00910624
+ENSG00000163517	Mm Hs	HDAC11	Oligodendrocytes	NA	0.032	histone deacetylase 11	protein-coding gene	1	Ectoderm	Brain	0.0357143	0.135389	0.0183312	0.0314334
+ENSG00000092445	Mm Hs	TYRO3	Oligodendrocytes	Dtk|Brt|Tif|Sky|Etk-2|Rek|RSE	0.019	TYRO3 protein tyrosine kinase	protein-coding gene	1	Ectoderm	Brain	0.0357143	0.262735	0.00916561	0.0082968
+ENSG00000180739	Mm Hs	S1PR5	Oligodendrocytes	Edg-8|EDG8	0.011	sphingosine-1-phosphate receptor 5	protein-coding gene	1	Ectoderm	Brain	0	0.261394	0.00158028	0.000944351
+ENSG00000108381	Mm Hs	ASPA	Oligodendrocytes	ACY2	0.027	aspartoacylase	protein-coding gene	1	Ectoderm	Brain	0	0.561662	0.00347661	0.00586847
+ENSG00000154928	Mm Hs	EPHB1	Oligodendrocytes	Hek6|EPHT2	0.018	EPH receptor B1	protein-coding gene	1	Ectoderm	Brain	0	0.382038	0.00410872	0.00370995
+ENSG00000165478	Mm Hs	HEPACAM	Oligodendrocytes	FLJ25530|hepaCAM|GLIALCAM	0.033	hepatic and glial cell adhesion molecule	protein-coding gene	1	Ectoderm	Brain	0	0.365952	0	0.0250927
+ENSG00000005513	Mm Hs	SOX8	Oligodendrocytes	NA	0.028	SRY-box 8	protein-coding gene	1	Ectoderm	Brain	0	0.513405	0.000632111	0.0107926
+ENSG00000169710	Mm Hs	FASN	Oligodendrocytes	FAS|SDR27X1	0.048	fatty acid synthase	protein-coding gene	1	Ectoderm	Brain	0	0.256032	0.0322377	0.0368971
+ENSG00000126861	Mm Hs	OMG	Oligodendrocytes	OMGP	0.02	oligodendrocyte myelin glycoprotein	protein-coding gene	1	Ectoderm	Brain	0.285714	0.340483	0.000948167	0.00822934
+ENSG00000188706	Mm Hs	ZDHHC9	Oligodendrocytes	ZNF379|CGI-89|ZNF380|ZDHHC10|CXorf11	0.021	zinc finger DHHC-type containing 9	protein-coding gene	1	Ectoderm	Brain	0	0.36193	0.0126422	0.00640809
+ENSG00000107317	Mm Hs	PTGDS	Oligodendrocytes	L-PGDS	0.054	prostaglandin D2 synthase	protein-coding gene	1	Ectoderm	Brain	1	0.469169	0.0499368	0.0343339
+ENSG00000158859	Mm Hs	ADAMTS4	Oligodendrocytes	KIAA0688|ADAMTS-2|ADMP-1	0.025	ADAM metallopeptidase with thrombospondin type 1 motif 4	protein-coding gene	1	Ectoderm	Brain	0.107143	0.441019	0.0116941	0.00755481
+ENSG00000124920	Mm Hs	MYRF	Oligodendrocytes	Ndt80|pqn-47|MRF|C11orf9	0.019	myelin regulatory factor	protein-coding gene	1	Ectoderm	Brain	0.535714	0.41689	0.000948167	0.00242833
+ENSG00000187764	Mm Hs	SEMA4D	Oligodendrocytes	CD100|coll-4|FLJ39737|SEMAJ|C9orf164	0.036	semaphorin 4D	protein-coding gene	1	Ectoderm	Brain	0.535714	0.668901	0.00252845	0.0122766
+ENSG00000179178	Mm Hs	TMEM125	Oligodendrocytes	MGC17299	0.021	transmembrane protein 125	protein-coding gene	1	Ectoderm	Brain	0.142857	0.459786	0.00695322	0.00229342
+ENSG00000109466	Mm Hs	KLHL2	Oligodendrocytes	MAV	0.034	kelch like family member 2	protein-coding gene	1	Ectoderm	Brain	0	0.613941	0.000632111	0.0132209
+ENSG00000173852	Mm Hs	DPY19L1	Oligodendrocytes	KIAA0877	0.03	dpy-19 like C-mannosyltransferase 1	protein-coding gene	1	Ectoderm	Brain	0	0.575067	0.005689	0.00978078
+ENSG00000099282	Mm Hs	TSPAN15	Oligodendrocytes	NET-7|TM4SF15	0.048	tetraspanin 15	protein-coding gene	1	Ectoderm	Brain	0.214286	0.459786	0.0249684	0.0337268
+ENSG00000132702	Mm Hs	HAPLN2	Oligodendrocytes	BRAL1	0.017	hyaluronan and proteoglycan link protein 2	protein-coding gene	1	Ectoderm	Brain	0.25	0.424933	0	0.00114671
+ENSG00000148826	Mm Hs	NKX6-2	Oligodendrocytes	NKX6B|GTX|NKX6.1	0.024	NK6 homeobox 2	protein-coding gene	1	Ectoderm	Brain	0	0.587131	0.000632111	0.00222597
+ENSG00000169562	Mm Hs	GJB1	Oligodendrocytes	CX32|CMTX1|CMTX	0.033	gap junction protein beta 1	protein-coding gene	1	Ectoderm	Brain	0.535714	0.646113	0.005689	0.00789207
+ENSG00000197430	Mm Hs	OPALIN	Oligodendrocytes	TMP10|HTMP10|TMEM10	0.026	oligodendrocytic myelin paranodal and inner loop protein	protein-coding gene	1	Ectoderm	Brain	0.214286	0.646113	0	0.00074199
+ENSG00000147852	Mm Hs	VLDLR	Oligodendrocytes	CARMQ1|CHRMQ1|VLDLRCH	0.025	very low density lipoprotein receptor	protein-coding gene	1	Ectoderm	Brain	0	0.297587	0.00379267	0.0174705
+ENSG00000076706	Mm Hs	MCAM	Oligodendrocytes	MUC18|CD146	0.031	melanoma cell adhesion molecule	protein-coding gene	1	Ectoderm	Brain	0	0.116622	0.0214918	0.0295447
+ENSG00000152128	Mm Hs	TMEM163	Oligodendrocytes	DKFZP566N034|SV31	0.027	transmembrane protein 163	protein-coding gene	1	Ectoderm	Brain	0	0.265416	0.000632111	0.0217201
+ENSG00000136541	Mm Hs	ERMN	Oligodendrocytes	JN|ERMIN|KIAA1189	0.034	ermin	protein-coding gene	1	Ectoderm	Brain	1	0.798928	0.00158028	0.00155143
+ENSG00000103089	Mm Hs	FA2H	Oligodendrocytes	FAAH|FLJ25287|FAXDC1|SPG35	0.039	fatty acid 2-hydroxylase	protein-coding gene	1	Ectoderm	Brain	0.25	0.903485	0.00347661	0.00404722
+ENSG00000013297	Mm Hs	CLDN11	Oligodendrocytes	OSP|OTM	0.059	claudin 11	protein-coding gene	1	Ectoderm	Brain	0.964286	1	0.034134	0.0182125
+ENSG00000011426	Mm Hs	ANLN	Oligodendrocytes	ANILLIN|Scraps|scra	0.023	anillin actin binding protein	protein-coding gene	1	Ectoderm	Brain	0.857143	0.261394	0.0129583	0.0111298
+ENSG00000164181	Mm Hs	ELOVL7	Oligodendrocytes	FLJ23563	0.031	ELOVL fatty acid elongase 7	protein-coding gene	1	Ectoderm	Brain	0	0.576407	0.000632111	0.0103879
+ENSG00000102934	Mm Hs	PLLP	Oligodendrocytes	PMLP|TM4SF11	0.046	plasmolipin	protein-coding gene	1	Ectoderm	Brain	0.535714	0.797587	0.00979772	0.0173356
+ENSG00000132437	Mm Hs	DDC	Oligodendrocytes	AADC	0.014	dopa decarboxylase	protein-coding gene	1	Ectoderm	Brain	0	0.0321716	0.00474083	0.0155818
+ENSG00000185668	Mm Hs	POU3F1	Oligodendrocytes	OCT6|SCIP|OTF6	0.013	POU class 3 homeobox 1	protein-coding gene	1	Ectoderm	Brain	0	0.038874	0.000316056	0.0156492
+ENSG00000171840	Mm Hs	NINJ2	Oligodendrocytes	NA	0.002	ninjurin 2	protein-coding gene	1	Ectoderm	Brain	0.107143	0.0469169	0.000948167	0
+ENSG00000101049	Mm Hs	SGK2	Oligodendrocytes	NA	0.001	"SGK2, serine/threonine kinase 2"	protein-coding gene	1	Ectoderm	Brain	0	0.0120643	0.000632111	0.00074199
+ENSG00000176402	Mm Hs	GJC3	Oligodendrocytes	CX30.2|GJE1	0.044	gap junction protein gamma 3	protein-coding gene	1	Ectoderm	Brain	0	0.923593	0	0.01086
+ENSG00000170775	Mm Hs	GPR37	Oligodendrocytes	EDNRBL|hET(B)R-LP|PAELR	0.034	G protein-coupled receptor 37	protein-coding gene	1	Ectoderm	Brain	0.5	0.773458	0.000316056	0.00431703
+ENSG00000137033	Mm Hs	IL33	Oligodendrocytes	DVS27|DKFZp586H0523|NF-HEV|IL1F11|C9orf26	0.018	interleukin 33	protein-coding gene	1	Ectoderm	Brain	0	0.148794	0.0107459	0.0141653
+ENSG00000167755	Mm Hs	KLK6	Oligodendrocytes	Bssp|Klk7|neurosin|PRSS9|PRSS18	0.004	kallikrein related peptidase 6	protein-coding gene	1	Ectoderm	Brain	0.5	0.0764075	0	0.000269815
+ENSG00000050344	Mm Hs	NFE2L3	Oligodendrocytes	Nrf3	0.003	"nuclear factor, erythroid 2 like 3"	protein-coding gene	1	Ectoderm	Brain	0	0.0134048	0.00726928	0.00148398
+ENSG00000114757	Mm Hs	PEX5L	Oligodendrocytes	PEX5R|PXR2|TRIP8b	0.03	peroxisomal biogenesis factor 5 like	protein-coding gene	1	Ectoderm	Brain	0.75	0.608579	0.00221239	0.00708263
+ENSG00000159261	Mm Hs	CLDN14	Oligodendrocytes	DFNB29	0.003	claudin 14	protein-coding gene	1	Ectoderm	Brain	0	0.0576407	0	0.00134907
+ENSG00000132470	Mm Hs	ITGB4	Oligodendrocytes	CD104	0.013	integrin subunit beta 4	protein-coding gene	1	Ectoderm	Brain	0	0.0871314	0.0142225	0.00998314
+ENSG00000176658	Mm Hs	MYO1D	Oligodendrocytes	KIAA0727|myr4|PPP1R108	0.01	myosin ID	protein-coding gene	1	Ectoderm	Brain	0	0.0227882	0.0183312	0.00775717
+ENSG00000073417	Mm Hs	PDE8A	Oligodendrocytes	HsT19550	0.015	phosphodiesterase 8A	protein-coding gene	1	Ectoderm	Brain	0	0.0871314	0.00379267	0.0147049
+ENSG00000066629	Mm Hs	EML1	Oligodendrocytes	EMAP|HuEMAP|ELP79|EMAPL	0.002	echinoderm microtubule associated protein like 1	protein-coding gene	1	Ectoderm	Brain	0	0.0160858	0.00158028	0.00202361
+ENSG00000197892	Mm Hs	KIF13B	Oligodendrocytes	GAKIN|KIAA0639	0.002	kinesin family member 13B	protein-coding gene	1	Ectoderm	Brain	0	0.0160858	0	0.00242833
+ENSG00000164627	Mm Hs	KIF6	Oligodendrocytes	dJ1043E3.1|MGC33317|dJ137F1.4|dJ188D3.1|DKFZp451I2418|C6orf102	0.001	kinesin family member 6	protein-coding gene	1	Ectoderm	Brain	0	0	0.00252845	0.0010118
+ENSG00000172548	Mm Hs	NIPAL4	Oligodendrocytes	ICHYN	0.002	NIPA like domain containing 4	protein-coding gene	1	Ectoderm	Brain	0	0.0469169	0	0.000876897
+ENSG00000103184	Mm Hs	SEC14L5	Oligodendrocytes	KIAA0420|PRELID4B	0.001	SEC14 like lipid binding 5	protein-coding gene	1	Ectoderm	Brain	0	0.038874	0	0
+ENSG00000170374	Mm Hs	SP7	Oligodendrocytes	osterix|OSX	0.001	Sp7 transcription factor	protein-coding gene	1	Ectoderm	Brain	0	0	0	0.00175379
+ENSG00000147488	Mm Hs	ST18	Oligodendrocytes	KIAA0535|ZC2HC10|NZF3|ZC2H2C3|ZNF387	0.006	"ST18, C2H2C-type zinc finger"	protein-coding gene	1	Ectoderm	Brain	1	0.0402145	0.00126422	0.00397976
+ENSG00000149599	Mm Hs	DUSP15	Oligodendrocytes	bA243J16.6|VHY|FLJ20645|bA243J16.5|C20orf57	0.02	dual specificity phosphatase 15	protein-coding gene	1	Ectoderm	Brain	0	0.284182	0.0309735	0.00559865
+ENSG00000067606	Mm Hs	PRKCZ	Oligodendrocytes	PKC2	0.022	protein kinase C zeta	protein-coding gene	1	Ectoderm	Brain	0	0.203753	0	0.0192917
+ENSG00000141337	Mm Hs	ARSG	Oligodendrocytes	KIAA1001	0.008	arylsulfatase G	protein-coding gene	1	Ectoderm	Brain	0	0.178284	0.00126422	0.00134907
+ENSG00000141458	Mm Hs	NPC1	Oligodendrocytes	SLC65A1	0.006	NPC intracellular cholesterol transporter 1	protein-coding gene	1	Ectoderm	Brain	0	0.0817694	0	0.00350759
+ENSG00000105695	Mm Hs	MAG	Oligodendrocytes	SIGLEC4A|SIGLEC-4A|S-MAG|GMA	0.045	myelin associated glycoprotein	protein-coding gene	1	Ectoderm	Brain	1	0.989276	0.00221239	0.00661046
+ENSG00000125454	Mm Hs	SLC25A19	Oligodendrocytes	DNC|MUP1|MCPHA	0.006	solute carrier family 25 member 19	protein-coding gene	1	Ectoderm	Brain	0	0.0107239	0.000316056	0.00674536
+ENSG00000054690	Mm Hs	PLEKHH1	Oligodendrocytes	KIAA1200	0.002	"pleckstrin homology, MyTH4 and FERM domain containing H1"	protein-coding gene	1	Ectoderm	Brain	0.321429	0.0321716	0	0.000269815
+ENSG00000205116	Mm Hs	TMEM88B	Oligodendrocytes	NA	0.034	transmembrane protein 88B	protein-coding gene	1	Ectoderm	Brain	0	0.849866	0	0.0018887
+ENSG00000244274	Mm Hs	DBNDD2	Oligodendrocytes	HSMNP1|C20orf35	0.014	dysbindin domain containing 2	protein-coding gene	1	Ectoderm	Brain	0	0.285523	0	0.00384486
+ENSG00000108947	Mm Hs	EFNB3	Oligodendrocytes	LERK-8|EPLG8	0.046	ephrin B3	protein-coding gene	1	Ectoderm	Brain	0	0.810992	0.00252845	0.0186172
+ENSG00000104205	Mm Hs	SGK3	Oligodendrocytes	SGK2|SGKL	0.014	serum/glucocorticoid regulated kinase family member 3	protein-coding gene	1	Ectoderm	Brain	0	0.00268097	0	0.0153794
+ENSG00000177666	Mm Hs	PNPLA2	Oligodendrocytes	desnutrin|TTS-2.2|ATGL|FP17548|iPLA2zeta	0.02	patatin like phospholipase domain containing 2	protein-coding gene	1	Ectoderm	Brain	0	0.00268097	0.0161188	0.0216526
+ENSG00000105643	Mm Hs	ARRDC2	Oligodendrocytes	CLONE24945|PP2703	0.001	arrestin domain containing 2	protein-coding gene	1	Ectoderm	Brain	0	0.0187668	0.000948167	0.000202361
+ENSG00000136960	Mm Hs	ENPP2	Oligodendrocytes	PD-IALPHA|PDNP2	0.08	ectonucleotide pyrophosphatase/phosphodiesterase 2	protein-coding gene	1	Ectoderm	Brain	1	0.994638	0.0243363	0.0456661
+ENSG00000123104	Mm Hs	ITPR2	Oligodendrocytes	IP3R2|CFAP48	0.016	"inositol 1,4,5-trisphosphate receptor type 2"	protein-coding gene	1	Ectoderm	Brain	0	0.155496	0.005689	0.0109949
+ENSG00000104327	Mm Hs	CALB1	Purkinje neurons	CALB	0.019	calbindin 1	protein-coding gene	1	Ectoderm	Brain	0	0.097561	0.00125313	0.0233741
+ENSG00000183044	Mm Hs	ABAT	Purkinje neurons	GABAT	0.032	4-aminobutyrate aminotransferase	protein-coding gene	NA	Ectoderm	Brain	0	0.146341	0.00344612	0.0383773
+ENSG00000176884	Mm Hs	GRIN1	Purkinje neurons	GluN1|NMDAR1	0.016	glutamate ionotropic receptor NMDA type subunit 1	protein-coding gene	NA	Ectoderm	Brain	0	0.219512	0.00125313	0.0198326
+ENSG00000128683	Mm Hs	GAD1	Purkinje neurons	GAD	0.03	glutamate decarboxylase 1	protein-coding gene	1	Ectoderm	Brain	0	0.829268	0.00344612	0.0352222
+ENSG00000094631	Mm Hs	HDAC6	Purkinje neurons	KIAA0901|JM21|HD6|FLJ16239|PPP1R90	0.006	histone deacetylase 6	protein-coding gene	NA	Ectoderm	Brain	0	0	0.00344612	0.00695428
+ENSG00000185532	Mm Hs	PRKG1	Purkinje neurons	PGK|PKG|PKG1|PRKGR1B|PRKG1B	0.002	protein kinase cGMP-dependent 1	protein-coding gene	NA	Ectoderm	Brain	0	0	0.0037594	0.00206053
+ENSG00000157087	Mm Hs	ATP2B2	Purkinje neurons	PMCA2	0.048	ATPase plasma membrane Ca2+ transporting 2	protein-coding gene	NA	Ectoderm	Brain	0	0.658537	0.00125313	0.0575016
+ENSG00000138735	Mm Hs	PDE5A	Purkinje neurons	NA	0.011	phosphodiesterase 5A	protein-coding gene	NA	Ectoderm	Brain	0	0	0.00407268	0.013651
+ENSG00000096433	Mm Hs	ITPR3	Purkinje neurons	IP3R3	0.007	"inositol 1,4,5-trisphosphate receptor type 3"	protein-coding gene	NA	Ectoderm	Brain	0	0	0.0134712	0.00643915
+ENSG00000123360	Mm Hs	PDE1B	Purkinje neurons	PDES1B	0.006	phosphodiesterase 1B	protein-coding gene	NA	Ectoderm	Brain	0	0.0243902	0	0.00753381
+ENSG00000115252	Mm Hs	PDE1A	Purkinje neurons	NA	0.018	phosphodiesterase 1A	protein-coding gene	NA	Ectoderm	Brain	0	0	0.0216165	0.0177077
+ENSG00000254550	Mm Hs	OMP	Purkinje neurons	NA	0.001	olfactory marker protein	protein-coding gene	NA	Ectoderm	Brain	0	0	0	0.00167418
+ENSG00000160191	Mm Hs	PDE9A	Purkinje neurons	NA	0.003	phosphodiesterase 9A	protein-coding gene	NA	Ectoderm	Brain	0	0.0243902	0.0037594	0.00251127
+ENSG00000102924	Mm Hs	CBLN1	Purkinje neurons	NA	0.005	cerebellin 1 precursor	protein-coding gene	NA	Ectoderm	Brain	0	0	0.0150376	0.00373471
+ENSG00000061794	Mm Hs	MRPS35	Purkinje neurons	MRPS28|MDS023	0.048	mitochondrial ribosomal protein S35	protein-coding gene	NA	Ectoderm	Brain	0	0	0.0695489	0.0374759
+ENSG00000100362	Mm Hs	PVALB	Purkinje neurons	D22S749	0.005	parvalbumin	protein-coding gene	NA	Ectoderm	Brain	0	0.170732	0.00344612	0.00540889
+ENSG00000162105	Mm Hs	SHANK2	Purkinje neurons	CTTNBP1|ProSAP1|SHANK|SPANK-3|CORTBP1	0.002	SH3 and multiple ankyrin repeat domains 2	protein-coding gene	NA	Ectoderm	Brain	0	0.0243902	0.000626566	0.00289762
+ENSG00000007402	Mm Hs	CACNA2D2	Purkinje neurons	KIAA0558	0.027	calcium voltage-gated channel auxiliary subunit alpha2delta 2	protein-coding gene	NA	Ectoderm	Brain	0	0.0487805	0.00125313	0.0343207
+ENSG00000101198	Mm Hs	NKAIN4	Purkinje neurons	bA261N11.2|FAM77A|C20orf58	0.036	sodium/potassium transporting ATPase interacting 4	protein-coding gene	NA	Ectoderm	Brain	0	0	0.00908521	0.0422408
+ENSG00000174469	Mm Hs	CNTNAP2	Purkinje neurons	Caspr2|KIAA0868	0.037	contactin associated protein like 2	protein-coding gene	NA	Ectoderm	Brain	0	0.121951	0.0238095	0.0405023
+ENSG00000180176	Mm Hs	TH	Purkinje neurons	DYT5b	0.002	tyrosine hydroxylase	protein-coding gene	NA	Ectoderm	Brain	0	0.0243902	0.0018797	0.00238249
+ENSG00000100422	Mm Hs	CERK	Purkinje neurons	hCERK|FLJ23239|dA59H18.3|DKFZp434E0211|FLJ21430|KIAA1646|LK4|dA59H18.2	0.011	ceramide kinase	protein-coding gene	NA	Ectoderm	Brain	0	0.097561	0.0093985	0.0109466
+ENSG00000160654	Mm Hs	CD3G	Purkinje neurons	NA	0.048	CD3g molecule	protein-coding gene	NA	Ectoderm	Brain	0	0	0.0845865	0.0408886
+ENSG00000177301	Mm Hs	KCNA2	Purkinje neurons	Kv1.2	0.019	potassium voltage-gated channel subfamily A member 2	protein-coding gene	NA	Ectoderm	Brain	0	0.146341	0	0.0240824
+ENSG00000163393	Mm Hs	SLC22A15	Purkinje neurons	FLIPT1	0.017	solute carrier family 22 member 15	protein-coding gene	NA	Ectoderm	Brain	0	0.121951	0	0.0209916
+ENSG00000166862	Mm Hs	CACNG2	Purkinje neurons	stargazin|MGC138502|MGC138504	0.014	calcium voltage-gated channel auxiliary subunit gamma 2	protein-coding gene	NA	Ectoderm	Brain	0	0.243902	0	0.0170637
+ENSG00000143858	Mm Hs	SYT2	Purkinje neurons	NA	0.002	synaptotagmin 2	protein-coding gene	NA	Ectoderm	Brain	0	0.170732	0	0.00238249
+ENSG00000168993	Mm Hs	CPLX1	Purkinje neurons	CPX-I	0.026	complexin 1	protein-coding gene	NA	Ectoderm	Brain	0	0.243902	0	0.0320026
+ENSG00000144283	Mm Hs	PKP4	Purkinje neurons	p0071	0.03	plakophilin 4	protein-coding gene	NA	Ectoderm	Brain	0	0.146341	0.00720551	0.0356085
+ENSG00000156113	Mm Hs	KCNMA1	Purkinje neurons	KCa1.1|mSLO1|SLO	0.043	potassium calcium-activated channel subfamily M alpha 1	protein-coding gene	NA	Ectoderm	Brain	0	0.195122	0.0184837	0.0481648
+ENSG00000181790	Mm Hs	ADGRB1	Purkinje neurons	BAI1	0.019	adhesion G protein-coupled receptor B1	protein-coding gene	NA	Ectoderm	Brain	0	0.292683	0.000313283	0.022859
+ENSG00000164588	Mm Hs	HCN1	Purkinje neurons	BCNG-1|HAC-2|BCNG1	0.005	hyperpolarization activated cyclic nucleotide gated potassium channel 1	protein-coding gene	NA	Ectoderm	Brain	0	0.146341	0	0.00585963
+ENSG00000155886	Mm Hs	SLC24A2	Purkinje neurons	NCKX2	0.026	solute carrier family 24 member 2	protein-coding gene	NA	Ectoderm	Brain	0	0.146341	0.00783208	0.0304572
+ENSG00000022355	Mm Hs	GABRA1	Purkinje neurons	EJM5	0.027	gamma-aminobutyric acid type A receptor alpha1 subunit	protein-coding gene	NA	Ectoderm	Brain	0	0.121951	0.000313283	0.0320026
+ENSG00000139182	Mm Hs	CLSTN3	Purkinje neurons	CSTN3|KIAA0726|CDHR14	0.033	calsyntenin 3	protein-coding gene	NA	Ectoderm	Brain	0	0.121951	0.00250627	0.0405023
+ENSG00000185052	Mm Hs	SLC24A3	Purkinje neurons	NA	0.013	solute carrier family 24 member 3	protein-coding gene	NA	Ectoderm	Brain	0	0.0731707	0.000313283	0.0157759
+ENSG00000132535	Mm Hs	DLG4	Purkinje neurons	PSD-95|PSD95|SAP90|SAP-90	0.022	discs large MAGUK scaffold protein 4	protein-coding gene	NA	Ectoderm	Brain	0	0.097561	0.000313283	0.0278815
+ENSG00000146910	Mm Hs	CNPY1	Purkinje neurons	NA	0.001	canopy FGF signaling regulator 1	protein-coding gene	NA	Ectoderm	Brain	0	0.0243902	0	0.000708306
+ENSG00000124140	Mm Hs	SLC12A5	Purkinje neurons	KIAA1176|KCC2	0.048	solute carrier family 12 member 5	protein-coding gene	NA	Ectoderm	Brain	0	0.439024	0.0037594	0.0573084
+ENSG00000101438	Mm Hs	SLC32A1	Purkinje neurons	VGAT|bA122O1.1|VIAAT	0.026	solute carrier family 32 member 1	protein-coding gene	NA	Ectoderm	Brain	0	0.439024	0.00156642	0.0311655
+ENSG00000125675	Mm Hs	GRIA3	Purkinje neurons	GluA3|GLURC|MRX94|GLUR3	0.02	glutamate ionotropic receptor AMPA type subunit 3	protein-coding gene	NA	Ectoderm	Brain	0	0.170732	0.00219298	0.0227302
+ENSG00000070808	Mm Hs	CAMK2A	Purkinje neurons	KIAA0968|CAMKA	0.026	calcium/calmodulin dependent protein kinase II alpha	protein-coding gene	NA	Ectoderm	Brain	0	0.341463	0	0.0309723
+ENSG00000181195	Mm Hs	PENK	Purkinje neurons	NA	0.02	proenkephalin	protein-coding gene	NA	Ectoderm	Brain	0	0.097561	0.0275689	0.0194462
+ENSG00000010818	Mm Hs	HIVEP2	Purkinje neurons	MBP-2|HIV-EP2|MIBP1|ZAS2|Schnurri-2|ZNF40B	0.055	human immunodeficiency virus type I enhancer binding protein 2	protein-coding gene	NA	Ectoderm	Brain	0	0.439024	0.00250627	0.0675467
+ENSG00000175352	Mm Hs	NRIP3	Purkinje neurons	C11orf14	0.021	nuclear receptor interacting protein 3	protein-coding gene	NA	Ectoderm	Brain	0	0.390244	0.0322682	0.0180296
+ENSG00000179981	Mm Hs	TSHZ1	Purkinje neurons	NY-CO-33|SDCCAG33	0.015	teashirt zinc finger homeobox 1	protein-coding gene	NA	Ectoderm	Brain	0	0.390244	0.00469925	0.0171281
+ENSG00000183570	Mm Hs	PCBP3	Purkinje neurons	FLJ44028|PCBP3-OT1|PCBP3OT	0.02	poly(rC) binding protein 3	protein-coding gene	NA	Ectoderm	Brain	0	0.317073	0.00250627	0.0237605
+ENSG00000160360	Mm Hs	GPSM1	Purkinje neurons	DKFZP727I051	0.004	G protein signaling modulator 1	protein-coding gene	NA	Ectoderm	Brain	0	0.268293	0.00093985	0.00450741
+ENSG00000175175	Mm Hs	PPM1E	Purkinje neurons	POPX1|KIAA1072|PP2CH|CaMKP-N	0.014	"protein phosphatase, Mg2+/Mn2+ dependent 1E"	protein-coding gene	NA	Ectoderm	Brain	0	0.317073	0.00344612	0.0163554
+ENSG00000170579	Mm Hs	DLGAP1	Purkinje neurons	GKAP|SAPAP1|DAP-1	0.036	DLG associated protein 1	protein-coding gene	NA	Ectoderm	Brain	0	0.707317	0.00219298	0.0429491
+ENSG00000168243	Mm Hs	GNG4	Purkinje neurons	NA	0.013	G protein subunit gamma 4	protein-coding gene	NA	Ectoderm	Brain	0	0.243902	0.0175439	0.0112041
+ENSG00000234965	Mm Hs	SHISA8	Purkinje neurons	Orf26|C22orf17	0.004	shisa family member 8	protein-coding gene	NA	Ectoderm	Brain	0	0.414634	0	0.0045718
+ENSG00000163630	Mm Hs	SYNPR	Purkinje neurons	MGC26651	0.022	synaptoporin	protein-coding gene	NA	Ectoderm	Brain	0	0.585366	0.00093985	0.0261429
+ENSG00000154229	Mm Hs	PRKCA	Purkinje neurons	PKCA	0.033	protein kinase C alpha	protein-coding gene	NA	Ectoderm	Brain	0	0.463415	0.0153509	0.0358017
+ENSG00000248485	Mm Hs	PCP4L1	Purkinje neurons	IQM1	0.044	Purkinje cell protein 4 like 1	protein-coding gene	NA	Ectoderm	Brain	0	0.487805	0	0.0542176
+ENSG00000183036	Mm Hs	PCP4	Purkinje neurons	PEP-19	0.083	Purkinje cell protein 4	protein-coding gene	1	Ectoderm	Brain	0	0.731707	0.0194236	0.0954282
+ENSG00000105143	Mm Hs	SLC1A6	Purkinje neurons	EAAT4	0.003	solute carrier family 1 member 6	protein-coding gene	1	Ectoderm	Brain	0	0.0487805	0.00313283	0.00283323
+ENSG00000152208	Mm Hs	GRID2	Purkinje neurons	GluD2|GluR-delta-2	0.005	glutamate ionotropic receptor delta type subunit 2	protein-coding gene	1	Ectoderm	Brain	0	0.0487805	0.0162907	0.00257566
+ENSG00000136750	Mm Hs	GAD2	Purkinje neurons	GAD65	0.073	glutamate decarboxylase 2	protein-coding gene	1	Ectoderm	Brain	0	0.463415	0.0244361	0.0857695
+ENSG00000198851	Mm Hs	CD3E	Pyramidal cells	NA	0.041	CD3e molecule	protein-coding gene	NA	Ectoderm	Brain	0	0	0.0996241	0.0298651
+ENSG00000132535	Mm Hs	DLG4	Pyramidal cells	PSD-95|PSD95|SAP90|SAP-90	0.022	discs large MAGUK scaffold protein 4	protein-coding gene	NA	Ectoderm	Brain	0	0	0.000313283	0.0280668
+ENSG00000070808	Mm Hs	CAMK2A	Pyramidal cells	KIAA0968|CAMKA	0.026	calcium/calmodulin dependent protein kinase II alpha	protein-coding gene	NA	Ectoderm	Brain	0	1	0	0.0317277
+ENSG00000152822	Mm Hs	GRM1	Pyramidal cells	GPRC1A|mGlu1|MGLUR1|PPP1R85	0.004	glutamate metabotropic receptor 1	protein-coding gene	1	Ectoderm	Brain	0	0	0	0.00500963
+ENSG00000168959	Mm Hs	GRM5	Pyramidal cells	MGLUR5|GPRC1E|mGlu5|PPP1R86	0.033	glutamate metabotropic receptor 5	protein-coding gene	1	Ectoderm	Brain	0	1	0	0.0420039
+ENSG00000136535	Mm Hs	TBR1	Pyramidal cells	NA	0.018	"T-box, brain 1"	protein-coding gene	NA	Ectoderm	Brain	0	0	0.00125313	0.022158
+ENSG00000185668	Mm Hs	POU3F1	Pyramidal cells	OCT6|SCIP|OTF6	0.013	POU class 3 homeobox 1	protein-coding gene	NA	Ectoderm	Brain	0	0	0.000313283	0.016763
+ENSG00000135638	Mm Hs	EMX1	Pyramidal cells	NA	0.023	empty spiracles homeobox 1	protein-coding gene	1	Ectoderm	Brain	0	0	0	0.0291586
+ENSG00000153266	Mm Hs	FEZF2	Pyramidal cells	FLJ10142|FKSG36|TOF|FEZL|Zfp312|ZNF312	0.008	FEZ family zinc finger 2	protein-coding gene	NA	Ectoderm	Brain	0	0	0.00093985	0.00976236
+ENSG00000154146	Mm Hs	NRGN	Pyramidal cells	NA	0.031	neurogranin	protein-coding gene	NA	Ectoderm	Brain	0	1	0.0109649	0.0344894
+ENSG00000125675	Mm Hs	GRIA3	Pyramidal cells	GluA3|GLURC|MRX94|GLUR3	0.02	glutamate ionotropic receptor AMPA type subunit 3	protein-coding gene	NA	Ectoderm	Brain	0	0	0.00219298	0.0231214
+ENSG00000229453	Mm Hs	SPINK8	Pyramidal cells	NA	0.002	"serine peptidase inhibitor, Kazal type 8 (putative)"	protein-coding gene	1	Ectoderm	Brain	0	0	0.000626566	0.0029544
+ENSG00000183036	Mm Hs	PCP4	Pyramidal cells	PEP-19	0.083	Purkinje cell protein 4	protein-coding gene	1	Ectoderm	Brain	0	1	0.0194236	0.0970456
+ENSG00000163630	Mm Hs	SYNPR	Pyramidal cells	MGC26651	0.022	synaptoporin	protein-coding gene	1	Ectoderm	Brain	0	1	0.00093985	0.027553
+ENSG00000153234	Mm Hs	NR4A2	Pyramidal cells	TINUR|NOT|RNR1|HZF-3|NURR1	0.033	nuclear receptor subfamily 4 group A member 2	protein-coding gene	1	Ectoderm	Brain	0	0	0.0780075	0.025562
+ENSG00000204305	Mm Hs	AGER	Pyramidal cells	SCARJ1	0.011	advanced glycosylation end-product specific receptor	protein-coding gene	1	Ectoderm	Brain	0	0	0.00125313	0.0135517
+ENSG00000105464	Mm Hs	GRIN2D	Pyramidal cells	GluN2D|EB11|NR2D|NMDAR2D	0.002	glutamate ionotropic receptor NMDA type subunit 2D	protein-coding gene	1	Ectoderm	Brain	0	0	0	0.00199101
+ENSG00000104783	Mm Hs	KCNN4	Pyramidal cells	KCa3.1|hSK4|hKCa4|hIKCa1|IK	0.027	potassium calcium-activated channel subfamily N member 4	protein-coding gene	1	Ectoderm	Brain	0	0	0.0100251	0.0294155
+ENSG00000173406	Mm Hs	DAB1	Pyramidal cells	NA	0.045	"DAB1, reelin adaptor protein"	protein-coding gene	1	Ectoderm	Brain	0	1	0.0018797	0.0567758
+ENSG00000136280	Mm Hs	CCM2	Pyramidal cells	MGC4607|OSM|C7orf22	0.052	CCM2 scaffold protein	protein-coding gene	1	Ectoderm	Brain	0	0	0.0435464	0.0506101
+ENSG00000104327	Mm Hs	CALB1	Pyramidal cells	CALB	0.019	calbindin 1	protein-coding gene	1	Ectoderm	Brain	0	0	0.00125313	0.023571
+ENSG00000169252	Mm Hs	ADRB2	Pyramidal cells	ADRBR|B2AR|ADRB2R	0.016	adrenoceptor beta 2	protein-coding gene	1	Ectoderm	Brain	0	0	0.0100251	0.018176
+ENSG00000158445	Mm Hs	KCNB1	Pyramidal cells	Kv2.1	0.015	potassium voltage-gated channel subfamily B member 1	protein-coding gene	1	Ectoderm	Brain	0	0	0.000313283	0.0192678
+ENSG00000182674	Mm Hs	KCNB2	Pyramidal cells	Kv2.2	0.007	potassium voltage-gated channel subfamily B member 2	protein-coding gene	1	Ectoderm	Brain	0	0	0	0.00834939
+ENSG00000075043	Mm Hs	KCNQ2	Pyramidal cells	Kv7.2|ENB1|KCNA11|HNSPC	0.014	potassium voltage-gated channel subfamily Q member 2	protein-coding gene	1	Ectoderm	Brain	0	0	0.0228697	0.0130379
+ENSG00000184156	Mm Hs	KCNQ3	Pyramidal cells	Kv7.3|EBN2	0.017	potassium voltage-gated channel subfamily Q member 3	protein-coding gene	1	Ectoderm	Brain	0	0	0.00093985	0.0206166
+ENSG00000119042	Mm Hs	SATB2	Pyramidal cells	KIAA1034|FLJ21474	0.015	SATB homeobox 2	protein-coding gene	1	Ectoderm	Brain	0	0	0.00407268	0.0184329
+ENSG00000180914	Mm Hs	OXTR	Pyramidal cells	NA	0.001	oxytocin receptor	protein-coding gene	1	Ectoderm	Brain	0	0	0.000626566	0.00166988
+ENSG00000187094	Mm Hs	CCK	Pyramidal cells	NA	0.033	cholecystokinin	protein-coding gene	1	Ectoderm	Brain	0	0	0.00344612	0.0385356
+ENSG00000184408	Mm Hs	KCND2	Pyramidal cells	Kv4.2|RK5|KIAA1044	0.009	potassium voltage-gated channel subfamily D member 2	protein-coding gene	1	Ectoderm	Brain	0	0	0.00093985	0.0106615
+ENSG00000171385	Mm Hs	KCND3	Pyramidal cells	Kv4.3|KSHIVB|SCA22|SCA19	0.004	potassium voltage-gated channel subfamily D member 3	protein-coding gene	1	Ectoderm	Brain	0	0	0.00156642	0.00533076
+ENSG00000007372	Mm Hs	PAX6	Radial glia cells	D11S812E|AN2	0.049	paired box 6	protein-coding gene	1	Ectoderm	Brain	0	0	0.014411	0.0590238
+ENSG00000079215	Mm Hs	SLC1A3	Radial glia cells	EAAT1|GLAST|EA6	0.074	solute carrier family 1 member 3	protein-coding gene	1	Ectoderm	Brain	0	1	0.0109649	0.0901734
+ENSG00000170962	Mm Hs	PDGFD	Radial glia cells	SCDGF-B|MSTP036|IEGF	0.003	platelet derived growth factor D	protein-coding gene	1	Ectoderm	Brain	0	0	0.0037594	0.0026975
+ENSG00000106571	Mm Hs	GLI3	Radial glia cells	PAP-A|PAPA1|PAPB|ACLS|PPDIV|GCPS|PHS	0.003	GLI family zinc finger 3	protein-coding gene	1	Ectoderm	Brain	0	0	0.0056391	0.00218369
+ENSG00000074181	Mm Hs	NOTCH3	Radial glia cells	CASIL|CADASIL	0.02	notch 3	protein-coding gene	1	Ectoderm	Brain	0	0	0.014411	0.0220938
+ENSG00000162692	Mm Hs	VCAM1	Radial glia cells	CD106	0.041	vascular cell adhesion molecule 1	protein-coding gene	1	Ectoderm	Brain	0	1	0.00720551	0.0491329
+ENSG00000197921	Mm Hs	HES5	Radial glia cells	bHLHb38	0.036	hes family bHLH transcription factor 5	protein-coding gene	1	Ectoderm	Brain	0	1	0.00125313	0.0422608
+ENSG00000205927	Mm Hs	OLIG2	Radial glia cells	RACK17|OLIGO2|bHLHe19|PRKCBP2|BHLHB1	0.039	oligodendrocyte transcription factor 2	protein-coding gene	1	Ectoderm	Brain	0	0	0.00156642	0.0493899
+ENSG00000131095	Mm Hs	GFAP	Radial glia cells	FLJ45472	0.013	glial fibrillary acidic protein	protein-coding gene	1	Ectoderm	Brain	0	1	0.0056391	0.0149004
+ENSG00000170370	Mm Hs	EMX2	Radial glia cells	NA	0.027	empty spiracles homeobox 2	protein-coding gene	1	Ectoderm	Brain	0	0	0.0112782	0.0316635
+ENSG00000179242	Mm Hs	CDH4	Radial glia cells	NA	0.017	cadherin 4	protein-coding gene	1	Ectoderm	Brain	0	1	0.000313283	0.0203597
+ENSG00000164056	Mm Hs	SPRY1	Radial glia cells	hSPRY1	0.019	sprouty RTK signaling antagonist 1	protein-coding gene	1	Ectoderm	Brain	0	0	0.0303885	0.0169557
+ENSG00000168646	Mm Hs	AXIN2	Radial glia cells	MGC126582|DKFZp781B0869	0.006	axin 2	protein-coding gene	1	Ectoderm	Brain	0	1	0.000626566	0.00796403
+ENSG00000178796	Mm Hs	RIIAD1	Radial glia cells	FLJ36032|NCRNA00166|C1orf230	0.019	regulatory subunit of type II PKA R-subunit (RIIa) domain containing 1	protein-coding gene	1	Ectoderm	Brain	0	1	0.0119048	0.02158
+ENSG00000158887	Mm Hs	MPZ	Schwann cells	HMSNIB|CMT2I|CMT2J|CMT1|CMT1B	0.002	myelin protein zero	protein-coding gene	1	Ectoderm	Brain	0	0.218391	0.00219298	0.000581245
+ENSG00000132470	Mm Hs	ITGB4	Schwann cells	CD104	0.013	integrin subunit beta 4	protein-coding gene	1	Ectoderm	Brain	0	0.0114943	0.0140977	0.0136916
+ENSG00000135862	Mm Hs	LAMC1	Schwann cells	LAMB2	0.058	laminin subunit gamma 1	protein-coding gene	NA	Ectoderm	Brain	0	0.126437	0.0507519	0.0596745
+ENSG00000160307	Mm Hs	S100B	Schwann cells	S100beta	0.066	S100 calcium binding protein B	protein-coding gene	1	Ectoderm	Brain	0	0.83908	0.033208	0.0702015
+ENSG00000185668	Mm Hs	POU3F1	Schwann cells	OCT6|SCIP|OTF6	0.013	POU class 3 homeobox 1	protein-coding gene	1	Ectoderm	Brain	0	0.149425	0.000313283	0.0160165
+ENSG00000131095	Mm Hs	GFAP	Schwann cells	FLJ45472	0.013	glial fibrillary acidic protein	protein-coding gene	1	Ectoderm	Brain	0	0.091954	0.0056391	0.0145311
+ENSG00000105695	Mm Hs	MAG	Schwann cells	SIGLEC4A|SIGLEC-4A|S-MAG|GMA	0.045	myelin associated glycoprotein	protein-coding gene	1	Ectoderm	Brain	0	0.045977	0.0109649	0.0537329
+ENSG00000184221	Mm Hs	OLIG1	Schwann cells	BHLHB6|bHLHe21	0.066	oligodendrocyte transcription factor 1	protein-coding gene	1	Ectoderm	Brain	0	0	0.00438596	0.0827306
+ENSG00000128311	Mm Hs	TST	Schwann cells	NA	0.047	thiosulfate sulfurtransferase	protein-coding gene	NA	Ectoderm	Brain	0	0.0344828	0.0194236	0.0539912
+ENSG00000104419	Mm Hs	NDRG1	Schwann cells	DRG1|RTP|TDD5|CAP43	0.084	N-myc downstream regulated 1	protein-coding gene	1	Ectoderm	Brain	0	0.402299	0.0620301	0.0902867
+ENSG00000164932	Mm Hs	CTHRC1	Schwann cells	NA	0.031	collagen triple helix repeat containing 1	protein-coding gene	1	Ectoderm	Brain	0	0.0229885	0.0319549	0.0319685
+ENSG00000186575	Mm Hs	NF2	Schwann cells	merlin|ACN|SCH|BANF	0.016	neurofibromin 2	protein-coding gene	NA	Ectoderm	Brain	0	0	0.0441729	0.00807285
+ENSG00000106541	Mm Hs	AGR2	Schwann cells	XAG-2|HAG-2|PDIA17	0.024	"anterior gradient 2, protein disulphide isomerase family member"	protein-coding gene	1	Ectoderm	Brain	0	0	0.0733083	0.0125936
+ENSG00000064300	Mm Hs	NGFR	Schwann cells	TNFRSF16|CD271|p75NTR	0.007	nerve growth factor receptor	protein-coding gene	1	Ectoderm	Brain	0	0.091954	0.00219298	0.00697494
+ENSG00000164007	Mm Hs	CLDN19	Schwann cells	NA	0.001	claudin 19	protein-coding gene	1	Ectoderm	Brain	0	0.0689655	0.000626566	0.000516662
+ENSG00000105227	Mm Hs	PRX	Schwann cells	KIAA1620	0.002	periaxin	protein-coding gene	1	Ectoderm	Brain	0	0.0804598	0.000313283	0.00174374
+ENSG00000198400	Mm Hs	NTRK1	Schwann cells	TRKA|MTC	0.004	neurotrophic receptor tyrosine kinase 1	protein-coding gene	NA	Ectoderm	Brain	0	0.0229885	0	0.00464996
+ENSG00000156219	Mm Hs	ART3	Schwann cells	NA	0.021	ADP-ribosyltransferase 3	protein-coding gene	NA	Ectoderm	Brain	0	0.758621	0.016604	0.0189873
+ENSG00000064787	Mm Hs	BCAS1	Schwann cells	NABC1|AIBC1	0.035	breast carcinoma amplified sequence 1	protein-coding gene	1	Ectoderm	Brain	0	0.0804598	0.00783208	0.0417851
+ENSG00000122585	Mm Hs	NPY	Schwann cells	PYY4	0.015	neuropeptide Y	protein-coding gene	NA	Ectoderm	Brain	0	0.229885	0.0056391	0.0158874
+ENSG00000108381	Mm Hs	ASPA	Schwann cells	ACY2	0.027	aspartoacylase	protein-coding gene	1	Ectoderm	Brain	0	0.310345	0.00344612	0.0309352
+ENSG00000153902	Mm Hs	LGI4	Schwann cells	NA	0.002	leucine rich repeat LGI family member 4	protein-coding gene	NA	Ectoderm	Brain	0	0.183908	0.00438596	0.000258331
+ENSG00000151929	Mm Hs	BAG3	Schwann cells	NA	0.036	BCL2 associated athanogene 3	protein-coding gene	NA	Ectoderm	Brain	0	0.0344828	0.0642231	0.0314518
+ENSG00000143171	Mm Hs	RXRG	Schwann cells	NR2B3	0.004	retinoid X receptor gamma	protein-coding gene	1	Ectoderm	Brain	0	0.0574713	0.000313283	0.00393955
+ENSG00000100146	Mm Hs	SOX10	Schwann cells	DOM|WS4|WS2E	0.04	SRY-box 10	protein-coding gene	1	Ectoderm	Brain	0	0.689655	0	0.0463059
+ENSG00000166091	Mm Hs	CMTM5	Schwann cells	FLJ37521|CKLFSF5	0.044	CKLF like MARVEL transmembrane domain containing 5	protein-coding gene	1	Ectoderm	Brain	0	0.574713	0.00783208	0.0499225
+ENSG00000114200	Mm Hs	BCHE	Schwann cells	CHE2	0.003	butyrylcholinesterase	protein-coding gene	NA	Ectoderm	Brain	0	0.0229885	0.00532581	0.00232498
+ENSG00000239974	Mm Hs	EGFL8	Schwann cells	NG3|C6orf8	0.003	EGF like domain multiple 8	protein-coding gene	1	Ectoderm	Brain	0	0.241379	0	0.0018729
+ENSG00000146013	Mm Hs	GFRA3	Schwann cells	GFRa-3	0.005	GDNF family receptor alpha 3	protein-coding gene	1	Ectoderm	Brain	0	0.16092	0.00250627	0.00471454
+ENSG00000012171	Mm Hs	SEMA3B	Schwann cells	SemA|semaV|LUCA-1|sema5|SEMAA	0.009	semaphorin 3B	protein-coding gene	1	Ectoderm	Brain	0	0.45977	0.0178571	0.00542495
+ENSG00000132561	Mm Hs	MATN2	Schwann cells	NA	0.017	matrilin 2	protein-coding gene	1	Ectoderm	Brain	0	0.655172	0.0178571	0.0142082
+ENSG00000136546	Mm Hs	SCN7A	Schwann cells	Nav2.1|Nav2.2|NaG|SCN6A	0.017	sodium voltage-gated channel alpha subunit 7	protein-coding gene	1	Ectoderm	Brain	0	0.563218	0.00814536	0.0162749
+ENSG00000085117	Mm Hs	CD82	Schwann cells	R2|IA4|TSPAN27|ST6|KAI1	0.097	CD82 molecule	protein-coding gene	1	Ectoderm	Brain	0	0.045977	0.0632832	0.10527
+ENSG00000149591	Mm Hs	TAGLN	Schwann cells	SM22|WS3-10|TAGLN1|DKFZp686P11128	0.01	transgelin	protein-coding gene	1	Ectoderm	Brain	0	0	0.000626566	0.0123999
+ENSG00000136999	Mm Hs	NOV	Schwann cells	IGFBP9|CCN3	0.004	nephroblastoma overexpressed	protein-coding gene	1	Ectoderm	Brain	0	0	0.00469925	0.00471454
+ENSG00000109107	Mm Hs	ALDOC	Schwann cells	NA	0.078	"aldolase, fructose-bisphosphate C"	protein-coding gene	1	Ectoderm	Brain	0	0.229885	0.00093985	0.0960992
+ENSG00000189058	Mm Hs	APOD	Schwann cells	NA	0.062	apolipoprotein D	protein-coding gene	1	Ectoderm	Brain	0	0.298851	0.0689223	0.0612245
+ENSG00000105767	Mm Hs	CADM4	Schwann cells	TSLL2|Necl-4|SynCAM4|IGSF4C	0.082	cell adhesion molecule 4	protein-coding gene	1	Ectoderm	Brain	0	0.310345	0.00971178	0.0994575
+ENSG00000111262	Mm Hs	KCNA1	Schwann cells	Kv1.1|RBK1|HUK1|MBK1|AEMK	0.031	potassium voltage-gated channel subfamily A member 1	protein-coding gene	1	Ectoderm	Brain	0	0.643678	0	0.0349393
+ENSG00000170075	Mm Hs	GPR37L1	Schwann cells	ETBR-LP-2	0.041	G protein-coupled receptor 37 like 1	protein-coding gene	1	Ectoderm	Brain	0	0.816092	0.00438596	0.046435
+ENSG00000124785	Mm Hs	NRN1	Schwann cells	NRN	0.021	neuritin 1	protein-coding gene	1	Ectoderm	Brain	0	0.0344828	0.0100251	0.0229915
+ENSG00000129167	Mm Hs	TPH1	Serotonergic neurons	TPRH|TPH	0.002	tryptophan hydroxylase 1	protein-coding gene	NA	Ectoderm	Brain	1	0	0.000940144	0.00276172
+ENSG00000108576	Mm Hs	SLC6A4	Serotonergic neurons	5-HTT|SERT1|HTT|OCD1	0.002	solute carrier family 6 member 4	protein-coding gene	1	Ectoderm	Brain	0	1	0.00125353	0.00244059
+ENSG00000163497	Mm Hs	FEV	Serotonergic neurons	Pet-1	0.003	"FEV, ETS transcription factor"	protein-coding gene	1	Ectoderm	Brain	1	1	0.00313381	0.00340398
+ENSG00000139287	Mm Hs	TPH2	Serotonergic neurons	NTPH|FLJ37295	0.001	tryptophan hydroxylase 2	protein-coding gene	1	Ectoderm	Brain	0	1	0	0.000963391
+ENSG00000132437	Mm Hs	DDC	Serotonergic neurons	AADC	0.014	dopa decarboxylase	protein-coding gene	1	Ectoderm	Brain	1	1	0.00438734	0.0163134
+ENSG00000165646	Mm Hs	SLC18A2	Serotonergic neurons	SVMT|SVAT|VMAT2	0.006	solute carrier family 18 member A2	protein-coding gene	1	Ectoderm	Brain	0	1	0.00125353	0.0076429
+ENSG00000164283	Mm Hs	ESM1	Serotonergic neurons	NA	0.006	endothelial cell specific molecule 1	protein-coding gene	1	Ectoderm	Brain	0	0	0.0122219	0.00488118
+ENSG00000146477	Mm Hs	SLC22A3	Serotonergic neurons	NA	0.004	solute carrier family 22 member 3	protein-coding gene	1	Ectoderm	Brain	0	0	0	0.00520231

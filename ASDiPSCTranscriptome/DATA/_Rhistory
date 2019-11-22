@@ -1,0 +1,512 @@
+geneR <-if (interactive()) {
+mart <- useMart("ensembl")
+datasets <- listDatasets(mart)
+mart <- useDataset("hsapiens_gene_ensembl",mart)
+getBM(attributes = c("hgnc_symbol", "ensembl_gene_id"),
+filters    = "ensembl_gene_id",
+values     = ensembl ,
+mart       = mart)
+}
+colnames (geneR) <- c("Gene", "Ensembl")
+NPCresult <- left_join (NPCresult, geneR, by = "Ensembl")
+NPCresult[,c(9,10)]="NA"
+colnames(NPCresult)[c(9,10)]=c("rawFC","FoldChange")
+for(j in c(1:nrow(NPCresult)))
+{NPCresult$rawFC[j]= 2^NPCresult$logFC[j]}
+NPCresult[,9]=as.numeric(NPCresult$rawFC)
+for(j in c(1:nrow(NPCresult)))
+{NPCresult$FoldChange[j]= if (NPCresult$rawFC[j]>1) {NPCresult$rawFC[j]} else {-1/NPCresult$rawFC[j]}}
+sfari=read.csv("C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/DATA/SFARI-Gene_genes_01-15-2019.csv")
+sfari=sfari[,c(1,6)]
+colnames(sfari)[2]="Sfari_score"
+ID=read.csv("C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/DATA/ID_genes.csv")
+ID=ID[,c(1,3)]
+colnames(ID)[2]="ID_score"
+NPCresult=left_join(NPCresult, sfari)
+NPCresult=left_join(NPCresult,ID)
+NPCresult=as.data.frame(topTable (fitmm, coef="conditionP", number=15026))
+NPCresult[,7]=rownames(NPCresult)
+colnames(NPCresult)[7]="Ensembl"
+NPCresult=NPCresult[,c(7,1:6)]
+ensembl <- NPCresult[,1]
+geneR <-if (interactive()) {
+mart <- useMart("ensembl")
+datasets <- listDatasets(mart)
+mart <- useDataset("hsapiens_gene_ensembl",mart)
+getBM(attributes = c("hgnc_symbol", "ensembl_gene_id"),
+filters    = "ensembl_gene_id",
+values     = ensembl ,
+mart       = mart)
+}
+colnames (geneR) <- c("Gene", "Ensembl")
+NPCresult <- left_join (NPCresult, geneR, by = "Ensembl")
+NPCresult[,c(9,10)]="NA"
+colnames(NPCresult)[c(9,10)]=c("rawFC","FoldChange")
+for(j in c(1:nrow(NPCresult)))
+{NPCresult$rawFC[j]= 2^NPCresult$logFC[j]}
+NPCresult[,9]=as.numeric(NPCresult$rawFC)
+for(j in c(1:nrow(NPCresult)))
+{NPCresult$FoldChange[j]= if (NPCresult$rawFC[j]>1) {NPCresult$rawFC[j]} else {-1/NPCresult$rawFC[j]}}
+sfari=read.csv("C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/DATA/SFARI-Gene_genes_01-15-2019.csv")
+sfari=sfari[,c(1,6)]
+colnames(sfari)[2]="Sfari_score"
+ID=read.csv("C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/DATA/ID_genes.csv")
+ID=ID[,c(1,3)]
+colnames(ID)[2]="ID_score"
+NPCresult=left_join(NPCresult, sfari)
+NPCresult=left_join(NPCresult,ID)
+NPCresult=NPCresult[,c(1,8,2,9,10,3:7,11,12)]
+write.csv( as.data.frame(NPCresult), file="C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/RESULTS/NPC/dreamResults_NPC_nDEGs_HKgenes_p0.3_k2.csv", row.names = FALSE )
+geneR <-if (interactive()) {
+mart <- useMart("ensembl")
+datasets <- listDatasets(mart)
+mart <- useDataset("hsapiens_gene_ensembl",mart)
+getBM(attributes = c("ensembl_gene_id", "entrezgene_id"),
+filters    = "ensembl_gene_id",
+values     = ensembl ,
+mart       = mart)
+}
+colnames (geneR) <- c("Ensembl", "Entrez")
+enrTable <- inner_join (NPCresult, geneR, by = "Ensembl")
+enrTable=enrTable[!is.na(enrTable$Entrez),]
+enrTable=distinct(enrTable,Entrez, .keep_all= TRUE)
+View(enrTable)
+enrTable=enrTable[,c(13,1:12)]
+up=which(enrTable[,8]>=0)
+dreamup=enrTable[up,]
+statisticup=dreamup[,8]
+names(statisticup)=dreamup[,1]
+down=which(enrTable[,8]<=0)
+dreamdown=enrTable[down,]
+statisticdown=dreamdown[,8]
+names(statisticdown)=dreamdown[,1]
+View(logtrans)
+View(logtrans)
+index=gmtPathways("C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/DATA/msigDB_pathways.gmt")
+for(j in c(1:2199))
+{index[[j]]= subset (index[[j]], index[[j]] %in% logtrans[,1])
+}
+index=gmtPathways("C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/DATA/msigDB_pathways.gmt")
+for(j in c(1:2199))
+{index[[j]]= subset (index[[j]], index[[j]] %in% NPCresult[,1])
+}
+msigPathwaysDown=cameraPR(statisticdown, index, use.ranks = TRUE, inter.gene.cor=0.01, sort = TRUE)
+index=gmtPathways("C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/DATA/msigDB_pathways.gmt")
+View(NPCresult)
+View(NPC)
+for(j in c(1:2199))
+{index[[j]]= subset (index[[j]], index[[j]] %in% enrTable[,1])
+}
+index=gmtPathways("C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/DATA/msigDB_pathways.gmt")
+for(j in c(1:2199))
+{index[[j]]= subset (index[[j]], index[[j]] %in% enrTable[,1])
+}
+msigPathwaysUp=cameraPR(statisticup, index, use.ranks = TRUE, inter.gene.cor=0.01, sort = TRUE)
+View(msigPathwaysUp)
+msigPathwaysDown=cameraPR(statisticdown, index, use.ranks = TRUE, inter.gene.cor=0.01, sort = TRUE)
+View(msigPathwaysDown)
+write.csv(msigPathwaysDown, file="C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/RESULTS/NPC/enrichment_NPC_down_pathways.csv", row.names = FALSE)
+write.csv(msigPathwaysUp, file="C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/RESULTS/NPC/enrichment_NPC_up_pathways.csv", row.names = FALSE)
+index=gmtPathways("C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/DATA/msigDB_GO_BP.gmt")
+for(j in c(1:7350))
+{index[[j]]= subset (index[[j]], index[[j]] %in% enrTable[,1])
+}
+msigGOBPDown=cameraPR(statisticdown, index, use.ranks = TRUE, inter.gene.cor=0.01, sort = TRUE)
+msigGOBPUp=cameraPR(statisticup, index, use.ranks = TRUE, inter.gene.cor=0.01, sort = TRUE)
+write.csv(msigGOBPDown, file="C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/RESULTS/NPC/enrichment_NPC_down_GOBP.csv", row.names = FALSE)
+write.csv(msigGOBPUp, file="C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/RESULTS/NPC/enrichment_NPC_up_GOBP.csv", row.names = FALSE)
+index=gmtPathways("C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/DATA/msigDB_microRNA_targets.gmt")
+for(j in c(1:221))
+{index[[j]]= subset (index[[j]], index[[j]] %in% enrTable[,1])
+}
+msigmicroRNADown=cameraPR(statisticdown, index, use.ranks = TRUE, inter.gene.cor=0.01, sort = TRUE)
+msigmicroRNAUp=cameraPR(statisticup, index, use.ranks = TRUE, inter.gene.cor=0.01, sort = TRUE)
+write.csv(msigmicroRNADown, file="C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/RESULTS/NPC/enrichment_Neuron_down_microRNA.csv", row.names = FALSE)
+write.csv(msigmicroRNAUp, file="C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/RESULTS/NPC/enrichment_Neuron_up_microRNA.csv", row.names = FALSE)
+index=gmtPathways("C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/DATA/msigDB_TF_motifs.gmt")
+for(j in c(1:610))
+{index[[j]]= subset (index[[j]], index[[j]] %in% enrTable[,1])
+}
+msigTFDown=cameraPR(statisticdown, index, use.ranks = TRUE, inter.gene.cor=0.01, sort = TRUE)
+msigTFUp=cameraPR(statisticup, index, use.ranks = TRUE, inter.gene.cor=0.01, sort = TRUE)
+write.csv(msigTFDown, file="C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/RESULTS/NPC/enrichment_Neuron_down_TFmotifs.csv", row.names = FALSE)
+write.csv(msigTFUp, file="C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/RESULTS/NPC/enrichment_Neuron_up_TFmotifs.csv", row.names = FALSE)
+dds <- DESeqDataSetFromMatrix(countData = N, colData = sampleData, design = ~ condition)
+dds$condition <- relevel(dds$condition, ref="C")
+vsd<- varianceStabilizingTransformation(dds)
+ncvsd <- assay (vsd)
+ncvsd <- as.data.frame(ncvsd)
+ncvsd2<- ncvsd
+ncvsd2[,30]<-rownames (ncvsd2)
+colnames(ncvsd2)[30]="Ensembl"
+logtrans <- left_join(NPCresult, ncvsd2, by = "Ensembl")
+write.csv(logtrans, file="logtransfcounts_notCol_NPC_nDEGs_HKgenes_p0.3_k2.csv")
+write.csv(msigPathwaysDown, file="C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/RESULTS/NPC/enrichment_NPC_down_pathways.csv")
+write.csv(msigPathwaysUp, file="C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/RESULTS/NPC/enrichment_NPC_up_pathways.csv")
+msigGOBPDown=cameraPR(statisticdown, index, use.ranks = TRUE, inter.gene.cor=0.01, sort = TRUE)
+msigGOBPUp=cameraPR(statisticup, index, use.ranks = TRUE, inter.gene.cor=0.01, sort = TRUE)
+write.csv(msigmicroRNADown, file="C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/RESULTS/NPC/enrichment_Neuron_down_microRNA.csv")
+write.csv(msigmicroRNAUp, file="C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/RESULTS/NPC/enrichment_Neuron_up_microRNA.csv")
+write.csv(msigTFDown, file="C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/RESULTS/NPC/enrichment_Neuron_down_TFmotifs.csv")
+write.csv(msigTFUp, file="C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/RESULTS/NPC/enrichment_Neuron_up_TFmotifs.csv")
+View(msigGOBPDown)
+index=gmtPathways("C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/DATA/msigDB_GO_BP.gmt")
+for(j in c(1:7350))
+{index[[j]]= subset (index[[j]], index[[j]] %in% enrTable[,1])
+}
+msigGOBPDown=cameraPR(statisticdown, index, use.ranks = TRUE, inter.gene.cor=0.01, sort = TRUE)
+msigGOBPUp=cameraPR(statisticup, index, use.ranks = TRUE, inter.gene.cor=0.01, sort = TRUE)
+write.csv(msigGOBPDown, file="C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/RESULTS/NPC/enrichment_NPC_down_GOBP.csv")
+write.csv(msigGOBPUp, file="C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/RESULTS/NPC/enrichment_NPC_up_GOBP.csv")
+write.csv(msigmicroRNADown, file="C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/RESULTS/NPC/enrichment_NPC_down_microRNA.csv")
+write.csv(msigmicroRNAUp, file="C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/RESULTS/NPC/enrichment_NPC_up_microRNA.csv")
+write.csv(msigTFDown, file="C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/RESULTS/NPC/enrichment_NPC_down_TFmotifs.csv")
+write.csv(msigTFUp, file="C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/RESULTS/NPC/enrichment_NPC_up_TFmotifs.csv")
+View(NPCresult)
+write.csv( as.data.frame(NPCresult), file="C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/RESULTS/NPC/dreamResults_NPC_nDEGs_HKgenes_p0.3_k2.csv", row.names = FALSE )
+index=gmtPathways("C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/DATA/msigDB_hallmark.gmt")
+for(j in c(1:50))
+{index[[j]]= subset (index[[j]], index[[j]] %in% enrTable[,1])
+}
+msigHallmarkDown=cameraPR(statisticdown, index, use.ranks = TRUE, inter.gene.cor=0.01, sort = TRUE)
+msigHallmarkUp=cameraPR(statisticup, index, use.ranks = TRUE, inter.gene.cor=0.01, sort = TRUE)
+write.csv(msigHallmarkDown, file="C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/RESULTS/NPC/enrichment_NPC_down_hallmark.csv")
+write.csv(msigHallmarkUp, file="C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/RESULTS/NPC/enrichment_NPC_up_hallmark.csv")
+View(msigHallmarkDown)
+View(msigHallmarkUp)
+View(logtrans)
+write.csv(logtrans, file="logtransfcounts_NPC_nDEGs_HKgenes_p0.3_k2.csv", row.names=FALSE)
+write.csv(logtrans, file="C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/RESULTS/NPC/logtransfcounts_NPC_nDEGs_HKgenes_p0.3_k2.csv", row.names=FALSE)
+setwd ("C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/DATA")
+geneRPKM=read.table ("allData_FPKM_renormalized_IV.txt", sep= "\t", header=TRUE)
+rownames(geneRPKM)=geneRPKM [,1]
+geneRPKM = geneRPKM [,-1]
+#Load list of HK genes (house keeping genes selected from Eisenberg & Levanon, 2013)
+HKgenes_full <- read.csv ("HK_full_gene_list_ensembl_biomart.csv")
+#load sampleData
+sampleInfo <- read.table ("sample_sheet_all_cells.txt", header = TRUE)
+#load Neuron countData
+counts=read.table("countdata_20M_neurons.txt", header=TRUE)
+#exclude samples with <51% of neuron proportion######
+countData <- counts [,c(1,2,5:7,9:15,17:23)]
+sampleData <- sampleInfo [c(40, 41, 44, 45, 46, 48:54, 56:62),]
+#filtering genes with FPKM<1 in more than half of the samples
+geneRPKM <- geneRPKM [,c(40, 41, 44, 45, 46, 48:54, 56:62)]
+filtered <- which(rowSums(geneRPKM > 1) >= 9)
+RPKM <- geneRPKM[filtered,]
+countData =subset (countData, rownames(countData) %in% rownames(RPKM))
+HKgenes <- intersect(HKgenes_full$Ensembl_biomart, rownames(countData))
+dds <- DESeqDataSetFromMatrix(countData = countData, colData = sampleData, design = ~ condition)
+dds$condition <- relevel(dds$condition, ref="C")
+ddsdeseq <- DESeq(dds)
+res <- results(ddsdeseq)
+summary(res)
+res <- as.data.frame(res)
+nDEGs_deseq <- subset (res, res$pvalue>=0.4)
+nDEGs_deseq <- rownames(nDEGs_deseq)
+nDEGs_HKgenes <- intersect(nDEGs_deseq,HKgenes)
+controlGenes <- nDEGs_HKgenes
+RUV <- RUVg(as.matrix(countData), controlGenes, k=4)
+N <- RUV$normalizedCounts
+geneExpr=DGEList(N)
+geneExpr = calcNormFactors( geneExpr )
+rownames(sampleData)=sampleData[,1]
+sampleData1=sampleData[,-1]
+param = SnowParam(4, "SOCK", progressbar=TRUE)
+register(param)
+form= ~ condition + (1|sample)
+vobjDream = voomWithDreamWeights( geneExpr, form, sampleData1 )
+fitmm = dream( vobjDream, form, sampleData1 )
+head(fitmm$design)
+Neuronresult=as.data.frame(topTable (fitmm, coef="conditionP", number=15026))
+View(Neuronresult)
+Neuronresult[,7]=rownames(Neuronresult)
+colnames(Neuronresult)[7]="Ensembl"
+Neuronresult=Neuronresult[,c(7,1:6)]
+ensembl <- Neuronresult[,1]
+geneR <-if (interactive()) {
+mart <- useMart("ensembl")
+datasets <- listDatasets(mart)
+mart <- useDataset("hsapiens_gene_ensembl",mart)
+getBM(attributes = c("hgnc_symbol", "ensembl_gene_id"),
+filters    = "ensembl_gene_id",
+values     = ensembl ,
+mart       = mart)
+}
+colnames (geneR) <- c("Gene", "Ensembl")
+Neuronresult <- left_join (Neuronresult, geneR, by = "Ensembl")
+Neuronresult[,c(9,10)]="NA"
+colnames(Neuronresult)[c(9,10)]=c("rawFC","FoldChange")
+for(j in c(1:nrow(Neuronresult)))
+{Neuronresult$rawFC[j]= 2^Neuronresult$logFC[j]}
+Neuronresult[,9]=as.numeric(Neuronresult$rawFC)
+for(j in c(1:nrow(Neuronresult)))
+{Neuronresult$FoldChange[j]= if (Neuronresult$rawFC[j]>1) {Neuronresult$rawFC[j]} else {-1/Neuronresult$rawFC[j]}}
+View(Neuronresult)
+sfari=read.csv("C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/DATA/SFARI-Gene_genes_01-15-2019.csv")
+sfari=sfari[,c(1,6)]
+colnames(sfari)[2]="Sfari_score"
+ID=read.csv("C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/DATA/ID_genes.csv")
+ID=ID[,c(1,3)]
+colnames(ID)[2]="ID_score"
+Neuronresult=left_join(Neuronresult, sfari)
+Neuronresult=left_join(Neuronresult,ID)
+Neuronresult=as.data.frame(topTable (fitmm, coef="conditionP", number=15026))
+Neuronresult[,7]=rownames(Neuronresult)
+colnames(Neuronresult)[7]="Ensembl"
+Neuronresult=Neuronresult[,c(7,1:6)]
+Neuronresult <- left_join (Neuronresult, geneR, by = "Ensembl")
+Neuronresult[,c(9,10)]="NA"
+colnames(Neuronresult)[c(9,10)]=c("rawFC","FoldChange")
+for(j in c(1:nrow(Neuronresult)))
+{Neuronresult$rawFC[j]= 2^Neuronresult$logFC[j]}
+Neuronresult[,9]=as.numeric(Neuronresult$rawFC)
+for(j in c(1:nrow(Neuronresult)))
+{Neuronresult$FoldChange[j]= if (Neuronresult$rawFC[j]>1) {Neuronresult$rawFC[j]} else {-1/Neuronresult$rawFC[j]}}
+View(Neuronresult)
+Neuronresult=left_join(Neuronresult, sfari)
+Neuronresult=as.data.frame(topTable (fitmm, coef="conditionP", number=15026))
+Neuronresult[,7]=rownames(Neuronresult)
+colnames(Neuronresult)[7]="Ensembl"
+Neuronresult=Neuronresult[,c(7,1:6)]
+Neuronresult <- left_join (Neuronresult, geneR, by = "Ensembl")
+Neuronresult[,c(9,10)]="NA"
+colnames(Neuronresult)[c(9,10)]=c("rawFC","FoldChange")
+for(j in c(1:nrow(Neuronresult)))
+{Neuronresult$rawFC[j]= 2^Neuronresult$logFC[j]}
+Neuronresult[,9]=as.numeric(Neuronresult$rawFC)
+for(j in c(1:nrow(Neuronresult)))
+{Neuronresult$FoldChange[j]= if (Neuronresult$rawFC[j]>1) {Neuronresult$rawFC[j]} else {-1/Neuronresult$rawFC[j]}}
+sfari=read.csv("C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/DATA/SFARI-Gene_genes_01-15-2019.csv")
+sfari=sfari[,c(1,6)]
+colnames(sfari)[2]="Sfari_score"
+Neuronresult=left_join(Neuronresult, sfari)
+Neuronresult=left_join(Neuronresult,ID)
+write.csv( as.data.frame(Neuronresult), file="C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/RESULTS/Neurons/dreamResults_Neuron_nDEGs_HKgenes_p0.4_k4.csv", row.names = FALSE )
+geneR <-if (interactive()) {
+mart <- useMart("ensembl")
+datasets <- listDatasets(mart)
+mart <- useDataset("hsapiens_gene_ensembl",mart)
+getBM(attributes = c("ensembl_gene_id", "entrezgene_id"),
+filters    = "ensembl_gene_id",
+values     = ensembl ,
+mart       = mart)
+}
+colnames (geneR) <- c("Ensembl", "Entrez")
+enrTable <- inner_join (Neuronresult, geneR, by = "Ensembl")
+enrTable=enrTable[!is.na(enrTable$Entrez),]
+enrTable=distinct(enrTable,Entrez, .keep_all= TRUE)
+enrTable=enrTable[,c(13,1:12)]
+View(enrTable)
+View(Neuronresult)
+Neuronresult=Neuronresult[,c(1,8,2,9,10,3:7,11,12)]
+write.csv( as.data.frame(Neuronresult), file="C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/RESULTS/Neurons/dreamResults_Neuron_nDEGs_HKgenes_p0.4_k4.csv", row.names = FALSE )
+enrTable <- inner_join (Neuronresult, geneR, by = "Ensembl")
+View(enrTable)
+enrTable=enrTable[!is.na(enrTable$Entrez),]
+enrTable=distinct(enrTable,Entrez, .keep_all= TRUE)
+enrTable=enrTable[,c(13,1:12)]
+up=which(enrTable[,8]>=0)
+dreamup=enrTable[up,]
+statisticup=dreamup[,8]
+names(statisticup)=dreamup[,1]
+down=which(enrTable[,8]<=0)
+dreamdown=enrTable[down,]
+statisticdown=dreamdown[,8]
+names(statisticdown)=dreamdown[,1]
+index=gmtPathways("C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/DATA/msigDB_pathways.gmt")
+for(j in c(1:2199))
+{index[[j]]= subset (index[[j]], index[[j]] %in% enrTable[,1])
+}
+msigPathwaysDown=cameraPR(statisticdown, index, use.ranks = TRUE, inter.gene.cor=0.01, sort = TRUE)
+msigPathwaysUp=cameraPR(statisticup, index, use.ranks = TRUE, inter.gene.cor=0.01, sort = TRUE)
+write.csv(msigPathwaysDown, file="C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/RESULTS/Neurons/enrichment_Neurons_down_pathways.csv")
+write.csv(msigPathwaysUp, file="C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/RESULTS/Neurons/enrichment_Neurons_up_pathways.csv")
+#GO_BP
+index=gmtPathways("C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/DATA/msigDB_GO_BP.gmt")
+for(j in c(1:7350))
+{index[[j]]= subset (index[[j]], index[[j]] %in% enrTable[,1])
+}
+msigGOBPDown=cameraPR(statisticdown, index, use.ranks = TRUE, inter.gene.cor=0.01, sort = TRUE)
+msigGOBPUp=cameraPR(statisticup, index, use.ranks = TRUE, inter.gene.cor=0.01, sort = TRUE)
+write.csv(msigGOBPDown, file="C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/RESULTS/Neurons/enrichment_Neurons_down_GOBP.csv")
+write.csv(msigGOBPUp, file="C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/RESULTS/Neurons/enrichment_Neurons_up_GOBP.csv")
+#microRNA_targets
+index=gmtPathways("C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/DATA/msigDB_microRNA_targets.gmt")
+for(j in c(1:221))
+{index[[j]]= subset (index[[j]], index[[j]] %in% enrTable[,1])
+}
+msigmicroRNADown=cameraPR(statisticdown, index, use.ranks = TRUE, inter.gene.cor=0.01, sort = TRUE)
+msigmicroRNAUp=cameraPR(statisticup, index, use.ranks = TRUE, inter.gene.cor=0.01, sort = TRUE)
+write.csv(msigmicroRNADown, file="C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/RESULTS/Neurons/enrichment_Neurons_down_microRNA.csv")
+write.csv(msigmicroRNAUp, file="C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/RESULTS/Neurons/enrichment_Neurons_up_microRNA.csv")
+#TF motifs
+index=gmtPathways("C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/DATA/msigDB_TF_motifs.gmt")
+for(j in c(1:610))
+{index[[j]]= subset (index[[j]], index[[j]] %in% enrTable[,1])
+}
+msigTFDown=cameraPR(statisticdown, index, use.ranks = TRUE, inter.gene.cor=0.01, sort = TRUE)
+msigTFUp=cameraPR(statisticup, index, use.ranks = TRUE, inter.gene.cor=0.01, sort = TRUE)
+write.csv(msigTFDown, file="C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/RESULTS/Neurons/enrichment_Neurons_down_TFmotifs.csv")
+write.csv(msigTFUp, file="C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/RESULTS/Neurons/enrichment_Neurons_up_TFmotifs.csv")
+#hallmark
+index=gmtPathways("C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/DATA/msigDB_hallmark.gmt")
+for(j in c(1:50))
+{index[[j]]= subset (index[[j]], index[[j]] %in% enrTable[,1])
+}
+msigHallmarkDown=cameraPR(statisticdown, index, use.ranks = TRUE, inter.gene.cor=0.01, sort = TRUE)
+msigHallmarkUp=cameraPR(statisticup, index, use.ranks = TRUE, inter.gene.cor=0.01, sort = TRUE)
+write.csv(msigHallmarkDown, file="C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/RESULTS/Neurons/enrichment_Neurons_down_hallmark.csv")
+write.csv(msigHallmarkUp, file="C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/RESULTS/Neurons/enrichment_Neurons_up_hallmark.csv")
+View(msigGOBPUp)
+View(msigPathwaysUp)
+dds <- DESeqDataSetFromMatrix(countData = N, colData = sampleData, design = ~ condition)
+dds$condition <- relevel(dds$condition, ref="C")
+vsd<- varianceStabilizingTransformation(dds)
+ncvsd <- assay (vsd)
+ncvsd <- as.data.frame(ncvsd)
+ncvsd2<- ncvsd
+ncvsd2[,20]<-rownames (ncvsd2)
+colnames(ncvsd2)[20]="Ensembl"
+logtrans <- left_join(Neuronresult, ncvsd2, by = "Ensembl")
+write.csv(logtrans, file="C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/RESULTS/Neurons/logtransfcounts_Neurons_nDEGs_HKgenes_p0.4_k4.csv", row.names=FALSE)
+?cameraPR
+View(msigHallmarkUp)
+View(msigHallmarkUp)
+setwd("C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/DATA")
+SFARI=read.csv("SFARI-Gene_genes_11-01-2019.csv")
+sfari=SFARI
+geneR=sfari[,1]
+ensembl=geneR
+geneR <-if (interactive()) {
+mart <- useMart("ensembl")
+datasets <- listDatasets(mart)
+mart <- useDataset("hsapiens_gene_ensembl",mart)
+getBM(attributes = c("hgnc_symbol", "ensembl_gene_id"),
+filters    = "ensembl_gene_id",
+values     = ensembl ,
+mart       = mart)
+}
+geneR <-if (interactive()) {
+mart <- useMart("ensembl")
+datasets <- listDatasets(mart)
+mart <- useDataset("hsapiens_gene_ensembl",mart)
+getBM(attributes = c("hgnc_symbol", "ensembl_gene_id"),
+filters    = "ensembl_gene_id",
+values     = ensembl ,
+mart       = mart)
+}
+geneR <-if (interactive()) {
+mart <- useMart("ensembl")
+datasets <- listDatasets(mart)
+mart <- useDataset("hsapiens_gene_ensembl",mart)
+getBM(attributes = c("hgnc_symbol", "ensembl_gene_id"),
+filters    = "ensembl_gene_id",
+values     = ensembl ,
+mart       = mart)
+}
+geneR <-if (interactive()) {
+mart <- useMart("ensembl")
+datasets <- listDatasets(mart)
+mart <- useDataset("hsapiens_gene_ensembl",mart)
+getBM(attributes = c("hgnc_symbol", "ensembl_gene_id"),
+filters    = "ensembl_gene_id",
+values     = ensembl ,
+mart       = mart)
+}
+geneR <-if (interactive()) {
+mart <- useMart("ensembl")
+datasets <- listDatasets(mart)
+mart <- useDataset("hsapiens_gene_ensembl",mart)
+getBM(attributes = c("hgnc_symbol", "ensembl_gene_id"),
+filters    = "ensembl_gene_id",
+values     = ensembl ,
+mart       = mart)
+}
+geneR <-if (interactive()) {
+mart <- useMart("ensembl")
+datasets <- listDatasets(mart)
+mart <- useDataset("hsapiens_gene_ensembl",mart)
+getBM(attributes = c("hgnc_symbol", "ensembl_gene_id"),
+filters    = "ensembl_gene_id",
+values     = ensembl ,
+mart       = mart)
+}
+geneR <-if (interactive()) {
+mart <- useMart("ensembl")
+datasets <- listDatasets(mart)
+mart <- useDataset("hsapiens_gene_ensembl",mart)
+getBM(attributes = c("hgnc_symbol", "ensembl_gene_id"),
+filters    = "ensembl_gene_id",
+values     = ensembl ,
+mart       = mart)
+}
+geneR <-if (interactive()) {
+mart <- useMart("ensembl")
+datasets <- listDatasets(mart)
+mart <- useDataset("hsapiens_gene_ensembl",mart)
+getBM(attributes = c("hgnc_symbol", "ensembl_gene_id"),
+filters    = "ensembl_gene_id",
+values     = ensembl ,
+mart       = mart)
+}
+geneR <-if (interactive()) {
+mart <- useMart("ensembl")
+datasets <- listDatasets(mart)
+mart <- useDataset("hsapiens_gene_ensembl",mart)
+getBM(attributes = c("hgnc_symbol", "ensembl_gene_id"),
+filters    = "ensembl_gene_id",
+values     = ensembl ,
+mart       = mart)
+}
+geneR <-if (interactive()) {
+mart <- useMart("ensembl")
+datasets <- listDatasets(mart)
+mart <- useDataset("hsapiens_gene_ensembl",mart)
+getBM(attributes = c("hgnc_symbol", "ensembl_gene_id"),
+filters    = "ensembl_gene_id",
+values     = ensembl ,
+mart       = mart)
+}
+geneR <-if (interactive()) {
+mart <- useMart("ensembl")
+datasets <- listDatasets(mart)
+mart <- useDataset("hsapiens_gene_ensembl",mart)
+getBM(attributes = c("hgnc_symbol", "ensembl_gene_id"),
+filters    = "ensembl_gene_id",
+values     = ensembl ,
+mart       = mart)
+}
+View(geneR)
+geneR <-if (interactive()) {
+mart <- useMart("ensembl")
+datasets <- listDatasets(mart)
+mart <- useDataset("hsapiens_gene_ensembl",mart)
+getBM(attributes = c("hgnc_symbol", "ensembl_gene_id"),
+filters    = "hgnc_symbol",
+values     = ensembl ,
+mart       = mart)
+}
+View(geneR)
+colnames(geneR)=c("Gene","Ensembl"
+)
+sfari2=left_join(sfari, geneR, by="Ensembl")
+colnames(sfari)[1]="Gene"
+sfari2=left_join(sfari, geneR, by="Gene")
+write.csv=(sfari2, file="SFARI_11-01-2019_ens.csv")
+write.csv=(sfari2, file="SFARI_nov2019_ens.csv")
+write.csv(sfari2, file="C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/RESULTS/DATA/SFARI_nov2019_ens.csv")
+getwd()
+View(sfari2)
+write.csv(sfari2, file="sfari_nv2019.csv")
+View(Neuronresult)
+Neuronresult=Neuronresult[,-11]
+sfari=read.csv("C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/DATA/SFARI-Gene_genes_11-01-2019_ens.csv")
+View(sfari)
+sfari=sfari[,c(1,6)]
+colnames(sfari)[2]="Sfari_score"
+Neuronresult=left_join(Neuronresult, sfari)
+View(Neuronresult)
+Neuronresult=Neuronresult[,c(1:10,12,11)]
+View(Neuronresult)
+write.csv( as.data.frame(Neuronresult), file="C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/RESULTS/Neurons/dreamResults_Neuron_nDEGs_HKgenes_p0.4_k4.csv", row.names = FALSE )

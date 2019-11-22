@@ -1,0 +1,11 @@
+InputCategories	UserDefinedCategories	yesother-yesM1	yesother-nonM1	nonother-yesM1	non-other-nonM1
+M10	mod4_Gupta__C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/enrichment_analysis/modules_allStudies.csv	77	683	150	9882
+M10	M14_Parikshak2013__C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/enrichment_analysis/modules_allStudies.csv	57	533	202	11766
+M10	21_Parikshak2016__C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/enrichment_analysis/modules_allStudies.csv	28	89	212	10803
+M10	9_Voineagu__C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/enrichment_analysis/modules_allStudies.csv	29	110	145	6166
+M10	midnightblue_Tylee__C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/enrichment_analysis/modules_allStudies.csv	23	91	172	8984
+M10	brown_Tylee__C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/enrichment_analysis/modules_allStudies.csv	48	601	147	8474
+M10	M3_DeRosa135__C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/enrichment_analysis/modules_allStudies.csv	30	370	50	2159
+M10	2_Voineagu__C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/enrichment_analysis/modules_allStudies.csv	37	774	136	5502
+M10	turquoise_Roussos__C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/enrichment_analysis/modules_allStudies.csv	96	3134	158	8017
+M10	M14_DeRosa135__C:/Users/karin/Dropbox/Arquivos_genomica_autistas/RNAseq/RNAseq_files/Resultados_finais/enrichment_analysis/modules_allStudies.csv	35	788	45	1741

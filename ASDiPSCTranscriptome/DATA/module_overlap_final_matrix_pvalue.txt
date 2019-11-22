@@ -1,0 +1,32 @@
+Study	Module	MNPC10-blue	MNeur1-turquoise	MNeur18-purple	Cell source
+"Voineagu et al., 2011"	M9	18.50482425			adult brain
+"Voineagu et al., 2011"	M2	3.717258985			adult brain
+"Voineagu et al., 2011"	M12*		13.56283758		adult brain
+"Voineagu et al., 2011"	M8		6.727288583		adult brain
+"Gupta et al., 2014"	mod4	31.35512214			adult brain
+"Gupta et al., 2014"	mod1*		30.09639369		adult brain
+"Gupta et al., 2014"	mod2		14.13222687		adult brain
+"Gupta et al., 2014"	mod6*		4.136474893		adult brain
+"Parikshak et al., 2016"	CTX.M1	19.14516979			adult brain
+"Parikshak et al., 2016"	CTX.M25		9.99273227		adult brain
+"Parikshak et al., 2016"	CTX.M16*		8.594055296		adult brain
+"Parikshak et al., 2016"	CTXM17		5.13599046		adult brain
+"Parikshak et al., 2016"	CTXM10*		1.778608074		adult brain
+"Parikshak et al., 2016"	CTX.M4*		1.723986154		adult brain
+"Gandal et al., 2018"	CD1*		21.4908634		adult brain
+"Gandal et al., 2018"	CD13*		4.079928792		adult brain
+"Parikshak et al., 2013"	M14	20.74734764			fetal/neonatal brain
+"Parikshak et al., 2013"	M17		19.66433001		fetal/neonatal brain
+"Parikshak et al., 2013"	M16*		13.12309692		fetal/neonatal brain
+"Parikshak et al., 2013"	M13		12.2172343		fetal/neonatal brain
+"Parikshak et al., 2013"	M3*			4.488284564	fetal/neonatal brain
+"Mariani et al., 2015"	brown*		47.94756725		iPSC-derived cells
+"Mariani et al., 2015"	pink		7.251655569		iPSC-derived cells
+"Mariani et al., 2015"	tan		4.11678576		iPSC-derived cells
+"Mariani et al., 2015"	blue*		1.899004938		iPSC-derived cells
+"Mariani et al., 2015"	red 			2.74852399	iPSC-derived cells
+"DeRosa et al., 2016"	M19		14.77881472		iPSC-derived cells
+"Schafer et al., 2019"	saddlebrown	5.366198045			iPSC-derived cells
+"Schafer et al., 2020"	lightyellow*		79.50843609		iPSC-derived cells
+"Tylee et al., 2013"	midnightblue*	13.40592191			blood
+"Tylee et al., 2013"	brown	12.06316542			blood
